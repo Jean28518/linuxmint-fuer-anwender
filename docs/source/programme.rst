@@ -68,12 +68,13 @@ wird dringends von der Installation abgeraten, da das Sicherheitsrisiko für das
 
 Für manche Anwendungen ist aber eine .deb Version unumgänglich, wenn man die Anwendungen nutzen möchte:
 Beispielsweise wären das:
+
 - Google Chrome
 - Softmaker Office
 - weitere Anwendungen, die man nicht in der Anwendungsverwaltung finden kann.
 
 Um eine .deb Datei zu installieren reicht es, diese herunterzuladen
-und mit einem Doppelklick zu "starten", und auf ``Paket installieren```zu drücken.
+und mit einem Doppelklick zu "starten", und auf ``Paket installieren`` zu drücken.
 
 
 AppImages
