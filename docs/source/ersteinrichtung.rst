@@ -53,3 +53,34 @@ Wenn sich die Aktualisierungsverwaltung noch nicht geöffnet hat, dann können S
 Sollte diese Nachricht bei Ihnen erscheinen, ist empfohlen dies durchzuführen.
 Wählen Sie am besten einen Ihnen vertrauten Server aus. Bspw. einen von einer nahegelegenen Universität.
 
+Nun haben Sie die Wahl: Entweder kümmern Sie sich spätestens jeder Woche immer um die Updates
+oder Sie lassen dies vollautomatisch die Aktualisierungsverwaltung tun.
+
+Es ist sehr empfohlen, dies die automatische Aktualisierungsverwaltung machen zu lassen.
+
+Dazu wählen Sie ``Bearbeiten -> Einstellungen -> Automatisierung`` aus und aktivieren Sie alle drei oder vier Schalter. 
+Sie werden dabei auch nach Ihrem Passwort gefragt.
+
+
+Systemeinstellungen
+-------------------
+
+Hier ist die Steuerzentrale von Linux Mint. Später werden wir diese genauer betrachten.
+
+
+Firewall
+--------
+
+Sollten Sie einen Laptop haben, mit dem Sie sich auch mal in öffentlichen WLANs einloggen, 
+ist es empfohlen, die Firewall mit dem Profil ``Öffentlich`` zu aktivieren.
+
+Befinden Sie sich hingegen nur bei Ihnen zuhause, 
+ist das aktivieren der Firewall nicht unbedingt nötig, solange Sie Ihren anderen Geräten zuhause vertrauen.
+Ihr Internet-Router schützt Sie in der Regel bereits vom Rest des Internets.
+
+
+Sprache
+-------
+
+Öffnen Sie ``Sprachen`` aus dem Menü. Und wählen Sie ``Sprachen hinzufügen/entfernen`` aus.
+Installieren Sie hier gegebenenfalls Sprachpakete nach.
