@@ -21,5 +21,35 @@ Starten Sie das Programm ``Timeshift`` und gehen Sie Schritt für Schritt den Ko
 
 .. figure:: images/timeshift.png
 
-- Test
-- Test
+- Im nächsten Fenster lassen Sie die Konfiguration unverändert. Alle Dateien der benutzer sollen ausgeschlossen werden.
+
+Nach dem Info-Dialog sind nun die Systemschnappschüsse konfiguriert. 
+Sie können das Programm nun schließen.
+
+Jeden Monat wird nun ein Systemschnappschuss erstellt. 
+Die letzten beiden Systemschnappschüsse werden behalten.
+
+.. note:: Hiermit werden keine Persönliche Daten gesichert. Darum werden wir uns später kümmern.
+
+
+Zusätzliche Treiber
+-------------------
+Öffnen Sie die ``Treiberverwaltung``. 
+
+Installieren Sie die hier empfohlenen Treiber. 
+
+Sollte das Fenster anzeigen, dass Ihr Rechner keine zusätzlichen Treiber benötigt:
+Perfekt! Sie haben hier nichts weiter zu tun.
+
+
+Aktualisierungsverwaltung:
+--------------------------
+
+Updates sind sehr sehr wichtig. Durch diese bleibt der Rechner sicher.
+Wenn sich die Aktualisierungsverwaltung noch nicht geöffnet hat, dann können Sie diese bspw. durch das Menü öffnen.
+
+.. image:: images/spiegelserver_wechseln.png
+
+Sollte diese Nachricht bei Ihnen erscheinen, ist empfohlen dies durchzuführen.
+Wählen Sie am besten einen Ihnen vertrauten Server aus. Bspw. einen von einer nahegelegenen Universität.
+
