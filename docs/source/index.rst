@@ -10,7 +10,7 @@ Dieses Handbuch ist das Begleitwerk für den `Linux Mint für Anwender` Kurs
    und Befehle oder Routinen später nachzuschlagen.
 
 Inhalt
---------
+------
 
 .. toctree::
 
