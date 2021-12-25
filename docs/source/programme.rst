@@ -63,8 +63,8 @@ die offizielle Version eines Programms zu installieren.
     Eine .deb Datei kann ALLES mit dem System machen. Wirklich ALLES:
     Das Zerstören des kompletten Systems, Wiederherstellungspunken und aller persönlicher Dateien kann man extrem schnell erreichen.
 
-Sollte für die .deb Version von der Herstellerseite keine nennenswerten Vorteile bringen,
-wird dringends von der Installation abgeraten, da das Sicherheitsrisiko für das System extrem hoch sein kann.
+**Sollte für die .deb Version von der Herstellerseite keine nennenswerten Vorteile bringen,
+wird dringends von der Installation abgeraten, da das Sicherheitsrisiko für das System extrem hoch sein kann.**
 
 Für manche Anwendungen ist aber eine .deb Version unumgänglich, wenn man die Anwendungen nutzen möchte:
 Beispielsweise wären das:
@@ -125,4 +125,4 @@ Solche Dateien sollte man entpacken. Meist findet man dann dort eine ausführbar
     AppImages werden nicht automatisch aktualisiert. Sicherheitsrelevante Anwendungen nutzen dieses Format aber sowieso nicht.
 
 Sollte man keine ausführbare Datei finden (hat meist keine Dateiendung) und stattdessen eine Datei mit dem Namen
-``Makefile`` muss man dieses Programm erst kompilieren. Dies wird allerdings im Linux Mint für Fortgeschrittene behandelt.
+``Makefile`` muss man dieses Programm erst kompilieren. Dies wird allerdings im *Linux Mint für Fortgeschrittene* Kurs behandelt.
