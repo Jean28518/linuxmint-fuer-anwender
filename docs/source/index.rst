@@ -17,3 +17,5 @@ Inhalt
    installation
    ersteinrichtung
    programme
+   netzwerkeinstellungen
+   onlinekonten
