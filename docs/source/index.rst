@@ -1,7 +1,7 @@
 Linux Mint für Anwender
 =======================
 
-Dieses Handbuch ist das Begleitwerk für den 'Linux Mint für Anwender'-Kurs
+Dieses Handbuch ist das Begleitwerk für den `Linux Mint für Anwender` Kurs
 
 .. note::
 
