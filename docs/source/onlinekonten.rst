@@ -54,7 +54,7 @@ Adressbuch der Nextcloud nutzen
 
 Dafür wird die Erweiterung ``CardBook`` benötigt.
 Nachdem sie CardBook installiert haben, können sie den Einrichtungsdialog getrost abbrechen.
-Sie können die Eimstellung der Erweiterung rechts oben öffnen.
+Sie können die Einstellungen der Erweiterung rechts oben öffnen.
 Das Nextcloud-Adressbuch nutzt das CardDAV-Protokoll.
 Den Link für das Adressbuch Ihrer Nextcloud finden sie im Web-Interface Ihres Adressbuches unten links unter Einstellungen bei den drei Punkten Ihres Adressbuches.
 Weitere Details werden im Kurs besprochen.
