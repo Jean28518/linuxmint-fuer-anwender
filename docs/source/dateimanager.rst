@@ -24,3 +24,46 @@ Gehen wir die Symbole von links nach rechts durch:
 
 Weitere Tabs kann man mit ``Strg`` + ``T`` erstellen.
 
+Lesezeichen
+-----------
+Sie können für häufig genutzte Ordner Lesezeichen anlegen. 
+Ziehen Sie dafür einfach den gewünschten Ordner an die Seitenleiste unter 'Lesezeichen'.
+Das Lesezeichen ist somit unter allen Auswahldialogen, im Dateimanager und im Startmenü unter 'Orte' gelistet.
+
+Es empfiehlt sich sehr, die Lesezeichenliste nach Alphabet zu sortieren. Dies muss manuell bewerkstelligt werden.
+
+Favoriten
+---------
+Sie können beliebige Dateien oder Ordner als Favorit markieren. 
+Favoriten erhalten einen eigenen Eintrag im Dateimanager, sind als Stern markiert,
+haben einen eigenen Eintag im Startmenü, sind in der Leiste rechts unten unter dem Sternsymbol aufrufbar
+und können in verschiedenen Anwendungen direkt geöffnet werden
+
+Angeheftete Einträge
+--------------------
+Um im Dateimanager gewisse Ordner oder Dateien als erstes anzeigen zu lassen können Sie diese mit einem Rechtsklick darauf anheften.
+
+
+---
+
+.. note:: 
+    **as sollte man wofür nutzen?**
+    Wir empfehlen:
+
+    - **Lesezeichen:** Momentan oft aufgerufene Ordner/Projekte
+    - **Favoriten:** Dateien, die man einfach immer verwendet. Bspw. Kundendatenbanken, Rechnungsvorlagen oder ganz persönliche "Schmierzettel"
+    - **Angeheftete Einträge:** Gewisse Einträge in einem Ordner, die man häufig braucht, wenn man diesen Ordner aufruft. Bspw. Ressourcen, Anforderungen
+
+Verknüpfungen
+-------------
+Um Verknüpfungen zu erstellen, halten Sie ``Strg`` + ``Shift`` gedrückt und ziehen Sie mit der Maus einen Ordner oder eine Datei an die Stelle,
+an der Sie die Verknüpfung haben wollen. Die Zwei-Listen-Ansicht mit ``F3`` ist dafür sehr hilfreich.
+
+
+Archive erstellen und Entpacken
+-------------------------------
+``.zip``, ``.tar.gz`` oder weitere Archive können Sie ganz einfach im Dateimanager direkt entpacken oder erstellen.
+Sie benötigen dazu keine externes Programm.
+
+Archiv erstellen
+^^^^^^^^^^^^^^^^
