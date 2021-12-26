@@ -6,7 +6,7 @@ Der Windows-Explorer kann unserer Meinung nach hier nicht mithalten.
 
 Ansichtsoptionen
 ----------------
-.. image:: images/nemo_ansichtsoptionen
+.. image:: images/nemo_ansichtsoptionen.png
 
 Gehen wir die Symbole von links nach rechts durch:
 
