@@ -74,4 +74,5 @@ Egal, was Sie an Ihrem Computer oder auf Ihrer Arbeit erledigen.
 Das schreiben eigener Anleitungen ist langfristig für die Produktivität essentiell.
 
 Sie können dies entweder über die ``Notizen`` App machen, oder über Nextcloud Notes.
+
 .. tip:: Wir empfehlen Nextcloud Notes. Diese App gibts auch für Android.
