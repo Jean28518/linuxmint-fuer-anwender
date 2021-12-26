@@ -49,4 +49,4 @@ Ein korrektes Einstellungsfenster sieht so aus:
 
 .. tip:: 
     Richtet man zusätzlich eine VPN Verbindung ein, 
-    kann man so ohne Probleme auch auf Rechner in 100en km Entfernung zugreifen.
+    kann man so ohne Probleme auch auf Rechner in hunderten km Entfernung zugreifen.

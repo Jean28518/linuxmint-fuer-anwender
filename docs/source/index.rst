@@ -20,3 +20,4 @@ Inhalt
    netzwerkeinstellungen
    onlinekonten
    remotezugriff
+   drucker
