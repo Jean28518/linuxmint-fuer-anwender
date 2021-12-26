@@ -35,7 +35,7 @@ Einen Nachteil hat Libre Office jedoch: Die Kompatibilität zu Microsoft-Formate
 Sollte man an diese angewiesen sein, empfehlen wir stattdessen entweder die  `Online-Variante von MS Office <https://www.office.com/>`_, 
 `Softmaker Office <https://www.softmaker.de/softmaker-office>`_ oder `WPS Office <https://www.wps.com/de-DE>`_.
 
-Softmaker Office
+Softmaker Office 
 ^^^^^^^^^^^^^^^^
 Viele Linux Nutzer schwören auch auf `Softmaker Office <https://www.softmaker.de/softmaker-office>`_. 
 Das proprietäre Programm wird von einem Nürnberger Unternehmen entwickelt und bietet eine hohe Kompatibilität zu den Microsoft Formaten.

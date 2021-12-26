@@ -123,4 +123,4 @@ Hier ein paar Tipps, die langfristig die Produktivität steigern können. Außer
 - Haben Sie auch manchmal das Problem, dass Sie nicht wissen, wo man schnell mal kurz nur diese Datei abspeichen soll? Wir empfehlen das Anlegen eines zusätzlichen ``Tmp`` (Temporären) Ordners. In Ihn können Dateien gespeicher werden, die man nach Ende der Woche sicher nicht mehr braucht. Am Ende der Woche löscht man dann ganz einfach den Inhalt.
 - Arbeiten Sie nicht im Downloads-Ordner. Wenn Sie dies einhalten können Sie Ihren Downloads-Ordner wöchtenlich komplett leeren.
 - Versuchen Sie, nichts auf der Arbeitsfläche selber zu speichern. Dies ist für die Ordner-Struktur sehr hilfreich.
-- Im Persönlichen Ordner selber sollten nur wichtige Ordner sein. Dokumente oder Bilder haben hier nicht's verloren.
+- Im Persönlichen Ordner selber sollten nur wichtige Ordner sein. Dokumente oder Bilder haben hier nichts verloren.

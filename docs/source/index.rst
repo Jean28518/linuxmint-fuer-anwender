@@ -23,3 +23,4 @@ Inhalt
    drucker
    buero
    dateimanager
+   nuetzliche_programme
