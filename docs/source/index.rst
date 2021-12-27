@@ -19,13 +19,13 @@ Inhalt
    programme
    netzwerkeinstellungen
    onlinekonten
-   remotezugriff
    drucker
    buero
-   dateimanager
    nuetzliche_programme
+   dateimanager
    cinnamon
+   benutzer_und_rechte
    sicherheit
    backups
-   benutzer_und_rechte
+   remotezugriff
    kindersicherung

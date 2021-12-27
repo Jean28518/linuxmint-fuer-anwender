@@ -78,6 +78,8 @@ Ausnahmen für heutigen Tag
 
 - Schließen Sie das Programm, die Änderungen wurden automatisch angewendet.
 
+.. warning:: 
+    Damit die Benutzer die Sperre nicht verstellen können, dürfen diese keine Administrationsrechte haben.
 
 Internet-Seiten blockieren
 --------------------------
@@ -90,7 +92,8 @@ Im Kurs wird dies für die Fritz Box gezeigt.
     Um den Schutz am Internetrouter nicht zu umgeghen, stellen Sie auch im Standard Profil die Kindersicherung ein.
     Dann sind Versuche, die IP-Adresse zu ändern, zwecklos.
 
-Eine weitere/zusätzliche Möglichkeit wäre ein DNS-Filter. Dafür müsste aber sichergestellt werden, dass die DNS-Einstellungen von Linux Mint nicht umgestellt werden dürfen.
+Eine weitere/zusätzliche Möglichkeit wäre ein DNS-Filter. 
+Dafür müsste aber sichergestellt werden, dass die DNS-Einstellungen von Linux Mint nicht umgestellt werden dürfen.
 Beispiele wären:
 -  `Pi-hole <https://pi-hole.net/>`_ 
 -  Ohne Einrichtung aber kostenpflichtig: `SafeDNS <https://www.safedns.com/en/safe-internet-at-home/>`_ 
