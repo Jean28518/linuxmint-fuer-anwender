@@ -51,7 +51,7 @@ Einrichtung des Programms
     Sie können Sich auch selber vom System aussperren! 
     Vergwissern Sie sich, dass Sie sich selber gar keine Limits setzen.
 
-.. image:: images/timepkr_konfiguration_1.png
+.. image:: images/timekpr_konfiguration_1.png
 
 
 1. Hier wählen Sie den zu bearbeitenden Nutzer aus.
@@ -69,7 +69,7 @@ Ausnahmsweise Zusätzlich Zeit gewähren
 - Öffnen Sie im Menü ``Timekpr-nExT administration (Superusermode)``.
 - Wählen Sie wie gehabt den zu bearbeitenden Benutzer und bleiben im ersten Reiter ``Info & Today``
 
-.. image:: images/timepkr_konfiguration_2.png
+.. image:: images/timekpr_konfiguration_1.png
 
 1. Hier können Sie die Zeit in Stunden und Minuten einstellen
 2. Möchten Sie die oben definierte Zeit zusätzlich gewähren, drücken Sie einmal auf diesen Knopf
