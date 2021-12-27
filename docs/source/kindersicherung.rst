@@ -64,12 +64,12 @@ Klicken Sie am Ende auf ``Apply daily limits`` um die Einstellungen zu übernehm
 
 In diesem Programm gibt es noch viele weitere Konfigurationsmöglichkeiten, von diesen wir aber abraten.
 
-Ausnahmsweise Zusätzlich Zeit gewähren
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Ausnahmsweise für heutigen Tag
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 - Öffnen Sie im Menü ``Timekpr-nExT administration (Superusermode)``.
 - Wählen Sie wie gehabt den zu bearbeitenden Benutzer und bleiben im ersten Reiter ``Info & Today``
 
-.. image:: images/timekpr_konfiguration_1.png
+.. image:: images/timekpr_konfiguration_2.png
 
 1. Hier können Sie die Zeit in Stunden und Minuten einstellen
 2. Möchten Sie die oben definierte Zeit zusätzlich gewähren, drücken Sie einmal auf diesen Knopf
