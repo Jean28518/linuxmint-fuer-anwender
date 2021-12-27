@@ -1,19 +1,17 @@
 Backups
 =======
-Backups sind für so viele Missgeschicke die Lebensversicherung.
-Wir empfehlen dringend eine große externe Festplatte.
+Backups sind essentiell. Sollten Sie mal einen Fehler machen oder Ihr Rechner/System kaputt gehen, sind Ihre Daten nicht verloren.
+Dafür empfehlen wir dringend eine große externe Festplatte, die idealerweise in einem anderen Gebäude oder Zimmer gelagert wird.
 
-Formatieren Sie diese über das Programm Laufwerke. Als Partitionstyp empfehlen wir beispielsweise ``ext4``.
+Formatieren Sie die externe Festplatte mit dem Programm ``USB-Stick-Formatierer``. Als Partitionstyp empfehlen wir beispielsweise ``ext4``.
 
 Wir setzen auf das darunterliegende Programm ``borg``.
-Es komprimmiert Backups, kann diese Verschlüsseln
-und speichert in mehreren Iterationen nur die sich geänderten Stellen ab.
-
+Es komprimmiert Backups, kann diese verschlüsseln
+und speichert in mehreren Iterationen nur veränderte Daten.
 ``borg`` wird von vielen Profis und Unternehmen unter Linux genutzt.
 
 Da ``borg`` aber normalerweise eine Interaktion auf dem Terminal benötigt,
-empfehlen wir das Programm ``Pika Backup``.
-
+empfehlen wir das Programm ``Pika Datensicherung``, welches borg nutzt.
 ``Pika Datensicherung`` kann man ganz einfach aus der Anwendungsverwaltung installieren
 und ist sehr einfach zu bedienen.
 
@@ -27,16 +25,16 @@ Einrichtung
     sind Ihre Daten ohne externe Fesplatte häufig schon verloren.
 
 - Installieren und starten Sie das Programm ``Pika Datensicherung``.
-- Wählen Sie ``Datensicherung einrichten`` und wählen Sie unter ``Ein neues Sicherungsdepot anlegen`` ``Ort auf dem Datenträger``.
-- Wählen Sie als Ort entweder Ihre externe Fesplatte. (Wenn Sie keine externe Festplatte haben, wählen Sie Ihren Persönlichen Ordner).
-- Sollten Sie sensible Daten haben, wählen Sie ``Verschlüsselt``, andernfalls ``Unverswchlüsselt``.
+- Wählen Sie ``Datensicherung einrichten`` und wählen Sie unter ``Ein neues Sicherungsdepot anlegen`` den Eintrag ``Ort auf dem Datenträger``.
+- Wählen Sie als Ort Ihre externe Fesplatte. (Wenn Sie keine externe Festplatte haben, wählen Sie Ihren Persönlichen Ordner).
+- Sollten Sie sensible Daten haben, wählen Sie ``Verschlüsselt``, andernfalls ``Unverschlüsselt``.
 
 .. warning:: 
     Sollten Sie bei einem verschlüsselten Backup Ihr Passwort vergessen/verlieren, gibt es keine Möglichkeit, das Backup wiederherzustellen.
 
 - Wählen Sie rechts oben ``Anlegen``.
-- Nun können Sie bei ``Zu sichernde Dateien`` weitere Ordner hinzufügen. Standardmäßig wird der Persönliche Ordner gesichert. Dies reicht in der Regel vollkommen aus. Sollten Sie weitere Partitionen wie beispielsweise ``/data`` nutzen, fügen Sie hier die Ordner hinzu.
-- Bei ``Von Sicherung ausschließen`` empfehlen wir, die Ordner ``Downloads`` (und ggf. ``Tmp``) auszuschließen. *Sollten Sie als Datensicherungsort Ihren Persönnlichen Ordner ausgewählt haben, fügen Sie den dementsprechenden Ordner hinzu. Er beginnt mit ``backup``.*
+- Nun können Sie bei ``Zu sichernde Dateien`` weitere Ordner hinzufügen. Standardmäßig wird der Persönliche Ordner gesichert. Dies reicht in der Regel vollkommen aus. Sollten Sie weitere Partitionen wie beispielsweise ``/data`` nutzen, fügen Sie hier die entsprechenden Ordner hinzu.
+- Bei ``Von Sicherung ausschließen`` empfehlen wir, die Ordner ``Downloads`` (und ggf. ``Tmp``) auszuschließen. *(Sollten Sie als Datensicherungsort Ihren Persönnlichen Ordner ausgewählt haben, fügen Sie den dementsprechenden Ordner hinzu. Er beginnt mit* ``backup`` *)*
 
 Durchführung
 ------------

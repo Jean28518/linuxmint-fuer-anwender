@@ -37,8 +37,8 @@ Ist ein Benutzer in der Gruppe ``sudo`` eingetragen, oder "heißt" er ``root`` h
 .. note:: Hintergrundinformationen:
     *In Linux Mint wurde der Benutzer* ``root`` *weitestgehend abgeschafft. 
     Von daher existiert dieser Benutzer nicht richtig.
-    Man kann sich also nicht als Administrator anmelden, sondern hat als Benutzer eben nur Administrator-Rechte mit der Gruppe ``sudo``.
-    Möchte man etwas als Administrator tätigen muss sich der Nutzer nochmal explizit mit seinem Passwort verifizieren. 
+    Man kann sich also nicht als Administrator anmelden, sondern hat als Benutzer eben nur Administrator-Rechte mit der Gruppe* ``sudo``.
+    *Möchte man etwas als Administrator tätigen, muss sich der Nutzer nochmal explizit mit seinem Passwort verifizieren. 
     (Dafür sind die Programme* ``sudo`` *oder* ``pkexec`` *zuständig)*
 
 Ein Administrator kann unter anderem folgende Dinge erledigen:
@@ -47,16 +47,15 @@ Ein Administrator kann unter anderem folgende Dinge erledigen:
 - Alle Dateien sehen, ändern, löschen. ALLE. (Auch die von anderen Benutzern und Administratoren, sofern diese nicht explizit verschlüsselt sind)
 - Programme aktualisieren, entfernen, installieren
 - Das System in jeder Hinsicht verändern
-- Andere Festplatten, installierte Systeme auslesen, verändern, oder sogar ausführen.
+- Andere Festplatten und installierte Systeme auslesen, verändern, oder sogar ausführen.
 - Einfach alles
 
 .. warning:: 
     Gehen Sie daher nicht leichtfähig mit diesem Recht um!
 
     Achten Sie auch immer darauf, wenn nach Ihrem Passwort während der Nutzung von Linux gefragt wird. 
-    In fast allen Fällen (bis auf das Entsperren des Schlüsselbunds oder SSH-Keys) wird nur nach dem Passwort gefragt, 
-    wenn das Programm Administrations-Rechte brauhcht. 
-    Dann kann es wie oben beschrieben einfach alles machen.
+    In fast allen Fällen (bis auf das Entsperren des Schlüsselbunds oder SSH-Keys) wird nach dem Passwort gefragt, 
+    wenn das Programm Administrations-Rechte braucht. 
 
 Dateirechte
 -----------
@@ -69,7 +68,7 @@ Grafisch einstellen können Sie diese im Dateimanger unter den Dateigenschaften 
 
 .. image:: images/dateirechte.png
 
-1. Der Eigentümer der Datei kann verändert werden und definiert werden, was der Besitzer mit der Datei machen darf.
+1. Der Eigentümer einer Datei kann verändert werden und definiert werden, was der Besitzer mit der Datei machen darf.
 2. Das selbe gilt für die Gruppe. Wir empfehlen die Gruppe unberührt zu lassen und die gleichen Rechte wie beim Besitzer einzutragen.
 3. Hier kann man die Rechte eintragen, die alle Anderen über diese Datei haben.
 4. Ist die Datei ein Skript oder ein Programm, kann man hier einstellen, dass man die Datei als Programm ausführen kann.

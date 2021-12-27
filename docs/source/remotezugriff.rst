@@ -4,24 +4,24 @@ Remotezugriff
 Es gibt verschiedene Möglichkeiten, auf einen Rechner über das Netzwerk zuzugreifen.
 
 Die einfachste und gängigste Methode unter Linux ist die *Secure Shell* (SSH).
-Diese baut eine lediglich eine "Terminal"-Verbindung auf.
+Diese baut lediglich eine "Terminal"-Verbindung auf.
 Für Server-Administratoren ist dies super, für uns als Anwender aber sicher wenig hilfreich.
 
 Neben SSH gibt es noch weitere Methoden, sich mit dem Rechner zu verbinden. 
 Eines der verbreitesten Protokolle ist das *Remote Desktop Protokoll* (RDP).
-Dadurch kann man einfach mit einem Programm auf den Desktop des anderen Rechners zugreifen.
+Dadurch kann man mit einem Programm auf den Desktop des entfernten Rechners zugreifen.
 
 Entfernter Rechner
 ^^^^^^^^^^^^^^^^^^
-Um auf unseren Rechner über die Ferne zuzugreifen müssen wir auf diesem ``Xrdp`` aus der Anwendungsverwaltung installieren.
+Um auf unseren Rechner über die Ferne zuzugreifen, müssen wir auf diesem ``Xrdp`` aus der Anwendungsverwaltung installieren.
 Außerdem benötigen wir die IP-Adresse unseres Rechners, um auf diesen später zugreifen zu können.
 Dies kann man ganz einfach in den Netzwerkeinstellungen ablesen.
 
 .. note:: 
     Wenn die Firewall aktiv ist, muss man in den Firewall-Einstellungen die Anwendung 'RDP' erlauben.
 
-Zugriffs-Rechner
-^^^^^^^^^^^^^^^^
+Rechner vor Ort
+^^^^^^^^^^^^^^^
 Auf diesem Rechner müssen wir lediglich das Programm ``Remmina`` aus der Anwendungsverwaltung installieren.
 Wir nehmen in diesem Beispiel die Flatpak Variante.
 
@@ -44,8 +44,7 @@ Ein korrektes Einstellungsfenster sieht so aus:
     Auf dem entfernten Rechner sieht man auch nichts auf dem Bildschirm,
     wenn jemand aus der Ferne angemeldet ist.
 
-    Es reicht vollkommen, wenn auf dem entfernten Rechner kein Nutzer angemeldet ist 
-    und den Anmledebildschirm zeigt.
+    Die Rechner sollten miteinander im gleichen lokalen Netzwerk sein. 
 
 .. tip:: 
     Richtet man zusätzlich eine VPN Verbindung ein, 

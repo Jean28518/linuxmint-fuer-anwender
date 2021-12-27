@@ -4,24 +4,26 @@ Linux Mint sicher nutzen
 Updates
 -------
 Ein Großteil aller Hackerangriffe setzt auf Sicherheitslücken,
-die in alten Programm-Versionen noch enthalten sind.
-Von daher sind Aktualisierungen sehr sehr wichtig.
+die in alten Programm-Versionen enthalten sind.
+Deswegen sind Aktualisierungen sehr wichtig.
 
-Lesen Sie dafür den Abschnitt Aktualisierungsverwaltung im Kapitel Ersteinrichtung.
+Lesen Sie dafür den Abschnitt *Aktualisierungsverwaltung* im Kapitel *Ersteinrichtung*.
 
 Wine deinstallieren
 -------------------
 Wine ist eine Laufzeitumgebung für Windows Programme.
-Windows Viren machen da keinen Unterschied.
+Windows Viren können so also doch auf Linux funktionieren, wenn wine installiert sein sollte.
 Sollten Sie also nicht aktiv ein Windows Programm auf Linux nutzen,
 Deinstallieren Sie Wine.
 
-Wine ist jedoch standardmäßig nicht installiert.
+Generell raten wir von der Benutzung von Windows-Programmen auf Linux aufgrund möglicher eingeschränkter Benutzererfahrung ab.
+
+Wine ist standardmäßig nicht installiert.
 
 Webbrowser sicher einrichten
 ----------------------------
 Lesen Sie dafür den Abschnitt Firefox im Kaptiel *Nützliche Programme*.
-Mit anderen Browsern geht die Anleitung genau so.
+Mit anderen Browsern funktioniert die Anleitung genau so.
 
 Virenschutz
 -----------
@@ -33,9 +35,9 @@ Ein Virenprogramm bietet keinen zusätzlichen Schutz:
 - Wenn Ihr Linux Mint aktuell ist,
 - Sie nur so viele Anwendungen wie nötig auf Ihren Linux installiert haben,
 - Sie nicht wahllos externe Anwendungen (außerhalb der Annwenndungsverwaltung) installieren
-- oder Sie keine unbekannten Anhänge auus E-Mails öffnen.
+- und Sie keine unbekannten Anhänge aus E-Mails öffnen.
 
-Selbst dann versagen noch häufig genug Virenschutzprogramme.
+Auch wenn Sie einen Fehler machen, versagen in der Paxis leider noch häufig genug Virenschutzprogramme.
 Möchten Sie den Kopf beim Nutzen Ihres Computers ausschalten, schalten Sie am besten Ihren Computer gleich mit aus.
 
 .. note:: 
@@ -56,16 +58,16 @@ oder einen Passwortmanager wie das freie Open Source Programm ``Bitwarden`` verw
     - Länge über 20 Zeichen
     - Sonderzeichen enthalten
     - Zahlen enthalten
-    - Groß- und Kleinbuchstaben erhalten
+    - Groß- und Kleinbuchstaben enthalten
     - Enthält keine auf Sie zurückführbare Informationen
 
     Zum Generieren sicherer Passwörter empfehlen wir den ersten Teil dieses `Videos <https://youtu.be/MNQxg7uyE3I?t=71>`_ .
 
 Backups
 -------
-Machen Sie regelmäßig BackUps von Ihren Dateien.
+Machen Sie regelmäßig Backups von Ihren Dateien.
 Dies ist Ihre Lebensversicherung.
-Weiter Informationen findesn Sie im Kapitel Backups.
+Weitere Informationen finden Sie im Kapitel **Backups**.
 
 Fremquellen
 -----------
