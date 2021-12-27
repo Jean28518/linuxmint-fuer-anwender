@@ -28,5 +28,5 @@ Inhalt
    sicherheit
    backups
    remotezugriff
-   kindersicherung#
+   kindersicherung
    fazit
