@@ -64,10 +64,10 @@ Klicken Sie am Ende auf ``Apply daily limits`` um die Einstellungen zu übernehm
 
 In diesem Programm gibt es noch viele weitere Konfigurationsmöglichkeiten, von diesen wir aber abraten.
 
-Ausnahmsweise für heutigen Tag
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Ausnahmen für heutigen Tag
+^^^^^^^^^^^^^^^^^^^^^^^^^^
 - Öffnen Sie im Menü ``Timekpr-nExT administration (Superusermode)``.
-- Wählen Sie wie gehabt den zu bearbeitenden Benutzer und bleiben im ersten Reiter ``Info & Today``
+- Wählen Sie wie gehabt den zu bearbeitenden Benutzer und bleiben Sie im ersten Reiter ``Info & Today``
 
 .. image:: images/timekpr_konfiguration_2.png
 
@@ -77,3 +77,21 @@ Ausnahmsweise für heutigen Tag
 4. Möchten Sie die oben definierte Zeit als für heute definierte Zeit eintragen, drücken Sie diesen Knopf
 
 - Schließen Sie das Programm, die Änderungen wurden automatisch angewendet.
+
+
+Internet-Seiten blockieren
+--------------------------
+Mit dem Programm ``Mintnanny`` können Sie einzelne konkrete Intersnetseiten für den gesamten Rechner sperren.
+
+Der wohl effektivste Schutz gegen Kinder gefährdete Seiten ist das Erstellen eines neuen Zugangsprofils mit Kindersicherung auf Ihrem Router.
+Im Kurs wird dies für die Fritz Box gezeigt.
+
+.. note:: 
+    Um den Schutz am Internetrouter nicht zu umgeghen, stellen Sie auch im Standard Profil die Kindersicherung ein.
+    Dann sind Versuche, die IP-Adresse zu ändern, zwecklos.
+
+Eine weitere/zusätzliche Möglichkeit wäre ein DNS-Filter. Dafür müsste aber sichergestellt werden, dass die DNS-Einstellungen von Linux Mint nicht umgestellt werden dürfen.
+Beispiele wären:
+-  `Pi-hole <https://pi-hole.net/>`_ 
+-  Ohne Einrichtung aber kostenpflichtig: `SafeDNS <https://www.safedns.com/en/safe-internet-at-home/>`_ 
+
