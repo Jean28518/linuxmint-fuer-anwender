@@ -1,5 +1,5 @@
-Linux Mint für Anwender
-=======================
+.. image:: images/banner.png
+
 
 Dieses Handbuch ist das Begleitwerk für den `Linux Mint für Anwender` Kurs
 
