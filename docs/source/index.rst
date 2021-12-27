@@ -1,8 +1,6 @@
 .. image:: images/banner.png
 
 
-Dieses Handbuch ist das Begleitwerk für den `Linux Mint für Anwender` Kurs
-
 .. note::
 
    Dieses Handbuch stellt keine vollständige Dokumentation dar. 
