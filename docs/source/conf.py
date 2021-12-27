@@ -2,7 +2,7 @@
 
 # -- Project information
 
-project = 'Linux Mint für Anfänger'
+project = 'Linux Mint für Anwender'
 copyright = '2021, linuxguides.de'
 author = 'linuxguides.de'
 

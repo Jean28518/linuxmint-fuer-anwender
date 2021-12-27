@@ -76,3 +76,13 @@ Das schreiben eigener Anleitungen ist langfristig für die Produktivität essent
 Sie können dies entweder über die ``Notizen`` App machen, oder über Nextcloud Notes.
 
 .. tip:: Wir empfehlen Nextcloud Notes. Diese App gibts auch für Android.
+
+Bildschirmfoto
+--------------
+Mit diesem Programm können Sie einfach Screenshots erstellen.
+
+- 1. Mit ``druck`` können Sie einen Screenshot von der gesamten Bildschirmfläche machen
+- 2. Mit ``Alt`` + ``druck`` können Sie einen Screenshot vom aktuellen Fenster machen
+- 3. Mit ``Shift`` + ``druck`` können Sie eigenen Bildschirmbereich festelegen, der abfotografiert werden soll.
+
+Möchten Sie erweitere Screenshots erstellen, empfehlen wir das Programm ``Flameshot``.
