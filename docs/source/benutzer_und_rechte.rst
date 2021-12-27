@@ -82,4 +82,5 @@ Grafisch einstellen können Sie diese im Dateimanger unter den Dateigenschaften 
     und ändern Sie die Dateirechte wie im Bild unten beschrieben:
 
     .. image:: images/dateirechte_home.png
-    
+
+    Administratoren können sich aber immer wieder Zugang zu den Dateien verschaffen.
