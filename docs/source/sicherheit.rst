@@ -1,10 +1,9 @@
 Linux Mint sicher nutzen
 ========================
-So nutzen Sie Linux Mint möglichst sicher:
 
-Updates machen
---------------
-Ein Großteil aller Hackerangriffe setzt auf alte Sicherheitslücken,
+Updates
+-------
+Ein Großteil aller Hackerangriffe setzt auf Sicherheitslücken,
 die in alten Programm-Versionen noch enthalten sind.
 Von daher sind Aktualisierungen sehr sehr wichtig.
 
@@ -40,7 +39,7 @@ Selbst dann versagen noch häufig genug Virenschutzprogramme.
 Möchten Sie den Kopf beim Nutzen Ihres Computers ausschalten, schalten Sie am besten Ihren Computer gleich mit aus.
 
 .. note:: 
-    Nutzen Sie einfach ``brain.sh`` (ihren Verstand (das beste Antivirenschutzprogramm auf dem Markt)
+    Nutzen Sie einfach ``brain.sh`` (ihren Verstand, das beste Antivirenschutzprogramm auf dem Markt)
     und befolgen Sie die Tipps in diesem Kapitel und in den 10 Goldenen Sicherheitsregeln, die Sie im Kurs bekommen haben.
     Ihre Sicherheit auf Linux ist daraufhin extrem hoch.
 
@@ -49,9 +48,7 @@ Passwortmanager
 Nutzen Sie Passwortmanager!
 Wichtig ist, dass Sie für jede Anmeldung ein komplett neues, **sicheres** Passwort verwenden.
 Dabei ist es egal, ob Sie sich alle Passwörter für jede Anmeldung merken, Sie diese auf Zettel schreiben
-oder einen Passwortmanager wie das freie Open Source Programm ``Bitwarden`` verwenden.
-
-Eine Alternative ist beispielsweise ``KeePassXC``.
+oder einen Passwortmanager wie das freie Open Source Programm ``Bitwarden`` verwenden. Eine Alternative ist beispielsweise ``KeePassXC``.
 
 .. note:: 
     Unter einem sicheren Passwort verstehen wir folgende Kriterien:
@@ -79,4 +76,4 @@ Eine Übersicht erhalten Sie im Programm ``Anwendungspaketquellen``.
 
 10 Goldene Sicherheitsregeln
 ----------------------------
-Im Kurs erhalten Sie kompakt 10 goldene Sicherhheitsregeln, die Sie sich praktisch ausdrucken können.
+Im Kurs erhalten Sie kompakt 10 Goldene Sicherheitsregeln, die Sie sich praktisch ausdrucken können.

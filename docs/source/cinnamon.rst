@@ -37,7 +37,7 @@ Tastenkombination für Vollbild
 ------------------------------
 Manchmal ist es praktisch manche Anwendungen manuell in den Vollbildmodus zu bringen.
 Um dies einzurichten öffnen Sie das Programm ``Tastatur`` und den Reiter ``Tastenkombinationen``
-Wählen Sie ``Fenster `` aus (nicht auf das Dreieck klicken).
+Wählen Sie ``Fenster`` aus (nicht auf das Dreieck klicken).
 Wählen Sie in der rechten Liste ``Vollbildmodus ein-/ausschalten``
 Machen Sie einen Doppelklick auf eine nicht zugeordnete Tastenkombination und drücken Sie im Anschluss eine gewünschte Tastenkombination.
 Eine gängige Tastenkombination wäre ``Alt`` + ``F11``.
