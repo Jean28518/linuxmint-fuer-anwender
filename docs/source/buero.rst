@@ -12,13 +12,14 @@ Empfohlene Büroanwendungen
 - Internet Browser: **Firefox**
 - Kalender: **Kalender** (gnome-calendar)
 - Meetings abhalten: **Jitsi**
+- Team-Chat: **Rocket.Chat**
 - Synchronisation von Daten, Kalender, Organisation von Teams, ...: **Nextcloud**
 - Virtuelle Klebezettel: **Notizen** (sticky)
 
 Alternativen zu Microsoft Office
 --------------------------------
 
-Leider funktioniert bis jetzt Microsoft Office nicht unter Linux, was für viele ein großer Grund gegen Linux ist.
+Leider funktioniert bis jetzt Microsoft Office nicht unter Linux.
 Dennoch gibt es mittlerweile zahlreiche Alternativen, die dies beheben.
 Auch Sie werden Ihren vollwertigen Ersatz finden.
 
@@ -37,10 +38,10 @@ Sollte man an diese angewiesen sein, empfehlen wir stattdessen entweder die  `On
 
 Softmaker Office 
 ^^^^^^^^^^^^^^^^
-Viele Linux Nutzer schwören auch auf `Softmaker Office <https://www.softmaker.de/softmaker-office>`_. 
-Das proprietäre Programm wird von einem Nürnberger Unternehmen entwickelt und bietet eine hohe Kompatibilität zu den Microsoft Formaten.
+Viele Linux Nutzer sind mit dem kostenpflichtigen `Softmaker Office <https://www.softmaker.de/softmaker-office>`_ sehr zufrieden. 
+Das proprietäre Programm wird von einem Nürnberger Unternehmen entwickelt und bietet eine sehr hohe Kompatibilität zu den Microsoft Formaten.
 
-Eine kostenlose Test-Version mit eingeschränkter Funktionalität gibt es auch: `FreeOffice <https://www.freeoffice.com/de>`_ 
+Eine kostenlose Test-Version mit eingeschränkter, älterer Funktionalität gibt es auch: `FreeOffice <https://www.freeoffice.com/de>`_ 
 
 Weitere Alternativen
 ^^^^^^^^^^^^^^^^^^^^
@@ -54,7 +55,7 @@ Weitere Alternativen zu MS Office sind unter anderem:
 
 Microsoft Schriftarten installieren
 -----------------------------------
-Viele Nutzer sind die Microsoft Schriftarten gewohnt und möchten diese unter Linux weiternutzen.
+Viele Nutzer sind die Microsoft Schriftarten gewohnt und möchten diese unter Linux weiter nutzen.
 Man kann die Schriftarten mit dem Paket ``ttf-mscorefonts-installer`` aus der Anwendungsverwaltung nachinstallieren.
 
 .. note:: 

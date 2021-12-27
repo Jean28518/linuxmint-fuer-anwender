@@ -94,7 +94,9 @@ Im Kurs wird dies für die Fritz Box gezeigt.
 
 Eine weitere/zusätzliche Möglichkeit wäre ein DNS-Filter. 
 Dafür müsste aber sichergestellt werden, dass die DNS-Einstellungen von Linux Mint nicht umgestellt werden dürfen.
+
 Beispiele wären:
+
 -  `Pi-hole <https://pi-hole.net/>`_ 
 -  Ohne Einrichtung aber kostenpflichtig: `SafeDNS <https://www.safedns.com/en/safe-internet-at-home/>`_ 
 

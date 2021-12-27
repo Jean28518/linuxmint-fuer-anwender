@@ -1,8 +1,8 @@
 Netzwerkeinstellungen
 =====================
 
-Da das erklären aller Netzwerkeinstellungen alleine schon mehrere Stunden benötigt
-und man vieles alsn Anwender nie brauchen wird, beschränken wir uns hier auf relle Anwendungsfälle.
+Da das Erklären aller Netzwerkeinstellungen Tage benötigt
+und man vieles als Anwender nie brauchen wird, beschränken wir uns hier auf reelle Anwendungsfälle.
 
 
 VPN einrichten

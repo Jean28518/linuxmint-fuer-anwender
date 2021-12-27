@@ -1,11 +1,12 @@
 Benutzer und Berechtigungen
 ===========================
-Das Benutzer, Gruppen und Berechtigungssystem unter Linux ist weit tiefer, als in diesem Kapitel gezeigt.
-Wir werden nur an der Oberfläche kratzen.
+Das Benutzer-, Gruppen- und Berechtigungssystem unter Linux ist sehr tiefgründig.
+Wir werden nur relevante Themen behandeln.
 
 Benutzer und Gruppen
 --------------------
 Im Programm ``Benutzer und Gruppen`` können Sie
+
 - Ihr Passwort ändern
 - Ihren angezeigen Namen ändern (kosmetisch)
 - Den Kontotyp zwischen ``Standard`` und ``Systemverwalter`` (Administrator) einstellen
@@ -14,9 +15,9 @@ Im Programm ``Benutzer und Gruppen`` können Sie
 
 Gruppen
 ^^^^^^^
-Mit den Eintrag von Gruppen kann man definieren, was ein Benutzer machen darf und was nicht.
-Im Linux-Desktop Bereich scheint das Gruppen-Berechtigungs-System allerdings sehr stiefmütterlich behandelt zu sein und an vielen Stellen obsolet.
-Wir werden daher nur auf die wichtigen Gruppen eingehen, welche für uns im Desktop-Bereich wirklich relevant sind:
+Mit dem Eintrag von Gruppen kann man definieren, was ein Benutzer machen darf und was nicht.
+Im Linux-Desktop Bereich scheint das Gruppen-Berechtigungs-System allerdings sehr stiefmütterlich behandelt zu sein und ist an vielen Stellen obsolet.
+Wir werden daher nur auf die wichtigen Gruppen eingehen, welche für uns im Desktop-Bereich weiterhin relevant sind:
 
 - **cdrom:** Das DVD/CD-Laufwerk darf benutzt werden
 - **lpadmin:** Drucker dürfen verwaltet und eingerichtet werden. (Drucken kann man auch ohne diese Gruppe)
@@ -26,15 +27,14 @@ Wir werden daher nur auf die wichtigen Gruppen eingehen, welche für uns im Desk
 - **nopasswdlogin:** Jeder kann sich ohne Eingabe des Passworts einloggen
 
 Gruppen können im Programm ``Benutzer und Gruppen`` für jeden Nutzer verwaltet werden.
-Die Masse der anderen verfügbaren Gruppen können Sie getrost ignorieren.
+Die anderen verfügbaren Gruppen können Sie als Desktop-Nutzer getrost ignorieren.
+Für Server-Administratoren ist dieser Punkt wesentlich spannender.
 
 Administrator (sudo)
 ^^^^^^^^^^^^^^^^^^^^
 Ist ein Benutzer in der Gruppe ``sudo`` eingetragen, oder "heißt" er ``root`` hat er Administrations-Rechte.
 
-.. note:: 
-    Hintergrundinformationen:
-
+.. note:: Hintergrundinformationen:
     *In Linux Mint wurde der Benutzer* ``root`` *weitestgehend abgeschafft. 
     Von daher existiert dieser Benutzer nicht richtig.
     Man kann sich also nicht als Administrator anmelden, sondern hat als Benutzer eben nur Administrator-Rechte mit der Gruppe ``sudo``.

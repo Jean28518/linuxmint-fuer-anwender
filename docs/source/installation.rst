@@ -32,18 +32,18 @@ suchen Sie im Internet nach Ihrem Laptop-Modell oder Mainboardhersteller und fü
 Gängige Tasten sind: ``ESC``, ``F2``, ``F8``, ``F11``, ``F12``, oder ``Entf``.
 
 .. note:: 
-    Sollte es Probleme beim hochfahren von Linux Mint geben, beim Starten des USB-Sticks den ``Compatibility`` Modus auswählen.
-    Wenn danch die Bildschirmauflösung noch nicht perfekt sein sollte, ist das okay.
+    Sollte es Probleme beim Hochfahren von Linux Mint geben, können Sie beim Starten des USB-Sticks den ``Compatibility`` Modus auswählen.
+    Wenn danach die Bildschirmauflösung noch nicht perfekt sein sollte, ist das okay.
 
 Bei der Installation wie gehabt vorgehen. 
 Es ist empfohlen, die Multimedia-Codecs zu installieren.
 
-Sollten Sie wie oben beschrieben freien Speicherplatz geschaffen haben, wählen sie ``Linux Mint danaben installieren`` aus.
+Sollten Sie wie oben beschrieben freien Speicherplatz geschaffen haben, wählen sie ``Linux Mint daneben installieren`` aus.
 Konfigurieren Sie die richtige Festplatte und lassen Sie den Schiebe-Regler unverändert.
 
 Konfigurieren Sie danach in den restlichen Schritten die Linux Mint Installation nach Ihren Wünschen.
 
 .. warning:: 
-    Bitte wählen Sie bei der Benutzerkonfiguration ``Meinen Persönlichen Ordner verschlüsseln`` nicht zum Spaß aus.
-    Sollten sie den Wiederherstellungs-Schlüssel (den Sie beim ersten Start des Systems dann angezeigt bekommen) 
+    Bitte wählen Sie bei der Benutzerkonfiguration ``Meinen Persönlichen Ordner verschlüsseln`` nicht unbedacht aus.
+    Sollten Sie den Wiederherstellungs-Schlüssel (den Sie beim ersten Start des Systems dann angezeigt bekommen) 
     und Ihr Passwort verloren haben, gibt  es keine Möglichkeit mehr, Ihre Daten wiederherzustellen.

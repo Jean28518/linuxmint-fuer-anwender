@@ -29,13 +29,13 @@ Danach werden automatisch alle Kalender, Adressbücher und Dateien unter Linux M
 Nextcloud-Client
 ^^^^^^^^^^^^^^^^
 
-Es ist empfohlen für die Datei-Synchonisation den Nextcloud Desktop Client zu installieren.
-Diese App heißt ``org.nextlouc.Nextcloud`` in der Anwendungsverwaltung.
+Es ist empfohlen, für die Datei-Synchonisation den Nextcloud Desktop Client zu installieren.
+Die App heißt ``org.nextcloud.Nextcloud`` in der Anwendungsverwaltung.
 
-Die Anmeldung und Einrichtung sollte sich von selber verstehen.
+Die Anmeldung und Einrichtung sollte selbsterklärend sein.
 
 .. tip:: 
-    Nach der Einrichtung ist es empfohlen, unter ``Startprogramme`` den Nextcloud Client hinzuzufügen.
+    Nach der Einrichtung ist es empfohlen, unter ``Startprogramme`` den Nextcloud Client hinzuzufügen. Damit wird beim Anmelden der Synchisations-Client direkt gestartet.
 
 
 Thunderbird
@@ -44,18 +44,19 @@ Thunderbird
 Thunderbird ist eines der besten Mail-Programme. Wenn Sie es bis jetzt nicht kennen, geben Sie Thunderbird eine Chance!
 
 .. note:: 
-    Um Ihre Mail-Adresse hinzuzufügen, müssen Sie sicherstellen, dass bei Ihrem Mail-Account die IMAP und SMPT Option aktiviert sind.
+    Um Ihre Mail-Adresse hinzuzufügen, müssen Sie sicherstellen, dass bei Ihrem Mail-Account die IMAP und SMTP Option aktiviert sind.
     Das können Sie in der Regel bei Ihrem Mail-Anbieter unter 'Sicherheit' oder 'Drittanbieter Apps' einstellen.
 
-Das hinzufügen eines neuen Mail-Kontos zu Thunderbird ist so einfach und schnell wie verständlich.
+Das Hinzufügen eines neuen Mail-Kontos zu Thunderbird ist selbsterklärend
 
 Adressbuch der Nextcloud nutzen
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Dafür wird die Erweiterung ``CardBook`` benötigt.
-Nachdem sie CardBook installiert haben, können sie den Einrichtungsdialog getrost abbrechen.
-Sie können die Einstellungen der Erweiterung rechts oben öffnen.
-Das Nextcloud-Adressbuch nutzt das CardDAV-Protokoll.
-Den Link für das Adressbuch Ihrer Nextcloud finden sie im Web-Interface Ihres Adressbuches unten links unter Einstellungen bei den drei Punkten Ihres Adressbuches.
+- Dafür wird die Erweiterung ``CardBook`` benötigt.
+- Nachdem Sie CardBook installiert haben, können sie den Einrichtungsdialog getrost abbrechen.
+- Sie können die Einstellungen der Erweiterung rechts oben öffnen.
+- Das Nextcloud-Adressbuch nutzt das CardDAV-Protokoll.
+- Den Link für das Adressbuch Ihrer Nextcloud finden sie im Web-Interface Ihres Adressbuches unten links unter Einstellungen bei den drei Punkten Ihres Adressbuches.
+
 Weitere Details werden im Kurs besprochen.
 

@@ -37,7 +37,7 @@ Favoriten
 Sie können beliebige Dateien oder Ordner als Favorit markieren. 
 Favoriten erhalten einen eigenen Eintrag im Dateimanager, sind als Stern markiert,
 haben einen eigenen Eintag im Startmenü, sind in der Leiste rechts unten unter dem Sternsymbol aufrufbar
-und können in verschiedenen Anwendungen direkt geöffnet werden
+und können in verschiedenen Anwendungen direkt geöffnet werden.
 
 Angeheftete Einträge
 --------------------
@@ -50,25 +50,25 @@ Um im Dateimanager gewisse Ordner oder Dateien als erstes anzeigen zu lassen kö
 
     - **Lesezeichen:** Momentan oft aufgerufene Ordner/Projekte
     - **Favoriten:** Dateien, die man einfach immer verwendet. Bspw. Kundendatenbanken, Rechnungsvorlagen oder ganz persönliche "Schmierzettel"
-    - **Angeheftete Einträge:** Gewisse Einträge in einem Ordner, die man häufig braucht, wenn man diesen Ordner aufruft. Bspw. Ressourcen, Anforderungen
+    - **Angeheftete Einträge:** Gewisse Einträge in einem Ordner, die man häufig braucht, wenn man diesen Ordner aufruft. Bspw. Ressourcen, Anforderungen, Meetings
 
 Verknüpfungen
 -------------
 Um Verknüpfungen zu erstellen, halten Sie ``Strg`` + ``Shift`` gedrückt und ziehen Sie mit der Maus einen Ordner oder eine Datei an die Stelle,
 an der Sie die Verknüpfung haben wollen. Die Zwei-Listen-Ansicht mit ``F3`` ist dafür sehr hilfreich.
 
-Andernfalls können Sie eine Verknüpfung ganz einfach mit ``Strg`` + ``M`` erstellen.
+Andernfalls können Sie eine Verknüpfung mit ``Strg`` + ``M`` erstellen.
 
 
 Archive erstellen und Entpacken
 -------------------------------
-``.zip``, ``.tar.gz`` oder weitere Archive können Sie ganz einfach im Dateimanager direkt entpacken oder erstellen.
+``.zip``, ``.tar.gz`` oder weitere Archive können Sie im Dateimanager direkt entpacken oder erstellen.
 Sie benötigen dazu keine externes Programm.
 
 Archiv erstellen
 ^^^^^^^^^^^^^^^^
 - Klicken Sie mit der rechten Maustaste auf einen Ordner oder eine Datei und wählen Sie ``Komprimieren ...`` aus.
-- Nun können Sie den Dateinamen und das Archiv-Format definieren. ``.tar.gz`` Dateien können in der Regel nur unix artige Systeme lesen. Mit ``.zip`` Archiven machen Sie in der Regel nichts falsch.
+- Nun können Sie den Dateinamen und das Archiv-Format definieren. ``.tar.gz`` Dateien können in der Regel nur Unix-Systeme lesen. Mit ``.zip`` Archiven machen Sie meist nichts falsch.
 - Unter ``Erweitere Einstellungen`` können Sie bei manchen Archiven-Formaten beispieslweise ein Passwort definieren.
 - Klicken Sie nun auf ``Anlegen``. Je nach Größe des Ordners kann dies einige Minuten dauern.
 
@@ -103,14 +103,14 @@ Ordner freigeben
 ----------------
 .. note:: 
     Dazu muss das Paket ``Samba`` installiert sein und ggf. die Anwendung ``SAMBA`` in den Firewall-Regeln hinzugefügt sein. 
-    Außerdem muss der aktuelle Benutzer in der Gruppe ``sambashare`` sein. (Siehe Kapitel Benutzerverwaltung)
+    Außerdem muss der aktuelle Benutzer in der Gruppe ``sambashare`` sein. (Siehe Kapitel *Benutzer und Berechtigungen*)
 
 Klicken Sie mit der rechten Maustaste auf den gewünschten Ordner und wählen Sie ``Freigabeoptionen``. 
 Der Konfigurationsdialog sollte selbstverständlich sein.
 Wählen Sie ``Gastzugriff`` nicht aus, 
 muss sich der Benutzer mit einem auf dem Rechner definierten Benutzerkonto anmelden, um auf den Ordner zuzugreifen können.
 
-.. tip::
+.. note::
     Wir nutzen im Alltag die Ordner-Freigabe nicht. Stattdessen setzen wir hier auf Nextcloud.
 
 
@@ -120,7 +120,7 @@ Hier ein paar Tipps, die langfristig die Produktivität steigern können. Außer
 
 - Versuchen Sie, die vorgegebene Struktur einzuhalten und pro Projekt/Arbeitsauftrag einen eigenen Ordner anzulegen. Es lohnt sich auch, die einzelnen Projekte in Jahre und/oder Monate einzuordnen.
 - Nutzen Sie die Nextcloud, können Sie bspw den Dokumenten Ordner über eine Verknüpfung in den Nextcloud-Synchronisations-Ordner zeigen lassen.
-- Haben Sie auch manchmal das Problem, dass Sie nicht wissen, wo man schnell mal kurz nur diese Datei abspeichen soll? Wir empfehlen das Anlegen eines zusätzlichen ``Tmp`` (Temporären) Ordners. In Ihn können Dateien gespeicher werden, die man nach Ende der Woche sicher nicht mehr braucht. Am Ende der Woche löscht man dann ganz einfach den Inhalt.
-- Arbeiten Sie nicht im Downloads-Ordner. Wenn Sie dies einhalten können Sie Ihren Downloads-Ordner wöchtenlich komplett leeren.
+- Haben Sie auch manchmal das Problem, dass Sie nicht wissen, wo man schnell mal kurz nur diese Datei abspeichen soll? Wir empfehlen das Anlegen eines zusätzlichen ``Tmp`` (Temporären) Ordners. In Ihm können Dateien gespeichert werden, die man nach Ende der Woche sicher nicht mehr braucht. Am Ende der Woche löscht man dann ganz einfach den Inhalt.
+- Arbeiten Sie nicht im Downloads-Ordner. Wenn Sie dies einhalten, können Sie Ihren Downloads-Ordner wöchtenlich komplett leeren.
 - Versuchen Sie, nichts auf der Arbeitsfläche selber zu speichern. Dies ist für die Ordner-Struktur sehr hilfreich.
 - Im Persönlichen Ordner selber sollten nur wichtige Ordner sein. Dokumente oder Bilder haben hier nichts verloren.

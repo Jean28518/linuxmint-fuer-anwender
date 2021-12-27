@@ -1,7 +1,7 @@
 Nützliche Programme
 ===================
 
-In diesem Kaptiel sollen weitere Anwendungen auf Linux Mint vorgestellt werden,
+In diesem Kapitel sollen weitere Anwendungen auf Linux Mint vorgestellt werden,
 die die Produktivität steigern.
 
 Firefox
@@ -24,7 +24,7 @@ Wir empfehlen ``DuckDuckGo`` oder ``Ecosia``. Dadurch bleiben Ihre Suchanfragen 
 .. tip:: 
     Sollte eine Webseite mal nicht so funktionieren, 
     wie Sie sich das wünschen können Sie Rechts oben im roten Schild uBlock Origin für diese Webseeite ausschalten.
-    Den eigebauten Firefox-Schutz können Sie am linken Ende der Adresszeile im Schild für diese Webseite ausstellen.
+    Den eingebauten Firefox-Schutz können Sie am linken Ende der Adresszeile im Schild für diese Webseite ausstellen.
 
 .. note:: 
     Es besteht die Möglichkeit, sich ein Firefox-Konto zu erstellen und Lesezeichen oder Passwörter mit anderen Geräten zu synchronisieren.
@@ -40,7 +40,7 @@ Ein Brwoser-Addon gibt es auch dazu, was sehr zu empfehlen ist.
 
 .. warning:: 
     - Verwenden Sie Passwörter niemals doppelt! 
-    - Wenn möglich empfehlen wir die Aktivierung der Zwei Faktor Authentifizierung
+    - Wenn möglich, empfehlen wir die Aktivierung der Zwei Faktor Authentifizierung
     - Verwenden Sie für Bitwarden ein sicheres Passwort mit Sonderzeichen, welches keine auf Sie rückschließende Komponenten beinhaltet.
 
 Warpinator
@@ -81,8 +81,8 @@ Bildschirmfoto
 --------------
 Mit diesem Programm können Sie einfach Screenshots erstellen.
 
-- 1. Mit ``druck`` können Sie einen Screenshot von der gesamten Bildschirmfläche machen
-- 2. Mit ``Alt`` + ``druck`` können Sie einen Screenshot vom aktuellen Fenster machen
-- 3. Mit ``Shift`` + ``druck`` können Sie eigenen Bildschirmbereich festelegen, der abfotografiert werden soll.
+1. Mit ``Druck`` können Sie einen Screenshot von der gesamten Bildschirmfläche erstellen.
+2. Mit ``Alt`` + ``Druck`` können Sie einen Screenshot vom aktuellen Fenster erstellen.
+3. Mit ``Shift`` + ``Druck`` können Sie eigenen Bildschirmbereich festelegen, der abfotografiert werden soll.
 
-Möchten Sie erweitere Screenshots erstellen, empfehlen wir das Programm ``Flameshot``.
+Möchten Sie erweitere Screenshots erstellen, empfehlen wir das Programm ``Flameshot`` aus der Anwendungsverwaltung.
