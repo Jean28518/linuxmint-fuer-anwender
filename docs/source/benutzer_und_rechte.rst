@@ -47,6 +47,7 @@ Ein Administrator kann unter anderem folgende Dinge erledigen:
 - Alle Dateien sehen, ändern, löschen. ALLE. (Auch die von anderen Benutzern und Administratoren, sofern diese nicht explizit verschlüsselt sind)
 - Programme aktualisieren, entfernen, installieren
 - Das System in jeder Hinsicht verändern
+- Andere Festplatten, installierte Systeme auslesen, verändern, oder sogar ausführen.
 - Einfach alles
 
 .. warning:: 
@@ -74,7 +75,7 @@ Grafisch einstellen können Sie diese im Dateimanger unter den Dateigenschaften 
 4. Ist die Datei ein Skript oder ein Programm, kann man hier einstellen, dass man die Datei als Programm ausführen kann.
 
 .. note:: 
-    Die Dateirechte einer Datei oder eines Ordners können nur doch den Besitzer oder einen Administratoren geändert werden.
+    Die Dateirechte einer Datei oder eines Ordners können nur durch den Besitzer oder einen Administratoren geändert werden.
 
 .. warning:: 
     Momentan können Nutzer noch standardmäßig die Dateien der anderen Nutzer lesen.

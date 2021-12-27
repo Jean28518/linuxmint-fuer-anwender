@@ -28,3 +28,4 @@ Inhalt
    sicherheit
    backups
    benutzer_und_rechte
+   kindersicherung
