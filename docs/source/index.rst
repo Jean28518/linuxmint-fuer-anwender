@@ -24,3 +24,6 @@ Inhalt
    buero
    dateimanager
    nuetzliche_programme
+   cinnnamon
+   sicherheit
+   backups
