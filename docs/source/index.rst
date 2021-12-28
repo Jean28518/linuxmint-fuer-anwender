@@ -1,7 +1,6 @@
 .. image:: images/banner.png
 
 | 
-| 
 
 .. note::
 
