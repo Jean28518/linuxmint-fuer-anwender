@@ -27,7 +27,7 @@ Mit anderen Browsern funktioniert die Anleitung genau so.
 
 Virenschutz
 -----------
-Unter Linux benötigen Sie keinen zusätzlichen Virenschutz. 
+Unter Linux benötigen Sie keinen zusätzlichen Virenschutz.
 Viele Experten empfehlen sogar unter Windows keinen zusätzlichen Virenschutz. (`https://youtu.be/NDlYeJSyqeU <https://youtu.be/NDlYeJSyqeU>`_ )
 
 Ein Virenprogramm bietet keinen zusätzlichen Schutz:
@@ -40,7 +40,7 @@ Ein Virenprogramm bietet keinen zusätzlichen Schutz:
 Auch wenn Sie einen Fehler machen, versagen in der Paxis leider noch häufig genug Virenschutzprogramme.
 Möchten Sie den Kopf beim Nutzen Ihres Computers ausschalten, schalten Sie am besten Ihren Computer gleich mit aus.
 
-.. note:: 
+.. note::
     Nutzen Sie einfach ``brain.sh`` (ihren Verstand, das beste Antivirenschutzprogramm auf dem Markt)
     und befolgen Sie die Tipps in diesem Kapitel und in den 10 Goldenen Sicherheitsregeln, die Sie im Kurs bekommen haben.
     Ihre Sicherheit auf Linux ist daraufhin extrem hoch.
@@ -52,7 +52,7 @@ Wichtig ist, dass Sie für jede Anmeldung ein komplett neues, **sicheres** Passw
 Dabei ist es egal, ob Sie sich alle Passwörter für jede Anmeldung merken, Sie diese auf Zettel schreiben
 oder einen Passwortmanager wie das freie Open Source Programm ``Bitwarden`` verwenden. Eine Alternative ist beispielsweise ``KeePassXC``.
 
-.. note:: 
+.. note::
     Unter einem sicheren Passwort verstehen wir folgende Kriterien:
 
     - Länge über 20 Zeichen
@@ -69,7 +69,7 @@ Machen Sie regelmäßig Backups von Ihren Dateien.
 Dies ist Ihre Lebensversicherung.
 Weitere Informationen finden Sie im Kapitel **Backups**.
 
-Fremquellen
+Fremdquellen
 -----------
 Achten Sie darauf, welche Anwendungspaketquellen (PPAs, weitere Fremquellen) auf Ihrem System aktiviert sind.
 Solche Quellen können auch böswillig ausgenutzt werden.

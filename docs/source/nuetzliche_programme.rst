@@ -18,34 +18,34 @@ Firefox ist einer der wenigen Browser, die von Haus aus viele Privatsphäre-Eins
 In den Einstellungen können Sie unter ``Datenschutz & Sicherheit`` den verbesserten Schutz vor Aktivitätenverfolgung auf ``Streng`` stellen.
 Zusätzlich empfehlen wir das Addon `uBlock Origin <https://ublockorigin.com/>`_, welches Werbung blockiert.
 
-In den Einstellungen unter ``Suche`` können Sie auch die Standard-Suchmaschine umstellen. 
+In den Einstellungen unter ``Suche`` können Sie auch die Standard-Suchmaschine umstellen.
 Wir empfehlen ``DuckDuckGo`` oder ``Ecosia``. Dadurch bleiben Ihre Suchanfragen weitestgehend anonym.
 
-.. tip:: 
-    Sollte eine Webseite mal nicht so funktionieren, 
+.. tip::
+    Sollte eine Webseite mal nicht so funktionieren,
     wie Sie sich das wünschen können Sie Rechts oben im roten Schild uBlock Origin für diese Webseeite ausschalten.
     Den eingebauten Firefox-Schutz können Sie am linken Ende der Adresszeile im Schild für diese Webseite ausstellen.
 
-.. note:: 
+.. note::
     Es besteht die Möglichkeit, sich ein Firefox-Konto zu erstellen und Lesezeichen oder Passwörter mit anderen Geräten zu synchronisieren.
 
 
 Bitwarden
 ---------
-Bitwarden verwaltet sicher Ihre Passwörter. Bitwarden ist Open Source und vertrauenswürdig. 
+Bitwarden verwaltet sicher Ihre Passwörter. Bitwarden ist Open Source und vertrauenswürdig.
 Sollten Sie Bitwarden selber doch nicht vertrauen, besteht sogar die Möglichkeit seinen eigenen Bitwarden-Server aufzusetzen.
 
 Bitwarden können sie einfach aus der Anwendungsverwaltung installieren.
 Ein Brwoser-Addon gibt es auch dazu, was sehr zu empfehlen ist.
 
-.. warning:: 
-    - Verwenden Sie Passwörter niemals doppelt! 
+.. warning::
+    - Verwenden Sie Passwörter niemals doppelt!
     - Wenn möglich, empfehlen wir die Aktivierung der Zwei Faktor Authentifizierung
     - Verwenden Sie für Bitwarden ein sicheres Passwort mit Sonderzeichen, welches keine auf Sie rückschließende Komponenten beinhaltet.
 
 Warpinator
 ----------
-Mit diesem Programm können Sie sehr einfach Dateien im lokalen Netzwerk verschicken. 
+Mit diesem Programm können Sie sehr einfach Dateien im lokalen Netzwerk verschicken.
 Das Programm gibt es für Linux und Android.
 
 
@@ -66,6 +66,14 @@ Pix
 ---
 Mit Pix lassen sich Fotos aus dem Handy oder der SD-Karte importieren und einfache Bearbeitungen vornehmen.
 Wollen Sie Fotos genauer bearbeiten gibt es dafür die Programme ``Darktable`` und ``GIMP``.
+
+
+Systemüberwachung
+-----------------
+Das Pendant dazu auf Windows ist der Taskmanager.
+Über die Systemüberwachung können Sie Prozesse beenden, sollte einer sich aufhängen.
+Im Reiter ``Ressourcen`` finden Sie verschiedene Diagramme, die den aktuellen Verbrauch
+von Arbeitsspeicher, der Internetverbindung und die Auslastung der Prozessor-Kerne zeigen.
 
 
 Ihre Wissensdatenbank
