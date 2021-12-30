@@ -48,6 +48,11 @@ Warpinator
 Mit diesem Programm können Sie sehr einfach Dateien im lokalen Netzwerk verschicken.
 Das Programm gibt es für Linux und Android.
 
+.. note:: 
+    Hat man die Firewall aktiv, kann man in den Warpinator Einstellungen die Firewallregeln aktualisieren:
+
+    .. image:: images/warpinator_firewall.png
+    
 
 USB-Stick Formatierung
 ----------------------
@@ -74,6 +79,16 @@ Das Pendant dazu auf Windows ist der Taskmanager.
 Über die Systemüberwachung können Sie Prozesse beenden, sollte einer sich aufhängen.
 Im Reiter ``Ressourcen`` finden Sie verschiedene Diagramme, die den aktuellen Verbrauch
 von Arbeitsspeicher, der Internetverbindung und die Auslastung der Prozessor-Kerne zeigen.
+
+Festplattenbelegungsanalyse
+---------------------------
+
+.. image:: images/festplattenbelegungsanalyse.png
+
+
+Mit dem Programm kann man sehr einfach seine Festplattenbelegung sehen.
+Klickt man auf einen Ringabschnitt, navigiert man in den Ordner.
+Möchte man wieder den übergeordneten Ordner ansehen, kann man in die Mitte des Diagramms klicken.
 
 
 Ihre Wissensdatenbank

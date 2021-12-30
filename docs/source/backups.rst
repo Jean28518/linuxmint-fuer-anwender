@@ -34,7 +34,13 @@ Einrichtung
 
 - Wählen Sie rechts oben ``Anlegen``.
 - Nun können Sie bei ``Zu sichernde Dateien`` weitere Ordner hinzufügen. Standardmäßig wird der Persönliche Ordner gesichert. Dies reicht in der Regel vollkommen aus. Sollten Sie weitere Partitionen wie beispielsweise ``/data`` nutzen, fügen Sie hier die entsprechenden Ordner hinzu.
-- Bei ``Von Sicherung ausschließen`` empfehlen wir, die Ordner ``Downloads`` (und ggf. ``Tmp``) auszuschließen. *(Sollten Sie als Datensicherungsort Ihren Persönnlichen Ordner ausgewählt haben, fügen Sie den dementsprechenden Ordner hinzu. Er beginnt mit* ``backup`` *)*
+- Bei ``Von Sicherung ausschließen`` empfehlen wir, folgende Ordner auszuschließen:
+    - *(Sollten Sie als Datensicherungsort Ihren Persönnlichen Ordner ausgewählt haben, fügen Sie den dementsprechenden Ordner hinzu. Er beginnt mit* ``backup`` *)*
+    - ``Downloads`` 
+    - ``Warpinator``
+    - (``Tmp``)
+    - (``VirutalBox VMs``)
+    - (``.steam``)
 
 Durchführung
 ------------
