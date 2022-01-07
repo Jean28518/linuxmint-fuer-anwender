@@ -8,7 +8,8 @@ Firefox
 -------
 Firefox ist einer der besten und sichersten Webbrowser.
 Anstattdessen können Sie auch Brave, Google Chrome, Opera oder Microsoft Edge installieren.
-Doch geben Sie Firefox eine Chance.
+Doch geben Sie Firefox eine Chance: 
+Mit ein paar Einstellungen er vereint Privatspähre, Freiheit und Benutzerfreundlichkeit.
 
 Privatsphäre schützen
 ^^^^^^^^^^^^^^^^^^^^^
@@ -18,13 +19,18 @@ Firefox ist einer der wenigen Browser, die von Haus aus viele Privatsphäre-Eins
 In den Einstellungen können Sie unter ``Datenschutz & Sicherheit`` den verbesserten Schutz vor Aktivitätenverfolgung auf ``Streng`` stellen.
 Zusätzlich empfehlen wir das Addon `uBlock Origin <https://ublockorigin.com/>`_, welches Werbung blockiert.
 
-In den Einstellungen unter ``Suche`` können Sie auch die Standard-Suchmaschine umstellen.
-Wir empfehlen ``DuckDuckGo`` oder ``Ecosia``. Dadurch bleiben Ihre Suchanfragen weitestgehend anonym.
-
 .. tip::
     Sollte eine Webseite mal nicht so funktionieren,
     wie Sie sich das wünschen können Sie Rechts oben im roten Schild uBlock Origin für diese Webseeite ausschalten.
     Den eingebauten Firefox-Schutz können Sie am linken Ende der Adresszeile im Schild für diese Webseite ausstellen.
+
+In den Einstellungen unter ``Suche`` können Sie auch die Standard-Suchmaschine umstellen.
+Wir empfehlen ``DuckDuckGo`` oder ``Ecosia``. Dadurch bleiben Ihre Suchanfragen weitestgehend anonym.
+
+.. tip:: 
+    Sollten Sie die Lesezeichen-Liste nutzen, empfehlen wir
+    unter ``Weitere Werkzeuge -> Symbolleiste anpassen`` unten links
+    ``Symbolleisten -> Lesezeichen Symbolleiste`` auf ``Nur bei neuem Tab anzeigen`` einzustellen.
 
 .. note::
     Es besteht die Möglichkeit, sich ein Firefox-Konto zu erstellen und Lesezeichen oder Passwörter mit anderen Geräten zu synchronisieren.
