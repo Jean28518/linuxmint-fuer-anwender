@@ -21,7 +21,7 @@ Zusätzlich empfehlen wir das Addon `uBlock Origin <https://ublockorigin.com/>`_
 
 .. tip::
     Sollte eine Webseite mal nicht so funktionieren,
-    wie Sie sich das wünschen können Sie Rechts oben im roten Schild uBlock Origin für diese Webseeite ausschalten.
+    wie Sie sich das wünschen können Sie Rechts oben im roten Schild uBlock Origin für diese Webseite ausschalten.
     Den eingebauten Firefox-Schutz können Sie am linken Ende der Adresszeile im Schild für diese Webseite ausstellen.
 
 In den Einstellungen unter ``Suche`` können Sie auch die Standard-Suchmaschine umstellen.
@@ -76,7 +76,7 @@ Mit diesem Programm können Sie Partitionen auf Ihrer Fesplatte bearbeiten und b
 Pix
 ---
 Mit Pix lassen sich Fotos aus dem Handy oder der SD-Karte importieren und einfache Bearbeitungen vornehmen.
-Wollen Sie Fotos genauer bearbeiten gibt es dafür die Programme ``Darktable`` und ``GIMP``.
+Wollen Sie Fotos genauer bearbeiten gibt es dafür die Programme ``Darktable``, ``GIMP`` oder für Einsteiger ``Pinta``.
 
 
 Systemüberwachung

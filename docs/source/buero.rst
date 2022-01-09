@@ -13,6 +13,7 @@ Empfohlene Büroanwendungen
 - Kalender: **Kalender** (gnome-calendar)
 - Meetings abhalten: **Jitsi**
 - Team-Chat: **Rocket.Chat**
+- Projektmanagement: **OpenProject**
 - Synchronisation von Daten, Kalender, Organisation von Teams, ...: **Nextcloud**
 - Virtuelle Klebezettel: **Notizen** (sticky)
 

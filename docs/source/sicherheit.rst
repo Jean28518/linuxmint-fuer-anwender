@@ -22,7 +22,7 @@ Wine ist standardmäßig nicht installiert.
 
 Webbrowser sicher einrichten
 ----------------------------
-Lesen Sie dafür den Abschnitt Firefox im Kaptiel *Nützliche Programme*.
+Lesen Sie dafür den Abschnitt Firefox im Kapitel *Nützliche Programme*.
 Mit anderen Browsern funktioniert die Anleitung genau so.
 
 Virenschutz

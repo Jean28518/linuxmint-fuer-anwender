@@ -42,6 +42,10 @@ Einrichtung
     - (``VirutalBox VMs``)
     - (``.steam``)
 
+.. warning:: 
+    Sollten Sie Verknüpfungen in Ihrem persönlichen Ordner haben, werden diese vom BackUp-Programm nicht verfolgt.
+    Denken Sie dann daran, eventuell eine andere Partition zusätzlich zum BackUp hinzuzufügen.
+
 Durchführung
 ------------
 Wir empfehlen, Backups beispielsweise jede Woche oder jeden Monat auszuführen.
