@@ -15,7 +15,7 @@ Entfernter Rechner
 ^^^^^^^^^^^^^^^^^^
 Um auf unseren Rechner über die Ferne zuzugreifen, müssen wir auf diesem ``Xrdp`` aus der Anwendungsverwaltung installieren.
 Außerdem benötigen wir die IP-Adresse unseres Rechners, um auf diesen später zugreifen zu können.
-Dies kann man ganz einfach in den Netzwerkeinstellungen ablesen.
+Dies kann man ganz einfach in den Netzwerkeinstellungen unter dem Zahnrad ablesen  (IPv4-Adresse bevorzugt).
 
 .. note:: 
     Wenn die Firewall aktiv ist, muss man in den Firewall-Einstellungen die Anwendung 'RDP' erlauben.
