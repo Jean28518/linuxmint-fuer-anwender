@@ -54,9 +54,10 @@ Um im Dateimanager gewisse Ordner oder Dateien als erstes anzeigen zu lassen kö
 
 Verknüpfungen
 -------------
-Die Funktion muss in den Einstellungen im Dateimanager aktiviert werden.
-Um Verknüpfungen zu erstellen, tätigen Sie Rechtsklick auf eine Datei oder einen Ordner und wählen Sie ``Verknüpfung erstellen`` aus. 
-Andernfalls können Sie eine Verknüpfung mit ``Strg`` + ``Shift`` + ``M`` erstellen.
+Um Verknüpfungen zu erstellen, halten Sie ``Strg`` + ``Shift`` gedrückt und ziehen Sie mit der Maus einen Ordner oder eine Datei an die Stelle,
+an der Sie die Verknüpfung haben wollen. 
+
+Andernfalls können Sie eine Verknüpfung mit ``Strg`` + ``M`` erstellen.
 
 
 Archive erstellen und Entpacken
