@@ -52,11 +52,11 @@ Das Hinzufügen eines neuen Mail-Kontos zu Thunderbird ist selbsterklärend
 Adressbuch der Nextcloud nutzen
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-- Dafür wird die Erweiterung ``CardBook`` benötigt.
-- Nachdem Sie CardBook installiert haben, können sie den Einrichtungsdialog getrost abbrechen.
-- Sie können die Einstellungen der Erweiterung rechts oben öffnen.
-- Das Nextcloud-Adressbuch nutzt das CardDAV-Protokoll.
-- Den Link für das Adressbuch Ihrer Nextcloud finden sie im Web-Interface Ihres Adressbuches unten links unter Einstellungen bei den drei Punkten Ihres Adressbuches.
+.. image:: images/thunderbird-carddav.png
 
-Weitere Details werden im Kurs besprochen.
+- Öffnen Sie wie im Bild gezeigt den "Hinzufügen"-Dialog.
+- Tragen Sie Ihren Nextcloud-Benutzernamen und die Adresse Ihrer Nextcloud ein. Beispiel: ``https://cloud.example.com/``
+- Geben Sie das Passwort Ihres Nextcloud-Kontos im nächsten Dialog ein.
+- Im letzten Dialog können Sie die Adressbücher auswählen. Es wird empfohlen, ``Zuletzt kontaktiert`` abzuwählen. Klicken Sie daraufhin auf ``Weiter``. 
+- Ihr Adressbuch wurde nun hinzugefügt.
 
