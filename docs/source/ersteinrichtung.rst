@@ -12,13 +12,6 @@ Wählen Sie hier die richtige Auflösung aus und klicken Sie unten auf ``Anwende
 
     Diese Funktion kann in den ``Fenster`` Einstellungen unter ``Verhalten`` konfiguriert werden.
 
-Fraktionelle Skalierung
-^^^^^^^^^^^^^^^^^^^^^^^
-Unter dem Reiter ``Einstellungen`` können Sie die Bruchteilsskalierung aktivieren.
-Dann lassen sich im Reiter ``Ansicht``, wenn man den Maßstab der Benutzeroverfläche auf ``normal`` setzt,
-die ``Teilweise Skalierung`` aktivieren.
-Dort kann man dann Skalierungen zwischen 75% und 200% in 25% Schritten einstellen.
-
 
 Systemschnappschüsse
 --------------------

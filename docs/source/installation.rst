@@ -39,7 +39,7 @@ Bei der Installation wie gehabt vorgehen.
 Es ist empfohlen, die Multimedia-Codecs zu installieren.
 
 Sollten Sie wie oben beschrieben freien Speicherplatz geschaffen haben, wählen sie ``Linux Mint daneben installieren`` aus.
-Konfigurieren Sie die richtige Festplatte und lassen Sie den Schiebe-Regler unverändert.
+Der Rest wird automatich erledigt. Diese Prozedur ist empfohlen, da sie am wenigsten Komplikationen erfordert.
 
 Konfigurieren Sie danach in den restlichen Schritten die Linux Mint Installation nach Ihren Wünschen.
 

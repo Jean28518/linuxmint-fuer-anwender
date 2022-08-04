@@ -65,12 +65,8 @@ die offizielle Version eines Programms zu installieren.
 **Sollte die .deb Version der Herstellerseite keine nennenswerten Vorteile bringen,
 wird dringends von der Installation abgeraten, da das Sicherheitsrisiko für das System extrem hoch sein kann.**
 
-Für manche Anwendungen ist aber eine .deb Version unumgänglich, wenn man die Anwendungen nutzen möchte:
-Beispielsweise wären das:
-
-- Google Chrome
-- Softmaker Office
-- weitere Anwendungen, die man nicht in der Anwendungsverwaltung finden kann und keine Fremdquellen unterstützen.
+Für manche Anwendungen ist aber eine .deb Version unumgänglich, wenn man die Anwendungen nutzen möchte.
+Beispielsweise wären das Softmaker Office.
 
 Um eine .deb Datei zu installieren reicht es, diese herunterzuladen
 und mit einem Doppelklick zu "starten", und auf ``Paket installieren`` zu drücken.
