@@ -6,7 +6,7 @@ Empfohlene Büroanwendungen
 
 - Dokumente/Rechnungen/Präsentationen/Tabellen erstellen: **Libre Office**
 - Ausfüllen und (visuelles) Unterschreiben von PDFs: **Xournal++**
-- Erstellen einfacher Protokolle, Notizen: **xed**, `Markdown Exporter <https://www.markdowntopdf.com/>`_
+- Erstellen einfacher Protokolle, Notizen: **Obsidian oder xed** mit `Markdown Exporter <https://www.markdowntopdf.com/>`_
 - E-Mail Kommunikatation (inklusive Vorlagen): **Thunderbird**
 - Finanz-Buchhaltung: **GnuCash**
 - Internet Browser: **Firefox**
@@ -35,15 +35,15 @@ Man kann Präsentationen, Formulare, Rechnungen, Vorlagen, Dokumentationen, funk
     Unsere Empfehlung ist ``In Registern``. Diese Oberfläche bietet mehr Funktionen als die Standard-Oberfläche und erinnert stark an MS Office.
 
 Einen Nachteil hat Libre Office jedoch: Die Kompatibilität zu Microsoft-Formaten wie .docx, .ppt oder .xls ist leider nicht so hoch.
-Sollte man an diese angewiesen sein, empfehlen wir stattdessen entweder die  `Online-Variante von MS Office <https://www.office.com/>`_,
-`Softmaker Office <https://www.softmaker.de/softmaker-office>`_ oder `WPS Office <https://www.wps.com/de-DE>`_.
+Sollte man an diese angewiesen sein, empfehlen wir stattdessen entweder die `Softmaker Office <https://www.softmaker.de/softmaker-office>`, `Online-Variante von MS Office <https://www.office.com/>`
+_ oder `Only Office <https://www.onlyoffice.com/de/>`_.
 
 Softmaker Office
 ^^^^^^^^^^^^^^^^
 Viele Linux Nutzer sind mit dem kostenpflichtigen `Softmaker Office <https://www.softmaker.de/softmaker-office>`_ sehr zufrieden.
 Das proprietäre Programm wird von einem Nürnberger Unternehmen entwickelt und bietet eine sehr hohe Kompatibilität zu den Microsoft Formaten.
 
-Eine kostenlose Test-Version mit eingeschränkter, älterer Funktionalität gibt es auch: `FreeOffice <https://www.freeoffice.com/de>`_
+Eine kostenlose Test-Version mit eingeschränkter Funktionalität gibt es auch: `FreeOffice <https://www.freeoffice.com/de>`_
 
 Weitere Alternativen
 ^^^^^^^^^^^^^^^^^^^^
@@ -52,7 +52,6 @@ Weitere Alternativen zu MS Office sind unter anderem:
 - `Online-Variante von MS Office <https://www.office.com/>`_
 - `Google Docs <https://www.google.de/intl/de/docs/about/>`_
 - `WPS Office <https://www.wps.com/de-DE>`_
-- `Only Office <https://www.onlyoffice.com/>`_
 
 
 Microsoft Schriftarten installieren

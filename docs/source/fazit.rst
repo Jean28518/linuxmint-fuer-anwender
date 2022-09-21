@@ -18,5 +18,4 @@ Wie geht es nun weiter?
 Sollten Sie spezielle Fragen oder Probleme haben, können Sie unkompliziert eine Linux-Sprechstunde auf `linuxguides.de <https://linuxguides.de>`_ vereinbaren
 oder im `Linux Guides Forum <https://forum.linuxguides.de>`_ nachfragen.
 
-Möchten Sie mehr über die Linux-Welt lernen,
-bieten wir weitere Kurse `hier <https://linuxguides.de/kurse>`_ an.
+Möchten Sie mehr über die Linux-Welt lernen, bieten wir weitere Kurse `hier <https://linuxguides.de/>`_ an.

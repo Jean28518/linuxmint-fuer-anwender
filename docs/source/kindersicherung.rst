@@ -1,7 +1,7 @@
 Kindersicherung
 ===============
 
-Linux Mint kommt leider nicht mit eigenen integrieten Tools, das System für Kinder zu beschränken.
+Linux Mint kommt leider nicht mit eigenen integrierten Tools, das System für Kinder zu beschränken.
 
 Wir empfehlen für Kinder ein eigenes Linux Mint aufzusetzen, damit Sie selber nicht durch Einschränkungen betroffen sind.
 
@@ -89,7 +89,7 @@ Der wohl effektivste Schutz gegen Kinder gefährdete Seiten ist das Erstellen ei
 Im Kurs wird dies für die Fritz!Box gezeigt.
 
 .. note:: 
-    Um den Schutz am Internetrouter nicht zu umgeghen, stellen Sie auch im Standard Profil die Kindersicherung ein.
+    Um den Schutz am Internetrouter nicht zu umgeghen, stellen Sie auch im Standard Verbindungsprofil Ihrer Fritz!Box die Kindersicherung ein.
     Dann sind Versuche, die IP-Adresse zu ändern, zwecklos.
 
 Eine weitere/zusätzliche Möglichkeit wäre ein DNS-Filter. 

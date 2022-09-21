@@ -9,7 +9,7 @@ Firefox
 Firefox ist einer der besten und sichersten Webbrowser.
 Anstattdessen können Sie auch Brave, Google Chrome, Opera oder Microsoft Edge installieren.
 Doch geben Sie Firefox eine Chance: 
-Mit ein paar Einstellungen er vereint Privatspähre, Freiheit und Benutzerfreundlichkeit.
+Mit ein paar Einstellungen vereint er Privatspähre, Freiheit und Benutzerfreundlichkeit.
 
 Privatsphäre schützen
 ^^^^^^^^^^^^^^^^^^^^^
@@ -26,6 +26,8 @@ Zusätzlich empfehlen wir das Addon `uBlock Origin <https://ublockorigin.com/>`_
 
 In den Einstellungen unter ``Suche`` können Sie auch die Standard-Suchmaschine umstellen.
 Wir empfehlen ``DuckDuckGo`` oder ``Ecosia``. Dadurch bleiben Ihre Suchanfragen weitestgehend anonym.
+``Google`` gewinnt tatsächlich noch aktuell das Rennen in Schnelligkeit und Suchergebnissen, 
+dennoch ist die Privatsphäre bei Google nur bedingt gegeben.
 
 .. tip:: 
     Sollten Sie die Lesezeichen-Liste nutzen, empfehlen wir

@@ -11,10 +11,10 @@ Ansichtsoptionen
 Gehen wir die Symbole von links nach rechts durch:
 
 - **Pfadeingabe:** Damit kann man die Pfad-Ansicht umschalten. Dies ist sehr praktisch, wenn man mal einen Pfad kopieren möchte.
-- **Suche:** Hiermit kann man entweder Dateien vom aktuellen Ordner aus durchsuchen. Sogar nach dem Inhalt von Dateien kann man suchen. Somit bleibt keien Datei verloren.
+- **Suche:** Hiermit kann man entweder Dateien vom aktuellen Ordner aus durchsuchen. Sogar nach dem Inhalt von Dateien kann man suchen. Somit bleibt keine Datei verloren.
 - **Symbolansicht:** Die "normale" Ansicht von Ordnern. Man kann die Standard-Ansicht in den Einstellungen definieren. Ansonsten wird die gewählte Ansicht nur für den aktuellen Ordner gespeichert.
 - **Listenansicht:** Mit der erweiteren Ansicht kann man nach verschiedenen Kategorien wie bspw. dem Änderungsdatum sortieren. Mit einem Rechtsklick auf die Kategorien-Leiste kann man die Parameter definieren.
-- **Kompaktansicht:** Probieren Sie es aus! Aber keine von uns nitzt diese Ansicht im Alltag.
+- **Kompaktansicht:** Probieren Sie sie aus! Aber niemand von uns nutzt diese Ansicht im Alltag.
 
 .. tip:: 
     Schon gewusst? Mit der Taste ``F3`` kann man eine Zwei-Listen-Ansicht an- und ausschalten. Dies ist sehr hilfreich, wenn man Dateien kopieren möchte.
@@ -114,7 +114,7 @@ muss sich der Benutzer mit einem auf dem Rechner definierten Benutzerkonto anmel
     Wir nutzen im Alltag die Ordner-Freigabe nicht. Stattdessen setzen wir hier auf Nextcloud.
 
 
-Dateimanagment
+Dateimanagement
 --------------
 Hier ein paar Tipps, die langfristig die Produktivität steigern können. Außerdem dankt dies Ihre Backup-Platte und Ihr zukünftiges Ich.
 
