@@ -10,10 +10,6 @@ Mögliche Dienste sind:
 - Microsoft
 - Dropbox
 
-Im Kurs zeige ich Ihnen,
-wie Sie ein Nextcloud-Konto auf Ihrem Rechner hinzufügen und dieses vollumfänglich nutzen.
-Auf Wunsch können Sie dies stattdessen auch mit einem anderen Dienst durchführen.
-
 
 Nextcloud
 ---------

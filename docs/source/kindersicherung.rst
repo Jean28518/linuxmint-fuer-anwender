@@ -112,7 +112,6 @@ Internetseiten blockieren
 Mit dem Programm ``Mintnanny`` aus der Anwendungsverwaltung können Sie einzelne, konkrete Internetseiten für den gesamten Rechner sperren.
 
 Der effektivste Schutz vor jugendgefährdenden Inhalten ist das Einrichten eines entsprechenden Zugangsprofils mit Kindersicherung direkt auf Ihrem Internet-Router.
-Im Kurs zeige ich Ihnen dies am Beispiel einer FRITZ!Box.
 
 .. note::
     Um diesen Schutz am Internet-Router nicht zu umgehen,
