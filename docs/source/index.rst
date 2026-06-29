@@ -1,12 +1,12 @@
 .. image:: images/banner.png
 
-| 
 
-.. note::
+Vorwort
+-------
 
-   Dieses Handbuch stellt keine vollständige Dokumentation dar. 
-   Es ist dafür gedacht, den Überblick während des Kurses zu behalten
-   und Befehle oder Routinen später nachzuschlagen.
+Herzlich Willkommen zu diesem Handbuch für Linux Mint!
+Mit über 10 Jahren Erfahrung im Linux Mint Bereich und mittlerweile tausenden Support-Sitzungen möchte ich hiermit mein Wissen und Know-How weitergeben,
+welches sich nirgendwo in dieser Form im Internet finden lässt und (noch) die KI nicht ersetzen kann.
 
 Inhalt
 ------

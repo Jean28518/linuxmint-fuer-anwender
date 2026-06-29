@@ -13,15 +13,40 @@ Wählen Sie hier die richtige Auflösung aus und klicken Sie unten auf ``Anwende
     Diese Funktion kann in den ``Fenster`` Einstellungen unter ``Verhalten`` konfiguriert werden.
 
 
+Skalierung der Schrift und der Leiste
+*************************************
+
+
+Sollten die Schrift zu klein dargestellt sein, empfehle ich, unter dem Programm ``Schriftauswahl`` den Skalierungsfaktor der Schrift zu ändern.
+
+
+.. figure:: images/schriftauswahl.png
+
+
+Die Leiste unten kann man mit Rechtsklick auf die Leiste und dann ``Leisteinstellungen``, dort die Größe des "symbolischen Symbols" (kurioser Übersetzungsfehler) ändern.
+Dies muss man sowohl für den linken, (den mittleren), als auch den rechten Teil der Leiste machen.
+
+
+.. figure:: images/leisteneinstellungen.png
+
+
+
 Systemschnappschüsse
 --------------------
 
 .. note:: Hiermit werden keine Persönliche Daten gesichert. Dies wird im Kaptitel *Backups* beschrieben.
 
-Starten Sie das Programm ``Timeshift`` und gehen Sie Schritt für Schritt den Konfigurationsassistentn durch:
+
+Systemschnappschüsse sind eine sehr gute Möglichkeit, das System im Falle eines Problems wiederherzustellen, 
+dennoch frisst Timeshift unter Linux Mint viel Speicherplatz. 
+Ich empfehle, 100 GB Festplattenspeicher dafür einzuplanen.
+Hat man diesen Speicher nicht übrig, empfehle ich dieses Kapitel zu überspringen.
+
+
+Starten Sie das Programm ``Timeshift`` und gehen Sie Schritt für Schritt den Konfigurationsassistent durch:
 
 - Wählen Sie als Schnappschusstyp ``rsync`` aus.
-- Wählen Sie als Schnappschussort Ihre Linux Mint-Partition aus. Die Partition sollte über 100 GB groß sein, damit die Schnappschüsse gut funktionieren.
+- Wählen Sie als Schnappschussort Ihre Linux Mint-Partition aus.
 - Als Schnappschussebene wählen Sie Ihre Konfiguration wie im Bild beschrieben aus:
 
 .. figure:: images/timeshift.png
@@ -37,6 +62,8 @@ Die letzten beiden Systemschnappschüsse werden behalten.
 
 Zusätzliche Treiber
 -------------------
+
+
 Öffnen Sie die ``Treiberverwaltung``.
 
 Installieren Sie die hier empfohlenen Treiber.
@@ -53,16 +80,17 @@ Wenn sich die Aktualisierungsverwaltung noch nicht geöffnet hat, dann können S
 
 .. image:: images/spiegelserver_wechseln.png
 
-Sollte diese Nachricht bei Ihnen erscheinen, ist empfohlen dies durchzuführen.
+Sollte diese Nachricht bei Ihnen erscheinen, ist empfohlen dies durchzuführen. 
 Wählen Sie am besten einen Ihnen vertrauten Server aus. Beispielsweise einen von einer nahe gelegenen Universität.
+Die Hochschule Esslingen als auch die Friedrich Alexander Universität Erlangen Nürnberg haben sich über die Jahre bewährt.
 
 Nun haben Sie die Wahl: Entweder kümmern Sie sich selber jede Woche um die Updates
 oder Sie lassen dies vollautomatisch die Aktualisierungsverwaltung tun.
 
 Es ist sehr empfohlen, dies die automatische Aktualisierungsverwaltung übernehmen zu lassen.
 
-Dazu wählen Sie in der Aktualisierungsverwaltung ``Bearbeiten -> Einstellungen -> Automatisierung`` aus und aktivieren Sie alle drei oder vier Schalter.
-Sie werden dabei auch nach Ihrem Passwort gefragt.
+Dazu wählen Sie in der Aktualisierungsverwaltung ``Bearbeiten -> Einstellungen -> Automatisierung`` aus und aktivieren Sie alle vier oder vier Schalter.
+Sie werden dabei auch nach Ihrem Passwo2xrt gefragt.
 
 .. note::
     Wenn Sie Ihren Rechner herunterfahren wollen, während der Rechner Aktualisierungen durchführt,
@@ -75,6 +103,11 @@ Systemeinstellungen
 -------------------
 
 Hier ist die Steuerzentrale von Linux Mint. Sie bietet eine Übersicht aller möglichen Einstellungen.
+Ich empfehle bei den Aktiven Ecken die linke obere Ecke wie folgt einzustellen:
+
+.. figure:: images/aktive-ecken.png
+
+Damit 
 
 
 Firewall
