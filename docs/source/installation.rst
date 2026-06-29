@@ -1,5 +1,5 @@
-Einfache Installation
-=====================
+Installation
+============
 
 Download
 --------
@@ -60,16 +60,6 @@ Konfigurieren Sie danach in den restlichen Schritten die Linux Mint Installation
 Verschlüsselung
 ---------------
 
-
-Bitte wählen Sie bei der Benutzerkonfiguration ``Meinen Persönlichen Ordner verschlüsseln`` nicht aus:
-Der Verschlüsselungsmechanismus gilt als nicht mehr sicher und diese Methode zur Verschlüsselung verhindert manch andere Systemfunktionen, wie z.B. das Änderungsdatum/Erstellungsdatum von Dateien korrekt zu speichern.
-Ebenfalls ist die Wiederherstellung dieser Daten im Falle eines Systemabsturzes oder einer Neuinstallation nur sehr schwer möglich und kaum dokumentiert.
-Nutzen Sie anstattdessen folgende Methode im nächsten Abschnitt.
-
-
-Verschlüsselung
-***************
-
 Im Fenster der Installations-Art gibt es unter "Erweiterte Funktionen..." die Möglichkeit das System zu verschlüsseln.
 Diese Option ist vor allem für Laptops mit denen man unterwegs ist, sehr empfehlenswert.
 
@@ -125,7 +115,7 @@ Möchte man seine persönlochen Daten im Nachhinein verschlüsseln kann man das 
 
 ``luks-XXXXXX UUID=XXXXXXXXXXX none luks``
 
-Dabei ist der luks teil der selbe wie schon oben erwähnt, der UUID Teil ist die UUID der Verschlüsselten "Eltern-Partition" wie im folgenden Bild gezeigt:
+Dabei ist der luks Teil der selbe wie schon oben erwähnt, der UUID Teil ist die UUID der Verschlüsselten "Eltern-Partition" wie im folgenden Bild gezeigt:
 
 .. figure:: images/LuksUUID.png
 

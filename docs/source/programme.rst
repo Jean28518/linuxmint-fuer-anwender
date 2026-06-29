@@ -8,31 +8,22 @@ Diese sollte die erste Anlaufstelle sein, wenn man Anwendungen installieren möc
 Die Beschreibung ist meist aufschlussreich und empfehlenswert.
 
 
-Beispiel Microsoft Teams:
-^^^^^^^^^^^^^^^^^^^^^^^^^
+Beispiel Obsidian:
+^^^^^^^^^^^^^^^^^^
 
-.. image:: images/teams-for-linux_anwendungsverwaltung.png
+.. image:: images/obsidian-anwendungsverwaltung.png
 
 Wenn man sich den Beschreibungstext durchliest, erfahren wir, 
-dass diese Ausführung nicht offiziell von Micorosoft unterstützt wird.
-Das heißt, Dritte stellen das Programm zur Verfügung.
+dass diese Ausführung nicht offiziell von den Entwicklern unterstützt wird.
 Sollten also während der Benutzung Fehler auftreten, 
 könnte das auf diesen Sachverhalt zurückzuführen sein.
-
-Generell spricht nichts gegen die Verwendung von solchen Ausführungen,
-man sollte es aber im Hinterkopf behalten, dass das eine inoffizielle Ausführung ist.
-Meistens kriegt man nichtmal mit, dass dies eine inoffizielle Ausführung ist.
-
-Möchte man hingegen die offizielle Version installieren,
-werden Details dazu im nächsten Abschnitt ``.deb Dateien aus dem Internet`` beschrieben.
-
 
 Flatpaks:
 ^^^^^^^^^
 Aus dem Screenshot im zuvorigen Abschnitt kann man unter Details das Wort ``Flatpak`` entnehmen.
-Flatpak ist eine neue Technologie, auf Linux Programme zu installieren und auszuführen.
+Flatpak ist eine eigene Technologie, auf Linux Programme zu installieren und auszuführen.
 
-Flatpaks haben den Vorteil, dass sie auf jedem Linux laufen sollen und in der Regel top aktuelle Versionen eines Programms bieten.
+Flatpaks haben den Vorteil, dass sie auf jedem Linux laufen sollen und in der Regel aktuellere Versionen eines Programms bieten.
 Dazu laufen sie in ihrem eigenen kleinen "Linux", auch Sandkasten genannt.
 Allerdings können so bei manchen Flatpaks Kompatibilitäts-Probleme im Zusammenspiel vorallem mit anderen Programmen auftreten,
 da diese nicht in die kleinen "Sandkästen" herein oder aus ihren eigenen heraus kommen.
@@ -66,7 +57,7 @@ die offizielle Version eines Programms zu installieren.
 wird dringends von der Installation abgeraten, da das Sicherheitsrisiko für das System extrem hoch sein kann.**
 
 Für manche Anwendungen ist aber eine .deb Version unumgänglich, wenn man die Anwendungen nutzen möchte.
-Beispielsweise wären das Softmaker Office.
+Beispielsweise wäre das Softmaker Office.
 
 Um eine .deb Datei zu installieren reicht es, diese herunterzuladen
 und mit einem Doppelklick zu "starten", und auf ``Paket installieren`` zu drücken.
@@ -81,8 +72,7 @@ und diese in den Datei-Eigenschaften als ausführbar zu markieren. (Siehe Benutz
 Danach kann man das Programm durch einen Doppelklick auf die AppImage Datei starten.
 
 .. tip:: 
-    Man kann in den Menüeinstellungen einen neuen Menü-Eintrag für das Programm definieren.
-    Dann kann man ein AppImage wie alle übrigen Anwendungen über das Startmenü starten.
+    Es empfiehlt sich, das Programm ``Gear Lever`` aus der Anwendungsverwaltung nachzuinstallieren. Damit lassen sich extrem einfach App-Images verwalten und dem Linux Mint Menü hinzuzufügen.
 
 .. note:: 
     AppImages werden nicht automatisch aktualisiert. Sicherheitsrelevante Anwendungen nutzen dieses Format aber sowieso nicht.
@@ -91,13 +81,12 @@ Fremdquellen (PPAs)
 -------------------
 
 Manche Anwendungen findet man nicht in der Anwendungsverwaltung. Anstattdessen "manuell" .deb Dateien zu installieren,
-bieten manche Hersteller *Personal Package Archives* (PPAs) an.
-Der Vorteil dabei ist, dass Anwendungen daraus auch automatisch Updates erhalten, 
-was bei .deb Dateien aus dem Internet normalerweise nicht der Fall ist.
+bieten manche Hersteller *Personal Package Archives* (PPAs) oder andere Fremdquellen an.
+Der Vorteil dabei ist, dass Anwendungen daraus auch automatisch Updates erhalten.
 
 .. note:: 
     Manche .deb Dateien richten automatisch eine Fremdquelle ein und stellen sicher, dass das Programm automatisch Updates erhält.
-    Google Chrome macht dies beispielsweise. (Dies muss nicht unbedingt ein PPA sein, wäre aber hier etwas zu weit ausgeholt)
+    Google Chrome macht dies beispielsweise.
 
 Mit dem Programm ``Anwendungspaketquellen`` kann man PPAs und weitere zusätzliche Fremdquellen einsehen und konfigurieren.
 
@@ -118,8 +107,6 @@ Solche Dateien sollte man entpacken. Meist findet man dann dort eine ausführbar
     Man kann in den Menüeinstellungen einen neuen Menüeintrag für das Programm definieren.
     Dann kann man dies wie alle anderen Anwendungen über das Startmenü starten.
 
-.. note:: 
-    AppImages werden nicht automatisch aktualisiert. Sicherheitsrelevante Anwendungen nutzen dieses Format aber sowieso nicht.
 
 Sollte man keine ausführbare Datei finden und liegt stattdessen eine Datei mit dem Namen
 ``Makefile`` vor, muss man dieses Programm erst kompilieren. 

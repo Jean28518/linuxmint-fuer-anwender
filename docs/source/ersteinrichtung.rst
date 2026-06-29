@@ -90,7 +90,7 @@ oder Sie lassen dies vollautomatisch die Aktualisierungsverwaltung tun.
 Es ist sehr empfohlen, dies die automatische Aktualisierungsverwaltung übernehmen zu lassen.
 
 Dazu wählen Sie in der Aktualisierungsverwaltung ``Bearbeiten -> Einstellungen -> Automatisierung`` aus und aktivieren Sie alle vier oder vier Schalter.
-Sie werden dabei auch nach Ihrem Passwo2xrt gefragt.
+Sie werden dabei auch nach Ihrem Passwort gefragt.
 
 .. note::
     Wenn Sie Ihren Rechner herunterfahren wollen, während der Rechner Aktualisierungen durchführt,
@@ -107,7 +107,7 @@ Ich empfehle bei den Aktiven Ecken die linke obere Ecke wie folgt einzustellen:
 
 .. figure:: images/aktive_ecken.png
 
-Damit 
+Damit können alle offenen Fenster überblickt werden, dazwischen gewechselt oder (mit einem Mittelklick (Mausrad-Taste)) einzelne Fenster schnell beendet werden.
 
 
 Firewall
