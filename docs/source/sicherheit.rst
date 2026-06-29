@@ -42,7 +42,7 @@ Möchten Sie den Kopf beim Nutzen Ihres Computers ausschalten, schalten Sie am b
 
 .. note::
     Nutzen Sie einfach ``brain.sh`` (ihren Verstand, das beste Antivirenschutzprogramm auf dem Markt)
-    und befolgen Sie die Tipps in diesem Kapitel und in den 10 Goldenen Sicherheitsregeln, die Sie im Kurs bekommen haben.
+    und befolgen Sie die Tipps in diesem Kapitel und in den 5 Goldenen Sicherheitsregeln am Ende dieses Kapitels.
     Ihre Sicherheit auf Linux ist daraufhin extrem hoch.
 
 Passwortmanager
@@ -76,6 +76,46 @@ Solche Quellen können auch böswillig ausgenutzt werden.
 
 Eine Übersicht erhalten Sie im Programm ``Anwendungspaketquellen``.
 
-10 Goldene Sicherheitsregeln
-----------------------------
-Im Kurs erhalten Sie kompakt 10 Goldene Sicherheitsregeln, die Sie sich praktisch ausdrucken können.
+5 Goldene Sicherheitsregeln
+---------------------------
+
+Zusammenfassend lässt sich die Sicherheit Ihres Systems auf fünf goldene Regeln reduzieren. Wenn Sie diese beherzigen, ist Ihr Linux-System extrem sicher:
+
+.. image:: images/5GoldeneSicherheitsregeln.jpg
+   :alt: 5 Goldene Sicherheitsregeln
+   :align: center
+
+1. **Aktualisierungen (Updates):**
+   Software ist hochkomplex und enthält zwangsläufig Fehler. 
+   Sobald solche Lücken bekannt werden, schließen Entwickler sie über Sicherheitsupdates. 
+   Angreifer suchen gezielt nach Systemen mit veralteter Software, um diese Schwachstellen auszunutzen. 
+   Halten Sie Ihr System und Ihre Programme daher immer aktuell. 
+   Die Aktualisierungsverwaltung von Linux Mint macht Ihnen das sehr einfach – richten Sie dort am besten automatische Updates für Systempakete und Flatpaks ein (wie im Kapitel *Ersteinrichtung* beschrieben).
+
+2. **Vermeidung unnötiger Software:**
+   Jedes installierte Programm vergrößert die sogenannte Angriffsfläche Ihres Computers. 
+   Wenn ein Programm eine Sicherheitslücke aufweist, kann dies das gesamte System gefährden – selbst wenn Sie die Anwendung nur selten nutzen. 
+   Installieren Sie daher nur Software, die Sie wirklich brauchen, und entfernen Sie nicht mehr benötigte Programme. 
+   Weniger installierte Software bedeutet schlichtweg weniger potenzielle Einfallstore für Schadcode.
+
+3. **Sichere, einzigartige Passwörter:**
+   Die Mehrfachverwendung desselben Passworts ist ein enormes Risiko. 
+   Wird ein einziger Online-Dienst gehackt, haben Angreifer sofort Zugriff auf all Ihre Konten bei anderen Plattformen. 
+   Verwenden Sie für jeden Zugang ein eigenes, langes und zufälliges Passwort. 
+   Da man sich diese unmöglich alle merken kann, ist der Einsatz eines Passwortmanagers wie **Bitwarden** oder **KeePassXC** dringend zu empfehlen. 
+   Sie müssen sich dann nur noch ein einziges Master-Passwort merken.
+
+4. **Nicht täuschen lassen (Phishing & Social Engineering):**
+   Da Linux-Systeme technisch sehr sicher sind, versuchen Kriminelle meist den Menschen vor dem Bildschirm auszutricksen. 
+   Sie versenden täuschend echte E-Mails von Banken oder Paketdiensten und verlinken auf gefälschte Login-Seiten, um Zugangsdaten abzugreifen. 
+   Seien Sie stets misstrauisch: Klicken Sie nicht voreilig auf Links, 
+   prüfen Sie die Absenderadresse und achten Sie im Browser auf Tippfehler in der Adresszeile (z. B. ``paypal-sicherheit.de`` statt ``paypal.com``). 
+   Im Zweifel rufen Sie die Seite manuell über eine Suchmaschine auf.
+
+5. **Regelmäßige Backups:**
+   Es gibt keine hundertprozentige Sicherheit. Hardware kann kaputtgehen, 
+   Dateien können versehentlich gelöscht werden oder das System nimmt bei einem Fehler Schaden.
+   Ein Backup ist Ihre absolute Lebensversicherung. 
+   Sichern Sie Ihre persönlichen Daten (Dokumente, Fotos) regelmäßig auf eine externe Festplatte oder einen Netzwerkspeicher. 
+   Linux Mint bietet dafür mit **Pika Backup** (für Dateien) und **Timeshift** (für das System) hervorragende Werkzeuge. 
+   Details dazu finden Sie im Kapitel **Backups**.
