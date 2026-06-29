@@ -85,6 +85,11 @@ Zusammenfassend lässt sich die Sicherheit Ihres Systems auf fünf goldene Regel
    :alt: 5 Goldene Sicherheitsregeln
    :align: center
 
+|
+
+|
+
+
 1. **Aktualisierungen (Updates):**
    Software ist hochkomplex und enthält zwangsläufig Fehler. 
    Sobald solche Lücken bekannt werden, schließen Entwickler sie über Sicherheitsupdates. 
