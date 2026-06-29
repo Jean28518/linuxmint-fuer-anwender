@@ -7,9 +7,10 @@ die die Produktivität steigern.
 Firefox
 -------
 Firefox ist einer der besten und sichersten Webbrowser.
-Anstattdessen können Sie auch Brave, Google Chrome, Opera oder Microsoft Edge installieren.
+Anstattdessen können Sie auch Brave, Chromium, Google Chrome, Opera oder Microsoft Edge installieren.
 Doch geben Sie Firefox eine Chance: 
 Mit ein paar Einstellungen vereint er Privatspähre, Freiheit und Benutzerfreundlichkeit.
+
 
 Privatsphäre schützen
 ^^^^^^^^^^^^^^^^^^^^^
@@ -38,18 +39,24 @@ dennoch ist die Privatsphäre bei Google nur bedingt gegeben.
     Es besteht die Möglichkeit, sich ein Firefox-Konto zu erstellen und Lesezeichen oder Passwörter mit anderen Geräten zu synchronisieren.
 
 
-Bitwarden
+KeePassXC
 ---------
-Bitwarden verwaltet sicher Ihre Passwörter. Bitwarden ist Open Source und vertrauenswürdig.
-Sollten Sie Bitwarden selber doch nicht vertrauen, besteht sogar die Möglichkeit seinen eigenen Bitwarden-Server aufzusetzen.
+KeePassXC ist ein großartiger, lokaler Passwortmanager. 
+Im Gegensatz zu Cloud-basierten Lösungen werden Ihre Passwörter in einer verschlüsselten Datei auf Ihrem eigenen Rechner gespeichert.
 
-Bitwarden können sie einfach aus der Anwendungsverwaltung installieren.
-Ein Brwoser-Addon gibt es auch dazu, was sehr zu empfehlen ist.
+KeePassXC lässt sich einfach aus der Anwendungsverwaltung installieren. 
+Um den Komfort zu erhöhen, sollten Sie unbedingt die passende Browser-Erweiterung installieren, 
+die ein automatisches Ausfüllen von Zugangsdaten ermöglicht.
+
+Zusätzlich bietet KeePassXC mächtige Zusatzfunktionen:
+- **TOTP:** Sie können direkt Zwei-Faktor-Authentifizierungscodes (Time-based One-Time Passwords) in KeePassXC generieren lassen, was separate Authenticator-Apps überflüssig macht.
+- **SSH-Keys:** Für die fortgeschrittenen unter uns: KeePassXC verfügt über einen integrierten SSH-Agenten. Ihre SSH-Schlüssel können sicher in der Datenbank verwahrt und bei Bedarf automatisch bereitgestellt werden.
 
 .. warning::
     - Verwenden Sie Passwörter niemals doppelt!
-    - Wenn möglich, empfehlen wir die Aktivierung der Zwei Faktor Authentifizierung
-    - Verwenden Sie für Bitwarden ein sicheres Passwort mit Sonderzeichen, welches keine auf Sie rückschließende Komponenten beinhaltet.
+    - Da die Datenbank lokal liegt, sind Sie selbst für regelmäßige Backups der `.kdbx`-Datei verantwortlich.
+    - Verwenden Sie ein starkes Master-Passwort, da dieses der einzige Schutz für all Ihre Daten ist.
+
 
 Warpinator
 ----------
@@ -101,12 +108,17 @@ Möchte man wieder den übergeordneten Ordner ansehen, kann man in die Mitte des
 
 Ihre Wissensdatenbank
 ---------------------
-Egal, was Sie an Ihrem Computer oder auf Ihrer Arbeit erledigen.
-Das schreiben eigener Anleitungen ist langfristig für die Produktivität essentiell.
 
-Sie können dies entweder über die ``Notizen`` App machen, oder über Nextcloud Notes.
+Egal, was Sie an Ihrem Computer oder auf Ihrer Arbeit erledigen: Das Schreiben eigener Anleitungen ist langfristig für die Produktivität essentiell.
 
-.. tip:: Wir empfehlen Nextcloud Notes. Diese App gibts auch für Android.
+Hierfür empfiehlt sich die Nutzung von **Obsidian**, was leider aktuell nicht Open Source ist, dennoch sehr offene Formate nutzt.
+Da Obsidian alle Notizen als simple `.md` (Markdown) Dateien in einem normalen Ordner auf der Festplatte speichert, 
+ist das Format extrem zukunftssicher und flexibel. 
+
+.. tip:: 
+    Durch das standardisierte Markdown-Format ist Obsidian hervorragend kompatibel mit **Nextcloud Notes**. 
+    Wenn Sie Ihren Notizen-Ordner über Nextcloud synchronisieren, 
+    können Sie Ihre Wissensdatenbank problemlos auf all Ihren Geräten (auch unter Android) nutzen und bearbeiten.
 
 Bildschirmfoto
 --------------

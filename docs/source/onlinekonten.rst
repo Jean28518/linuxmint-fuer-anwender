@@ -56,11 +56,11 @@ Das Hinzufügen eines neuen Mail-Kontos zu Thunderbird ist selbsterklärend.
 Adressbuch der Nextcloud nutzen
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-.. image:: images/thunderbird-carddav.png
+.. image:: images/ThunderbirdAddressbuch.png
 
 - Öffnen Sie wie im Bild gezeigt den "Hinzufügen"-Dialog.
 - Tragen Sie Ihren Nextcloud-Benutzernamen und die Adresse Ihrer Nextcloud ein. Beispiel: ``https://cloud.example.com/``
 - Geben Sie das Passwort Ihres Nextcloud-Kontos im nächsten Dialog ein.
-- Im letzten Dialog können Sie die Adressbücher auswählen. Es wird empfohlen, ``Zuletzt kontaktiert`` abzuwählen. Klicken Sie daraufhin auf ``Weiter``. 
+- Im letzten Dialog können Sie die Adressbücher auswählen. Es wird empfohlen, ``Zuletzt kontaktiert`` abzuwählen, und bei ``Geburtstage`` ``Schreibgeschützt`` zu selektieren. Klicken Sie daraufhin auf ``Weiter``. 
 - Ihr Adressbuch wurde nun hinzugefügt.
 

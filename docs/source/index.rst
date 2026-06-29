@@ -24,6 +24,7 @@ Inhalt
    drucker
    buero
    nuetzliche_programme
+   pdf_und_scannen
    dateimanager
    cinnamon
    benutzer_und_rechte
