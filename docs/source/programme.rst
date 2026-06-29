@@ -138,8 +138,7 @@ die Sie starten können.
 
 Sollten Sie keine ausführbare Datei finden
 und stattdessen eine Datei mit dem Namen ``Makefile`` vorliegen haben,
-müssen Sie das Programm erst kompilieren.
-Dies behandle ich jedoch im Kurs *Linux Mint für Fortgeschrittene*.
+müssen Sie das Programm erst kompilieren, dies werden wir hier nicht weiter besprechen.
 
 
 Windows-Anwendungen unter Linux
