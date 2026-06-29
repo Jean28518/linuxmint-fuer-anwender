@@ -87,8 +87,6 @@ Zusammenfassend lässt sich die Sicherheit Ihres Systems auf fünf goldene Regel
 
 |
 
-|
-
 
 1. **Aktualisierungen (Updates):**
    Sobald solche Sicherheitslücken bekannt werden, schließen Entwickler sie über Sicherheitsupdates.
