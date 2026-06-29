@@ -49,3 +49,18 @@ Ein korrektes Einstellungsfenster sieht so aus:
 .. tip:: 
     Richtet man zusätzlich eine VPN Verbindung ein, 
     kann man so ohne Probleme auch auf Rechner in hunderten km Entfernung zugreifen.
+
+
+RustDesk
+--------
+
+Eine sehr beliebte Open-Source-Alternative zu bekannten kommerziellen Fernwartungsprogrammen wie TeamViewer oder AnyDesk ist **RustDesk**. Im Gegensatz zu RDP benötigt RustDesk im Standardbetrieb keine aufwendige VPN-Einrichtung oder Portfreigaben im Router, da die Verbindung über öffentliche Vermittlungsserver (Relay-Server) hergestellt wird.
+
+**Vorteile von RustDesk:**
+Die Bedienung ist denkbar einfach: Die Verbindung wird unkompliziert per ID und Einmalpasswort aufgebaut (ähnlich wie bei TeamViewer), ganz ohne VPN-Einrichtung. RustDesk läuft auf allen gängigen Systemen (Linux, Windows, macOS, Android, iOS), verschlüsselt standardmäßig Ende-zu-Ende und erlaubt es sogar, einen eigenen Server aufzusetzen, um die volle Kontrolle über die eigenen Daten zu behalten.
+
+**Nachteile von RustDesk:**
+Wer die kostenlosen, öffentlichen Server von RustDesk nutzt, muss sich seit einiger Zeit auf dem steuernden Gerät zwingend mit einem Account (z. B. Google, GitHub oder E-Mail) anmelden, um Missbrauch zu verhindern. Zudem teilen Sie sich die Bandbreite mit der restlichen Community, was zu Stoßzeiten zu spürbaren Rucklern oder langsamen Verbindungen führen kann.
+
+.. note::
+   Wer die Registrierungspflicht umgehen und maximale Privatsphäre genießen möchte, kann sich relativ einfach einen eigenen RustDesk-Server (bestehend aus den Diensten ``hbbs`` und ``hbbr``) auf einem eigenen Minicomputer (z. B. Raspberry Pi) oder einem virtuellen Server im Internet einrichten.
