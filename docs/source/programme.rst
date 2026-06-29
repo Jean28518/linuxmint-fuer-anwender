@@ -1,11 +1,12 @@
 Programme installieren
 ======================
 
-
 Anwendungsverwaltung
 --------------------
-Diese sollte die erste Anlaufstelle sein, wenn man Anwendungen installieren möchte. 
-Die Beschreibung ist meist aufschlussreich und empfehlenswert.
+
+Die Anwendungsverwaltung sollte Ihre erste Anlaufstelle sein,
+wenn Sie Anwendungen installieren möchten.
+Die dortigen Beschreibungen sind meist aufschlussreich und hilfreich.
 
 
 Beispiel Obsidian:
@@ -13,146 +14,186 @@ Beispiel Obsidian:
 
 .. image:: images/obsidian-anwendungsverwaltung.png
 
-Wenn man sich den Beschreibungstext durchliest, erfahren wir, 
-dass diese Ausführung nicht offiziell von den Entwicklern unterstützt wird.
-Sollten also während der Benutzung Fehler auftreten, 
-könnte das auf diesen Sachverhalt zurückzuführen sein.
-
-Flatpaks:
-^^^^^^^^^
-Aus dem Screenshot im zuvorigen Abschnitt kann man unter Details das Wort ``Flatpak`` entnehmen.
-Flatpak ist eine eigene Technologie, auf Linux Programme zu installieren und auszuführen.
-
-Flatpaks haben den Vorteil, dass sie auf jedem Linux laufen sollen und in der Regel aktuellere Versionen eines Programms bieten.
-Dazu laufen sie in ihrem eigenen kleinen "Linux", auch Sandkasten genannt.
-Allerdings können so bei manchen Flatpaks Kompatibilitäts-Probleme im Zusammenspiel vorallem mit anderen Programmen auftreten,
-da diese nicht in die kleinen "Sandkästen" herein oder aus ihren eigenen heraus kommen.
-
-Dies bringt eine neue Sicherheitsschicht mit sich: Durch diese kann man kontrollieren, 
-was ein Flatpak-Programm auf dem System machen darf.
-
-.. tip:: 
-    Manchmal findet man bei der Dateiauswahl nicht die gewünschte Dateien oder Ordner. Dies kann darauf hinweisen, 
-    dass das Flatpak keine Berechtigungen hat, auf alle Dateien zuzugreifen.
-    Durch die Anwendung ``Flatseal`` kann man unter anderem die Dateiberechtigungen für einzelne Flatpak-Anwendungen einstellen und ändern.
-
-.. warning:: 
-    Auch wenn Flatpak-Anwendungen eine neue Sicherheitsschicht haben, kann diese durch bösartige Anwendungen umgangen werden.
-    Hat es eine Anwendung also abgesehen, aus dieser Schicht auszubrechen, kann sie dies bis zu einem gewissen Grad tun.
+Wenn Sie sich den Beschreibungstext aufmerksam durchlesen,
+erfahren Sie,
+dass diese Version nicht offiziell von den Entwicklern unterstützt wird.
+Sollten also während der Benutzung Fehler auftreten,
+kann dies auf diesen Sachverhalt zurückzuführen sein.
 
 
-.deb Dateien aus dem Internet
+Flatpaks
+^^^^^^^^
+
+Aus den Details im vorherigen Abschnitt können Sie entnehmen,
+dass es sich um ein Flatpak handelt.
+Flatpak ist eine moderne Technologie,
+um Programme unter Linux zu installieren und isoliert auszuführen.
+
+Flatpaks haben den Vorteil,
+dass sie auf fast jeder Linux-Distribution laufen und in der Regel sehr aktuelle Programmversionen bieten.
+Dazu laufen sie in ihrer eigenen, geschützten Umgebung (auch Sandkasten genannt).
+Allerdings können bei manchen Flatpaks Kompatibilitätsprobleme im Zusammenspiel mit anderen Programmen auftreten,
+da diese nicht in die geschützten Umgebungen hinein- oder aus ihnen herauskommen.
+
+Dies bringt eine neue Sicherheitsschicht mit sich:
+Durch sie können Sie kontrollieren,
+was eine Flatpak-Anwendung auf dem System tun darf.
+
+.. tip::
+    Manchmal finden Sie bei der Dateiauswahl nicht die gewünschten Dateien oder Ordner.
+    Dies kann darauf hinweisen,
+    dass das Flatpak keine Berechtigung besitzt, auf das restliche Dateisystem zuzugreifen.
+    Mithilfe der Anwendung **Flatseal** können Sie unter anderem die Dateiberechtigungen für einzelne Flatpak-Anwendungen anpassen.
+
+.. warning::
+    Auch wenn Flatpak-Anwendungen eine zusätzliche Sicherheitsschicht besitzen,
+    kann diese von bösartigen Anwendungen umgangen werden.
+    Ist eine Anwendung darauf ausgelegt,
+    aus dieser Umgebung auszubrechen,
+    kann sie dies bis zu einem gewissen Grad tun.
+
+
+.deb-Dateien aus dem Internet
 -----------------------------
 
-Manchmal kann es sinnvoll sein, auf die Programme aus der Anwendungsverwaltung zu verzichten und 
-die offizielle Version eines Programms zu installieren.
+Manchmal kann es sinnvoll sein,
+auf die Programme aus der Anwendungsverwaltung zu verzichten
+und stattdessen die offizielle Version direkt vom Entwickler zu installieren.
 
-.. warning:: 
-    Man sollte unbedingt auf die Quelle der .deb Datei achten. 
-    Bitte nur ausschließlich .deb Dateien von offiziellen Herstellerseiten installieren.
-    Eine .deb Datei kann ALLES mit dem System machen:
-    Das Zerstören des kompletten Systems, Wiederherstellungspunken und aller persönlicher Dateien kann man extrem schnell erreichen.
+.. warning::
+    Achten Sie unbedingt auf die Quelle der ``.deb``-Datei.
+    Installieren Sie bitte ausschließlich Pakete von offiziellen Herstellerseiten.
+    Eine ``.deb``-Datei besitzt vollständige Systemrechte:
+    Das Zerstören des gesamten Systems,
+    der Wiederherstellungspunkte und all Ihrer persönlichen Dateien kann andernfalls die Folge sein.
 
-**Sollte die .deb Version der Herstellerseite keine nennenswerten Vorteile bringen,
-wird dringends von der Installation abgeraten, da das Sicherheitsrisiko für das System extrem hoch sein kann.**
+**Sollte the .deb-Version der Herstellerseite keine nennenswerten Vorteile bieten,
+rate ich Ihnen dringend von der Installation ab,
+da das Sicherheitsrisiko für Ihr System extrem hoch sein kann.**
 
-Für manche Anwendungen ist aber eine .deb Version unumgänglich, wenn man die Anwendungen nutzen möchte.
-Beispielsweise wäre das Softmaker Office.
+Für manche Anwendungen ist eine ``.deb``-Version jedoch unumgänglich.
+Ein Beispiel hierfür ist Softmaker Office.
 
-Um eine .deb Datei zu installieren reicht es, diese herunterzuladen
-und mit einem Doppelklick zu "starten", und auf ``Paket installieren`` zu drücken.
+Um eine ``.deb``-Datei zu installieren,
+müssen Sie diese lediglich herunterladen,
+per Doppelklick öffnen und auf ``Paket installieren`` klicken.
 
 
 AppImages
 ---------
 
-AppImages sind ganz spezielle Dateien: Sie enthalten alles, was eine Anwendung zum Laufen braucht.
-Eine Installation ist nicht nötig. Es reicht lediglich, diese in einen Ordner (beispielsweise 'Programme') zu verschieben
-und diese in den Datei-Eigenschaften als ausführbar zu markieren. (Siehe Benutzer und Berechtigungen)
-Danach kann man das Programm durch einen Doppelklick auf die AppImage Datei starten.
+AppImages sind spezielle, tragbare Programmdateien:
+Sie enthalten alles, was eine Anwendung zum Ausführen benötigt.
+Eine Installation im System ist nicht nötig.
+Es reicht aus, das AppImage in einen Ordner (beispielsweise „Programme“ in Ihrem persönlichen Verzeichnis) zu verschieben
+und die Datei in den Dateieigenschaften als ausführbar zu markieren (siehe Kapitel *Benutzer und Berechtigungen*).
+Danach können Sie das Programm durch einen Doppelklick auf die AppImage-Datei starten.
 
-.. tip:: 
-    Es empfiehlt sich, das Programm ``Gear Lever`` aus der Anwendungsverwaltung nachzuinstallieren. Damit lassen sich extrem einfach App-Images verwalten und dem Linux Mint Menü hinzuzufügen.
+.. tip::
+    Ich empfehle Ihnen,
+    das Programm **Gear Lever** aus der Anwendungsverwaltung zu installieren.
+    Damit lassen sich AppImages extrem komfortabel verwalten und in Ihr Linux-Mint-Startmenü integrieren.
 
-.. note:: 
-    AppImages werden nicht automatisch aktualisiert. Sicherheitsrelevante Anwendungen nutzen dieses Format aber sowieso nicht.
+.. note::
+    AppImages aktualisieren sich in der Regel nicht automatisch.
+    Sicherheitsrelevante Anwendungen nutzen dieses Format daher in der Regel nicht.
+
 
 Fremdquellen (PPAs)
 -------------------
 
-Manche Anwendungen findet man nicht in der Anwendungsverwaltung. Anstattdessen "manuell" .deb Dateien zu installieren,
-bieten manche Hersteller *Personal Package Archives* (PPAs) oder andere Fremdquellen an.
-Der Vorteil dabei ist, dass Anwendungen daraus auch automatisch Updates erhalten.
+Manche Anwendungen finden Sie nicht in der Anwendungsverwaltung.
+Anstatt manuell ``.deb``-Dateien zu installieren,
+bieten viele Entwickler sogenannte *Personal Package Archives* (PPAs) oder andere Fremdquellen an.
+Der Vorteil hierbei ist,
+dass die installierten Programme automatisch über die Systemaktualisierung Updates erhalten.
 
-.. note:: 
-    Manche .deb Dateien richten automatisch eine Fremdquelle ein und stellen sicher, dass das Programm automatisch Updates erhält.
-    Google Chrome macht dies beispielsweise.
+.. note::
+    Einige ``.deb``-Dateien richten bei ihrer Installation automatisch eine passende Fremdquelle ein,
+    damit die Anwendung künftige Updates erhält.
+    Google Chrome verhält sich beispielsweise so.
 
-Mit dem Programm ``Anwendungspaketquellen`` kann man PPAs und weitere zusätzliche Fremdquellen einsehen und konfigurieren.
+Mit dem Programm ``Anwendungspaketquellen`` können Sie PPAs und weitere Fremdquellen einsehen und konfigurieren.
 
-Hat man eine neue Fremdquelle hinzufügt, kann man nach dem Aktualisieren des Zwischenspeichers die Anwendungen in der Anwendungsverwaltung finden.
+Haben Sie eine neue Fremdquelle hinzugefügt,
+finden Sie die entsprechenden Anwendungen nach dem Aktualisieren des Zwischenspeichers in der Anwendungsverwaltung.
 
-.. note:: 
-    Dafür muss man zusätzlich in der Anwendungsverwaltung im Burger-Menü rechts neben der Suche ``Bitte die Paketliste auffrischen`` auswählen.
-
-.tar.gz oder .zip Dateien
--------------------------
-
-Manchmal bieten Programm-Hersteller nur eine .tar.gz oder .zip Datei an.
-Dies geschieht sehr selten und wird einem im regulären Linux-Alltag eigentlich nie begegnen.
-
-Solche Dateien sollte man entpacken. Meist findet man dann dort eine ausführbare Datei (=meist keine Dateiendung), die man dann starten kann.
-
-.. tip:: 
-    Man kann in den Menüeinstellungen einen neuen Menüeintrag für das Programm definieren.
-    Dann kann man dies wie alle anderen Anwendungen über das Startmenü starten.
+.. note::
+    Dafür müssen Sie in der Anwendungsverwaltung im Menü rechts neben der Suche die Option ``Paketliste auffrischen`` auswählen.
 
 
-Sollte man keine ausführbare Datei finden und liegt stattdessen eine Datei mit dem Namen
-``Makefile`` vor, muss man dieses Programm erst kompilieren. 
-Dies wird allerdings im *Linux Mint für Fortgeschrittene* Kurs behandelt.
+.tar.gz- oder .zip-Dateien
+--------------------------
+
+Manchmal bieten Entwickler ihre Programme nur als gepacktes Archiv (``.tar.gz`` oder ``.zip``) an.
+Dies geschieht sehr selten und wird Ihnen im regulären Linux-Alltag kaum begegnen.
+
+Entpacken Sie solche Archive.
+Meist finden Sie darin eine ausführbare Datei (oft ohne Dateiendung),
+die Sie starten können.
+
+.. tip::
+    Sie können in den Menüeinstellungen einen neuen Eintrag für das Programm anlegen,
+    sodass Sie es wie gewohnt über das Startmenü starten können.
+
+Sollten Sie keine ausführbare Datei finden
+und stattdessen eine Datei mit dem Namen ``Makefile`` vorliegen haben,
+müssen Sie das Programm erst kompilieren.
+Dies behandle ich jedoch im Kurs *Linux Mint für Fortgeschrittene*.
 
 
 Windows-Anwendungen unter Linux
 -------------------------------
 
-Der Umstieg auf Linux Mint wirft oft die Frage auf, 
-wie man gewohnte Windows-Programme (``.exe``-Dateien) weiter nutzen kann. 
-Es gibt dafür verschiedene technische Wege, Windows-Software auf Linux auszuführen:
+Der Umstieg auf Linux Mint wirft oft die Frage auf,
+wie Sie gewohnte Windows-Programme (``.exe``-Dateien) weiter nutzen können.
+Es gibt dafür verschiedene technische Wege,
+Windows-Software auf Linux auszuführen:
 
 * **Wine (nativ):**
-  Wine ist kein Emulator, sondern eine Kompatibilitätsschicht, die Windows-Systemaufrufe direkt in Linux-Befehle übersetzt. 
+  Wine ist kein Emulator, sondern eine Kompatibilitätsschicht, die Windows-Systemaufrufe direkt in Linux-Befehle übersetzt.
   Dadurch laufen viele Windows-Programme ohne Windows-Betriebssystem direkt auf Ihrem Desktop.
 
 * **Bottles:**
-  Dieses Werkzeug basiert auf Wine und macht die Verwaltung deutlich einfacher. 
-  In Bottles können Sie isolierte Umgebungen ("Flaschen") für verschiedene Programme anlegen, 
-  sodass sich verschiedene Anwendungen nicht in die Quere kommen. Zudem lassen sich benötigte Windows-Bibliotheken (DLLs) per Mausklick nachinstallieren.
+  Dieses Werkzeug basiert auf Wine und macht die Verwaltung deutlich einfacher.
+  In Bottles können Sie isolierte Umgebungen („Flaschen“) für verschiedene Programme anlegen,
+  sodass sich verschiedene Anwendungen nicht gegenseitig stören.
+  Zudem lassen sich benötigte Windows-Bibliotheken (DLLs) bequem per Mausklick nachinstallieren.
 
 * **Proton:**
-  Diese von Valve entwickelte Wine-Variante ist direkt in Steam integriert. 
+  Diese von Valve entwickelte Wine-Variante ist direkt in Steam integriert.
   Sie ist stark auf 3D-Grafik optimiert und sorgt dafür, dass tausende Windows-Spiele unter Linux auf Knopfdruck laufen.
 
 * **Windows in VirtualBox (Virtualisierung):**
-  Hierbei installieren Sie über das Programm **VirtualBox** ein vollständiges, virtuelles Windows in einem Fenster unter Linux Mint. 
-  Die Windows-Software läuft dann in ihrer echten Originalumgebung.
+  Hierbei installieren Sie über das Programm **VirtualBox** ein vollständiges, virtuelles Windows in einem Fenster unter Linux Mint.
+  Die Windows-Software läuft dann in ihrer gewohnten Originalumgebung.
+
 
 Die Probleme mit Wine, Bottles und Proton
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-Die Erfolgsquote beim Ausführen von Windows-Programmen über Übersetzungsschichten ist extrem schwankend. 
-Während manche Anwendungen sofort funktionieren, erfordern viele andere einen enormen Konfigurationsaufwand. 
-Zudem besteht immer das Risiko, dass Updates der Windows-Anwendung das mühsam konfigurierte Setup von heute auf morgen wieder unbrauchbar machen.
+
+Die Erfolgsquote beim Ausführen von Windows-Programmen über Übersetzungsschichten ist extrem schwankend.
+Während manche Anwendungen sofort funktionieren,
+erfordern viele andere einen enormen Konfigurationsaufwand.
+Zudem besteht immer das Risiko,
+dass Updates der Windows-Anwendung das mühsam konfigurierte Setup von heute auf morgen unbrauchbar machen.
+
 
 Linux-Alternativen nutzen
 ^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Kein langjähriger Linux-Nutzer betreibt im Alltag noch Windows-Programme. 
-Das Ziel sollte immer sein, langfristig auf native Linux-Alternativen umzusatteln. 
-Diese laufen stabiler, verbrauchen weniger Ressourcen und machen bei System-Updates keinen Ärger. 
-Um passende Programme zu finden, hilft die Webseite `AlternativeTo.com <https://alternativeto.net/>`_. 
+Kaum ein langjähriger Linux-Nutzer betreibt im Alltag noch Windows-Programme.
+Das Ziel sollte immer sein,
+langfristig auf native Linux-Alternativen umzusatteln.
+Diese laufen stabiler,
+verbrauchen weniger Ressourcen und machen bei System-Updates keinen Ärger.
+Um passende Programme zu finden,
+hilft Ihnen die Webseite `AlternativeTo.com <https://alternativeto.net/>`_.
 Geben Sie dort einfach das gewohnte Windows-Programm ein und filtern Sie die Ergebnisse nach „Linux“.
 
-Sollte es für eine Software (z. B. ein spezielles Steuer- oder Buchhaltungsprogramm) absolut keine Linux-Alternative geben, 
-ist die Virtualisierung mit **VirtualBox** die stabilste Lösung. 
-Da dort ein echtes Windows läuft, funktionieren Programme und deren Updates garantiert. 
-Dieser Weg eignet sich allerdings nicht für anspruchsvolle 3D-Spiele, da VirtualBox keine starke 3D-Grafikbeschleunigung bietet.
+Sollte es für eine Software (z. B. ein spezielles Steuer- oder Buchhaltungsprogramm) absolut keine Linux-Alternative geben,
+ist die Virtualisierung mit **VirtualBox** die stabilste Lösung.
+Da dort ein echtes Windows läuft,
+funktionieren die Programme und deren Updates garantiert.
+Dieser Weg eignet sich allerdings nicht für anspruchsvolle 3D-Spiele,
+da VirtualBox keine starke 3D-Grafikbeschleunigung bietet.

@@ -4,142 +4,192 @@ Installation
 Download
 --------
 
-Linux Mint kann von der offiziellen Seite heruntergeladen werden: `https://linuxmint.com/download.php <https://linuxmint.com/download.php>`_. 
-Als Download-Server empfiehlt sich unter anderem die Hochschule Esslingen oder die Friedrich-Alexander-Universität Erlangen-Nürnberg, welche seit vielen Jahren sehr zuverlässig funktioneren.
-Wird ein sehr neuer Rechner verwendet, haben die Entwickler eine "HWE" (Hardware Enablement) Version zur Verfügung gestellt. 
-Diese bitte nur verwenden, wenn die reguläre Version nicht funktioniert, da evtl. andere auf Linux Mint zugeschnittene Treiber eventuell nicht mit dieser neuen Version kompatibel sind.
+Sie können Linux Mint von der offiziellen Seite herunterladen: `https://linuxmint.com/download.php <https://linuxmint.com/download.php>`_.
+Als Download-Server empfehle ich Ihnen unter anderem die Hochschule Esslingen oder die Friedrich-Alexander-Universität Erlangen-Nürnberg,
+da diese seit vielen Jahren sehr zuverlässig funktionieren.
+Wenn Sie einen sehr neuen Rechner verwenden,
+können Sie auf die „HWE“-Version (Hardware Enablement) zurückgreifen,
+die die Entwickler zur Verfügung gestellt haben.
+Ich empfehle Ihnen,
+diese Version nur dann zu verwenden,
+wenn die reguläre Version nicht funktioniert,
+da andere auf Linux Mint zugeschnittene Treiber eventuell nicht mit dieser neueren Version kompatibel sind.
 
 
 Bootstick erstellen
 -------------------
 
-Hierfür empfiehlt sich das Programm `Etcher <https://www.balena.io/etcher/>`_. 
-Ein alternatives Windows-Programm ist `Rufus <https://rufus.ie/>`_, dort unter "Auswahl" die heruntergeladene ISO-Datei auswählen und den Rest auf Standard-Einstellungen belassen.
-Eventuelle Fragen über Dateien, die zusätzlich heruntergeladen werden sollen, mit "Ja" beantworten.
-Hat man alternativ schon eine Linux Mint Maschine verfügbar, 
-kann man dies über das Programm ``USB-Abbilderstellung`` erledigen.
+Hierfür empfehle ich Ihnen das Programm `Etcher <https://www.balena.io/etcher/>`_.
+Ein alternatives Windows-Programm ist `Rufus <https://rufus.ie/>`_.
+Wählen Sie dort unter „Auswahl“ die heruntergeladene ISO-Datei aus,
+und belassen Sie die restlichen Optionen auf den Standardeinstellungen.
+Eventuelle Fragen zu Dateien,
+die zusätzlich heruntergeladen werden sollen,
+beantworten Sie bitte mit „Ja“.
+Wenn Sie bereits eine Linux-Mint-Maschine zur Verfügung haben,
+können Sie dies über das vorinstallierte Programm ``USB-Abbilderstellung`` erledigen.
 
 
 Speicherplatz frei machen
 -------------------------
 
-Dies kann man bei Windows über das Programm ``Festplattenpartitionen erstellen`` erledigen.
-Bei Linux Mint kann man dies über das Programm ``gparted`` oder über ``Laufwerke`` machen.
-Es ist empfohlen, mindestens 50 GB verfügbar zu machen.
-Das Erstellen einer Partition auf dem freien Speicherplatz ist nicht nötig. 
+Dies können Sie unter Windows über das Programm ``Festplattenpartitionen erstellen`` erledigen.
+Unter Linux Mint können Sie dies über das Programm ``gparted`` oder über ``Laufwerke`` tun.
+Ich empfehle Ihnen,
+mindestens 50 GB Speicherplatz freizugeben.
+Das Erstellen einer Partition auf dem freien Speicherplatz ist dabei nicht nötig.
 
-.. note:: 
-    Wenn man Linux Mint neben Windows installieren möchte, ist empfohlen,
-    die beiden Systeme jeweils auf eine eigene Festplatte zu installieren.
-    Somit hat Windows weniger "Ausreden", den Linux-Bootloader zu überschreiben.
-    Im Zweifelsfall muss man in diesem Parallelbetrieb den Bootloader von Linux Mint wiederherstellen, dies wird im Kapitel über die Problembehebung weiter besprochen.
+.. note::
+    Wenn Sie Linux Mint neben Windows installieren möchten,
+    empfehle ich Ihnen,
+    die beiden Systeme auf jeweils eigene Festplatten zu installieren.
+    Somit hat Windows weniger Möglichkeiten,
+    den Linux-Bootloader zu überschreiben.
+    Im Zweifelsfall müssen Sie in diesem Parallelbetrieb den Bootloader von Linux Mint wiederherstellen.
+    Ich gehe darauf im Kapitel über die Problembehebung genauer ein.
 
 
 Installation
 ------------
 
-Den USB-Stick starten. Sollten Sie Probleme haben, den USB-Stick zu starten, 
-suchen Sie im Internet nach Ihrem Laptop-Modell oder Mainboardhersteller und fügen Sie ``von USB-Stick starten`` hinten an.
-Gängige Tasten sind: ``ESC``, ``F2``, ``F8``, ``F11``, ``F12``, oder ``Entf``.
+Starten Sie den USB-Stick.
+Sollten Sie Probleme beim Starten des USB-Sticks haben,
+suchen Sie im Internet nach Ihrem Laptop-Modell oder Mainboard-Hersteller
+und fügen Sie die Suchbegriffe ``von USB-Stick starten`` hinzu.
+Gängige Tasten für das Boot-Menü sind:
+``ESC``, ``F2``, ``F8``, ``F11``, ``F12`` oder ``Entf``.
 
-.. note:: 
-    Sollte es Probleme beim Hochfahren von Linux Mint geben, können Sie beim Starten des USB-Sticks den ``Compatibility`` Modus auswählen.
-    Wenn danach die Bildschirmauflösung noch nicht perfekt sein sollte, ist das okay.
+.. note::
+    Sollte es Probleme beim Hochfahren von Linux Mint geben,
+    können Sie beim Starten des USB-Sticks den ``Compatibility``-Modus auswählen.
+    Wenn danach die Bildschirmauflösung noch nicht optimal sein sollte,
+    ist das vorerst kein Problem.
 
-Bei der Installation wie gehabt vorgehen. 
-Es ist empfohlen, die Multimedia-Codecs zu installieren.
+Gehen Sie bei der Installation wie gewohnt vor.
+Ich empfehle Ihnen dringend,
+die Multimedia-Codecs direkt mitzuinstallieren.
 
-Sollte nach einem Passwort für Secure Boot gefragt werden, empfehle ich, Secure Boot zu deaktivieren, 
-da dies später erfahrungsgemäß zu mehr Problemen führt, als dass es die Sicherheit merktlich erhöht.
+Sollten Sie nach einem Passwort für Secure Boot gefragt werden,
+empfehle ich Ihnen,
+Secure Boot im BIOS/UEFI zu deaktivieren,
+da dies später erfahrungsgemäß zu Komplikationen führt,
+ohne die Sicherheit merklich zu erhöhen.
 
-Sollten Sie wie oben beschrieben freien Speicherplatz geschaffen haben, wählen sie ``Linux Mint daneben installieren`` aus.
-Der Rest wird automatich erledigt. Diese Prozedur ist empfohlen, da sie am wenigsten Komplikationen erfordert.
+Wenn Sie wie oben beschrieben freien Speicherplatz geschaffen haben,
+wählen Sie bitte die Option ``Linux Mint daneben installieren``.
+Der Rest wird automatisch erledigt.
+Ich empfehle diese Vorgehensweise,
+da sie am wenigsten Komplikationen verursacht.
 
-Konfigurieren Sie danach in den restlichen Schritten die Linux Mint Installation nach Ihren Wünschen.
+Konfigurieren Sie danach in den restlichen Schritten Ihre Linux-Mint-Installation nach Ihren Wünschen.
+
 
 Verschlüsselung
 ---------------
 
-Im Fenster der Installations-Art gibt es unter "Erweiterte Funktionen..." die Möglichkeit das System zu verschlüsseln.
-Diese Option ist vor allem für Laptops mit denen man unterwegs ist, sehr empfehlenswert.
+Im Fenster für die Installationsart finden Sie unter „Erweiterte Funktionen...“ die Möglichkeit,
+das System vollständig zu verschlüsseln.
+Diese Option empfehle ich Ihnen vor allem für Laptops,
+mit denen Sie häufig unterwegs sind.
 
 .. tip::
-    Bei der Benutzererstellung kann man dann hier auch "Automatische Anmeldung" auswählen, da die Verschlüsselung des Systems bereits einen Passwortschutz bietet.
-    Sollte man später beim installierten System gefragt werden, ein Passwort für den  Anmeldeschlüsselbund anlegen, kann man hier getrost das Passwort leer lassen und die Warnung mit "Ignorieren" bestätigen.
-    Denn die Passwörter werden sind schon verschlüsselt durch die Systemverschlüsselung abgelegt und müssen daher nicht zwingend noch einmal verschlüsselt werden.
-    Damit kann man seinen Laptop nur mit dem Verschlüsselungs-Passwort starten und kann danach direkt mit dem Arbeiten loslegen, ohne weitere Passwörter eingeben zu müssen.
+    Bei der Benutzererstellung können Sie dann auch die „Automatische Anmeldung“ auswählen,
+    da die Systemverschlüsselung bereits einen vollwertigen Passwortschutz bietet.
+    Sollten Sie später im installierten System dazu aufgefordert werden,
+    ein Passwort für den Anmeldeschlüsselbund anzulegen,
+    können Sie das Passwortfeld leer lassen und die Warnung mit „Ignorieren“ bestätigen.
+    Denn Ihre Passwörter sind durch die Systemverschlüsselung bereits geschützt abgelegt
+    und müssen nicht zwingend doppelt verschlüsselt werden.
+    Damit müssen Sie Ihren Laptop nur beim Systemstart entschlüsseln
+    und können danach direkt mit der Arbeit loslegen,
+    ohne weitere Passwörter eingeben zu müssen.
 
 
 .. warning::
-    Bitte wählen Sie bei der Benutzerkonfiguration ``Meinen Persönlichen Ordner verschlüsseln`` nicht aus:
-    Der Verschlüsselungsmechanismus gilt als nicht mehr sicher und diese Methode zur Verschlüsselung verhindert manch andere Systemfunktionen, wie z.B. das Änderungsdatum/Erstellungsdatum von Dateien korrekt zu speichern.
-    Ebenfalls ist die Wiederherstellung dieser Daten im Falle eines Systemabsturzes oder einer Neuinstallation nur sehr schwer möglich und kaum dokumentiert.
+    Bitte wählen Sie bei der Benutzerkonfiguration die Option ``Meinen Persönlichen Ordner verschlüsseln`` nicht aus:
+    Dieser Verschlüsselungsmechanismus gilt als veraltet und unsicher.
+    Zudem verhindert diese Methode manche Systemfunktionen,
+    wie etwa das korrekte Speichern des Änderungs- oder Erstellungsdatums von Dateien.
+    Auch ist die Wiederherstellung dieser Daten im Falle eines Systemabsturzes oder einer Neuinstallation äußerst schwierig
+    und kaum dokumentiert.
 
 
 Manuelle Verschlüsselung von /home im Nachhinein (für Fortgeschrittene)
 ***********************************************************************
 
-Möchte man seine persönlochen Daten im Nachhinein verschlüsseln kann man das wie folgt:
+Wenn Sie Ihre persönlichen Daten im Nachhinein verschlüsseln möchten,
+können Sie dies wie folgt durchführen:
 
-- Starten vom Linux Mint Installations-Stick
-- Anstatt ``Install Linux Mint``   ``gparted`` aus dem Menü öffnen und oben rechts das richtige Gerät auswählen
-- (Falls wenig freier Speicherplatz vorhanden ist, die persönlichen Daten bspw. auf eine Externe Festplatte auslagern.)
-- Die vorhandene Linux Mint Partition verkleinern, empfohlen ist ca. 20 bis 100 GB "Luft" auf der Linux Mint Partition zu lassen, damit man noch weitere Programme, etc. installieren kann.
-- Nicht vergessen, in Gparted die Änderungen anzuwenden über den grünen Haken.
-
+- Starten Sie den Rechner vom Linux-Mint-Installationsstick.
+- Anstatt ``Install Linux Mint`` auszuwählen,
+  öffnen Sie ``gparted`` aus dem Anwendungsmenü und wählen Sie oben rechts das richtige Laufwerk aus.
+- Sollte nur wenig freier Speicherplatz vorhanden sein,
+  sichern Sie Ihre persönlichen Daten vorab beispielsweise auf einer externen Festplatte.
+- Verkleinern Sie die vorhandene Linux-Mint-Partition.
+  Ich empfehle Ihnen,
+  ca. 20 bis 100 GB freien Speicherplatz („Luft“) auf der Systempartition zu lassen,
+  damit Sie später problemlos weitere Programme installieren können.
+- Wenden Sie die Änderungen in GParted über das grüne Haken-Symbol an.
 
 .. figure:: images/gpartedVerkleinern.png
 
-
-- Dann im Programm **Disks** auf den neuen Freien Speicherplatz eine neue Partition erstellen über das ``+``
-- Dort Linux-Dateisystem und Passwortverschlüsselung auswählen
-
+- Öffnen Sie danach das Programm **Laufwerke** (Disks) und erstellen Sie im neuen freien Speicherplatz über das ``+``-Symbol eine neue Partition.
+- Wählen Sie dort als Typ das Linux-Dateisystem und die Passwortverschlüsselung (LUKS) aus.
 
 .. figure:: images/GnomeDisksFestplatteVerschluesselung.png
 
-
-- Nach dem anlegen dieser Partition die vorhandene Linux Mint Partition einhängen (in diesem Beispiel die Partition 2)
-- Auf dieser Partition die Datei ``/etc/fstab`` als Administrator öffnen und folgende Zeile eintragen: 
+- Nach dem Anlegen dieser Partition hängen Sie die ursprüngliche Linux-Mint-Systempartition ein (in diesem Beispiel Partition 2).
+- Öffnen Sie auf dieser Partition die Datei ``/etc/fstab`` mit Administratorrechten und tragen Sie folgende Zeile ein:
 
 ``/dev/mapper/luks-XXXXXX /home ext4 defaults 0 2``
 
-(Die luks Code muss exakt dem entsprechen, der in disks unter der folgenden Partition eingeblendet wird:)
+Der LUKS-Code (luks-XXXXXX) muss exakt dem Namen entsprechen,
+der in der Laufwerksverwaltung unter der entschlüsselten Partition angezeigt wird:
 
 .. figure:: images/devmapperAdresse.png
 
-- So sollte die Datei am Ende ungefähr aussehen:
+- So sollte Ihre Datei am Ende ungefähr aussehen:
 
 .. figure:: images/etc-fstab-dev-mapper.png
 
-- Nun auf der Linux Mint Partition als Administrator eine Datei erstellen die den Pfad ``/etc/crypttab`` hat (neben der fstab Datei) mit folgendem Inhalt:
+- Erstellen Sie nun auf der Systempartition mit Administratorrechten eine neue Datei unter dem Pfad ``/etc/crypttab`` (direkt neben der fstab-Datei) mit folgendem Inhalt:
 
 ``luks-XXXXXX UUID=XXXXXXXXXXX none luks``
 
-Dabei ist der luks Teil der selbe wie schon oben erwähnt, der UUID Teil ist die UUID der Verschlüsselten "Eltern-Partition" wie im folgenden Bild gezeigt:
+Dabei ist der LUKS-Teil derselbe wie oben erwähnt.
+Der UUID-Teil entspricht der UUID der verschlüsselten Elternpartition,
+wie im folgenden Bild dargestellt:
 
 .. figure:: images/LuksUUID.png
 
-Die fertige Crypttab Datei sieht dann in unserem Beispiel folgendermaßen aus:
+Die fertige crypttab-Datei sieht in unserem Beispiel wie folgt aus:
 
 .. figure:: images/crypttab-example.png
 
-- Damit sind wir (fast) fertig: Denn jetzt müssen wir die Dateien auf die neue verschlüsselte Partition verschieben. Wir machen das mit dem Programm ``grsync``, welches wir auch auf der Live Sitztung von unserem USB-Linux Mint ganz normal aus der Anwendungsverwaltung installieren können.
-  Bevor wir starten, müssen wir sicherstellen, dass beide Partitionen "eingehängt" sind. Das können wir sicherstellen, indem wir in ``Disks`` bei beiden Partitionen jew. den "Play" Knopf neben den Zahnrädern drücken.
+- Damit sind Sie fast fertig:
+  Nun müssen Sie noch die Daten auf die neue verschlüsselte Partition verschieben.
+  Ich empfehle Ihnen dafür das Programm ``grsync``,
+  das Sie in der Live-Sitzung des USB-Sticks ganz normal über die Anwendungsverwaltung installieren können.
+  Stellen Sie vor dem Start sicher,
+  dass beide Partitionen eingehängt sind.
+  Klicken Sie dazu in ``Laufwerke`` bei beiden Partitionen auf das dreieckige Wiedergabe-Symbol.
 
   .. figure:: images/DisksPartitionEinhängen.png
 
-- Nun sollten wir grsync wie folgt konfigurieren:
+- Konfigurieren Sie grsync anschließend wie folgt:
 
-    - Source (erstes Feld): Auf ``Open``, auf ``Other Locations``, dann auf die Linux Mint Festplatte, dort den ``home`` Ordner doppelt klicken, dann ``Open``
-    - GANZ WICHTIG: Am Ende des Pfads in dem ersten Feld einen Schrägstrich manuell hinzufügen, das ist wichtig für grsync, sonst wird der Kopiervorgang falsch laufen.
-    - Destination (Zweites Feld): Auf ``Open``, auf ``Other Locations``, dann auf die verschlüsselte Festplatte, dann ``Open``
-    - Alle Preserve Optionen selektieren
-    - Dann auf den grauen Pfeil, jetzt werden die Daten übertragen.
+    - Quelle (Source, erstes Feld): Klicken Sie auf ``Open``, gehen Sie auf ``Other Locations``, wählen Sie die Linux-Mint-Festplatte aus, öffnen Sie den Ordner ``home`` und bestätigen Sie mit ``Open``.
+    - **Sehr wichtig:** Fügen Sie am Ende des Pfads im ersten Feld manuell einen Schrägstrich (/) hinzu. Dies ist für grsync zwingend erforderlich, da der Kopiervorgang sonst fehlerhaft verläuft.
+    - Ziel (Destination, zweites Feld): Klicken Sie auf ``Open``, gehen Sie auf ``Other Locations``, wählen Sie die verschlüsselte Partition aus und bestätigen Sie mit ``Open``.
+    - Wählen Sie alle „Preserve“-Optionen aus, um Dateirechte und Zeitstempel zu erhalten.
+    - Starten Sie den Vorgang mit einem Klick auf den grauen Pfeil, um die Daten zu übertragen.
 
 .. figure:: images/grsyncHomeFolder.png
 
-- Nun können wir unser Live Linux Mint USB System wieder herunterfahren und dann unseren Rechner normal starten. Jetzt sollten wir von der Eingabe für die Festplattenverschlüsselung begrüßt werden.
+- Fahren Sie nach Abschluss des Kopiervorgangs das Live-System herunter und starten Sie den Rechner normal neu.
+  Nun sollten Sie beim Booten zur Eingabe des Entschlüsselungspassworts aufgefordert werden.
 
-- Wenn alles funktioniert hat, sieht dann in unserem angemeldeten Linux Mint die Festplatten Konfiguration ungefähr so aus, wenn wir das Programm ``Laufwerke`` öffnen:
+- Wenn alles erfolgreich war,
+  sieht die Partitionierung in Ihrem installierten Linux Mint unter dem Programm ``Laufwerke`` in etwa so aus:
 
 .. figure:: images/LuksMountedHome.png

@@ -1,86 +1,111 @@
 Benutzer und Berechtigungen
 ===========================
+
 Das Benutzer-, Gruppen- und Berechtigungssystem unter Linux ist sehr tiefgründig.
-Wir werden nur relevante Themen behandeln.
+Ich werde in diesem Kapitel nur die für Sie relevanten Themen behandeln.
+
 
 Benutzer und Gruppen
 --------------------
-Im Programm ``Benutzer und Gruppen`` können Sie
 
-- Ihr Passwort ändern
-- Ihren angezeigen Namen ändern (kosmetisch)
-- Den Kontotyp zwischen ``Standard`` und ``Systemverwalter`` (Administrator) einstellen
-- Weitere Berechtigungen über den Eintrag in Gruppen definieren.
+Im Programm ``Benutzer und Gruppen`` können Sie:
+
+- Ihr Passwort ändern,
+- Ihren angezeigten Namen anpassen (rein kosmetisch),
+- den Kontotyp zwischen ``Standard`` und ``Systemverwalter`` (Administrator) festlegen,
+- weitere Berechtigungen über die Zuweisung zu Gruppen definieren.
 
 
 Gruppen
 ^^^^^^^
-Mit dem Eintrag von Gruppen kann man definieren, was ein Benutzer machen darf und was nicht.
-Im Linux-Desktop Bereich scheint das Gruppen-Berechtigungs-System allerdings sehr stiefmütterlich behandelt zu sein und ist an vielen Stellen obsolet.
-Wir werden daher nur auf die wichtigen Gruppen eingehen, welche für uns im Desktop-Bereich weiterhin relevant sind:
 
-- **cdrom:** Das DVD/CD-Laufwerk darf benutzt werden
-- **lpadmin:** Drucker dürfen verwaltet und eingerichtet werden. (Drucken kann man auch ohne diese Gruppe)
-- **plugdev:** USB-Sticks, Partitionen, externe Laufwerke können ein/ausgehängt werden
-- **sambashare:** Ordner-Freigaben dürfen mit Samba erstellt werden
-- **sudo:** Administrations-Rechte (!)
-- **nopasswdlogin:** Jeder kann sich ohne Eingabe des Passworts einloggen
+Durch die Mitgliedschaft in Gruppen können Sie definieren,
+was ein Benutzer auf dem System tun darf und was nicht.
+Im Linux-Desktop-Bereich wird das Gruppen-Berechtigungssystem allerdings oft stiefmütterlich behandelt
+und ist an vielen Stellen obsolet.
+Ich gehe daher nur auf die wichtigen Gruppen ein,
+die für Sie im Alltag weiterhin relevant sind:
 
-Gruppen können im Programm ``Benutzer und Gruppen`` für jeden Nutzer verwaltet werden.
+- **cdrom:** Das DVD/CD-Laufwerk darf benutzt werden.
+- **lpadmin:** Drucker dürfen verwaltet und eingerichtet werden (drucken können Sie auch ohne diese Gruppe).
+- **plugdev:** USB-Sticks, Partitionen und externe Laufwerke können Sie hiermit ein- und aushängen.
+- **sambashare:** Ordnerfreigaben dürfen Sie mit Samba erstellen.
+- **sudo:** Administrationsrechte (!).
+- **nopasswdlogin:** Sie können sich ohne Eingabe des Passworts einloggen.
+
+Gruppen können Sie im Programm ``Benutzer und Gruppen`` für jeden Benutzer einzeln verwalten.
 Die anderen verfügbaren Gruppen können Sie als Desktop-Nutzer getrost ignorieren.
 Für Server-Administratoren ist dieser Punkt wesentlich spannender.
 
+
 Administrator (sudo)
 ^^^^^^^^^^^^^^^^^^^^
-Ist ein Benutzer in der Gruppe ``sudo`` eingetragen, oder "heißt" er ``root`` hat er Administrations-Rechte.
+
+Ist ein Benutzer in der Gruppe ``sudo`` eingetragen oder lautet sein Benutzername ``root``,
+besitzt er Administrationsrechte.
 
 .. note:: Hintergrundinformationen:
-    *In Linux Mint wurde der Benutzer* ``root`` *weitestgehend abgeschafft. 
-    Von daher existiert dieser Benutzer nicht richtig.
-    Man kann sich also nicht als Administrator anmelden, sondern hat als Benutzer eben nur Administrator-Rechte mit der Gruppe* ``sudo``.
-    *Möchte man etwas als Administrator tätigen, muss sich der Nutzer nochmal explizit mit seinem Passwort verifizieren. 
-    (Dafür sind die Programme* ``sudo`` *oder* ``pkexec`` *zuständig)*
+    *In Linux Mint wurde der Benutzer* ``root`` *weitestgehend deaktiviert.*
+    *Er existiert daher nicht als eigenständiges Konto.*
+    *Sie können sich also nicht direkt als Administrator anmelden,*
+    *sondern erhalten als normaler Benutzer über die Gruppe* ``sudo`` *administrative Rechte.*
+    *Möchten Sie eine Aktion als Administrator durchführen,*
+    *müssen Sie sich explizit mit Ihrem Passwort verifizieren.*
+    *(Dafür sind die Programme* ``sudo`` *oder* ``pkexec`` *zuständig)*
 
-Ein Administrator kann unter anderem folgende Dinge erledigen:
+Als Administrator können Sie unter anderem folgende Aktionen durchführen:
 
-- Benutzer hinzufügen, entfernen, Gruppen ändern, andere Administratoren löschen
-- Alle Dateien sehen, ändern, löschen. ALLE. (Auch die von anderen Benutzern und Administratoren, sofern diese nicht explizit verschlüsselt sind)
-- Programme aktualisieren, entfernen, installieren
-- Das System in jeder Hinsicht verändern
-- Andere Festplatten und installierte Systeme auslesen, verändern, oder sogar ausführen.
-- Einfach alles
+- Benutzer hinzufügen, entfernen, Gruppen ändern und andere Administratoren verwalten,
+- alle Dateien auf dem System einsehen, ändern und löschen (auch die von anderen Benutzern, sofern diese nicht verschlüsselt sind),
+- Programme installieren, aktualisieren und deinstallieren,
+- das System in jeder Hinsicht anpassen,
+- andere Festplatten und installierte Systeme auslesen, verändern oder sogar ausführen.
 
-.. warning:: 
-    Gehen Sie daher nicht leichtfähig mit diesem Recht um!
+.. warning::
+    Gehen Sie daher nicht leichtfertig mit diesen Rechten um!
 
-    Achten Sie auch immer darauf, wenn nach Ihrem Passwort während der Nutzung von Linux gefragt wird. 
-    In fast allen Fällen (bis auf das Entsperren des Schlüsselbunds oder SSH-Keys) wird nach dem Passwort gefragt, 
-    wenn das Programm Administrations-Rechte braucht. 
+    Achten Sie stets darauf,
+    wenn Sie während der Nutzung von Linux Mint nach Ihrem Passwort gefragt werden.
+    In fast allen Fällen (ausgenommen das Entsperren des Schlüsselbunds oder von SSH-Schlüsseln) wird das Passwort verlangt,
+    weil das entsprechende Programm Administrationsrechte benötigt.
+
 
 Dateirechte
 -----------
-Für Dateien gibt es auf Linux ein einfaches, dennoch effektives Berechtigungssystem.
 
-Eine Datei oder ein Ordner hat einen Eigentümer und eine Gruppe, der er zugewiesen werden kann.
-Gruppen werden Sie höchstwahrscheinlich nicht brauchen.
+Für Dateien gibt es unter Linux ein einfaches,
+aber effektives Berechtigungssystem.
 
-Grafisch einstellen können Sie diese im Dateimanger unter den Dateigenschaften im Reiter ``Zugriffsrechte``.
+Eine Datei oder ein Ordner hat einen Eigentümer und eine Gruppe,
+der er zugewiesen ist.
+Gruppen werden Sie im Alltag höchstwahrscheinlich nicht benötigen.
+
+Grafisch können Sie diese im Dateimanager unter den Dateieigenschaften im Reiter ``Zugriffsrechte`` einstellen.
 
 .. image:: images/dateirechte.png
 
-1. Der Eigentümer einer Datei kann verändert werden und definiert werden, was der Besitzer mit der Datei machen darf.
-2. Das selbe gilt für die Gruppe. Wir empfehlen die Gruppe unberührt zu lassen und die gleichen Rechte wie beim Besitzer einzutragen.
-3. Hier kann man die Rechte eintragen, die alle Anderen über diese Datei haben.
-4. Ist die Datei ein Skript oder ein Programm, kann man hier einstellen, dass man die Datei als Programm ausführen kann.
+1. Der Eigentümer einer Datei lässt sich ändern.
+   Zudem können Sie definieren,
+   was der Besitzer mit der Datei tun darf.
+2. Dasselbe gilt für die Gruppe.
+   Ich empfehle Ihnen,
+   die Gruppe unberührt zu lassen und die gleichen Rechte wie für den Besitzer einzutragen.
+3. Hier können Sie die Rechte festlegen,
+   die alle anderen Benutzer für diese Datei besitzen.
+4. Ist die Datei ein Skript oder ein Programm,
+   können Sie hier festlegen,
+   dass Sie die Datei als Programm ausführen dürfen.
 
-.. note:: 
-    Die Dateirechte einer Datei oder eines Ordners können nur durch den Besitzer oder einen Administratoren geändert werden.
+.. note::
+    Die Dateirechte einer Datei oder eines Ordners können nur durch den Besitzer oder einen Administrator geändert werden.
 
-.. warning:: 
-    Momentan können Nutzer noch standardmäßig die Dateien der anderen Nutzer lesen.
-    Wenn Sie das verhindern möchten, navigieren Sie vom Persönlichen Ordner eine Ebene nach oben
-    und ändern Sie die Dateirechte wie im Bild unten beschrieben:
+.. warning::
+    Standardmäßig können andere Benutzer Ihre Dateien lesen.
+    Wenn Sie dies verhindern möchten,
+    navigieren Sie aus Ihrem persönlichen Ordner eine Ebene nach oben
+    und passen Sie die Dateirechte an,
+    wie auf dem Bild unten dargestellt:
 
     .. image:: images/dateirechte_home.png
 
-    Administratoren können sich aber immer wieder Zugang zu den Dateien verschaffen.
+    Administratoren können sich jedoch immer Zugriff auf Ihre Dateien verschaffen.

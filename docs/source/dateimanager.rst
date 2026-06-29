@@ -1,126 +1,184 @@
 Der Dateimanager
 ================
 
-Der vorinstallierte Dateimanager (nemo) ist unserer Ansicht nach einer der besten oder sogar der beste, den die Linux-Welt zu bieten hat.
-Der Windows-Explorer kann unserer Meinung nach hier nicht mithalten.
+Der vorinstallierte Dateimanager (**Nemo**) ist meiner Ansicht nach einer der besten,
+den die Linux-Welt zu bieten hat.
+Der Windows-Explorer kann meiner Meinung nach hier nicht mithalten.
+
 
 Ansichtsoptionen
 ----------------
+
 .. image:: images/nemo_ansichtsoptionen.png
 
-Gehen wir die Symbole von links nach rechts durch:
+Ich gehe die Symbole im Folgenden von links nach rechts mit Ihnen durch:
 
-- **Pfadeingabe:** Damit kann man die Pfad-Ansicht umschalten. Dies ist sehr praktisch, wenn man mal einen Pfad kopieren möchte.
-- **Suche:** Hiermit kann man entweder Dateien vom aktuellen Ordner aus durchsuchen. Sogar nach dem Inhalt von Dateien kann man suchen. Somit bleibt keine Datei verloren.
-- **Symbolansicht:** Die "normale" Ansicht von Ordnern. Man kann die Standard-Ansicht in den Einstellungen definieren. Ansonsten wird die gewählte Ansicht nur für den aktuellen Ordner gespeichert.
-- **Listenansicht:** Mit der erweiteren Ansicht kann man nach verschiedenen Kategorien wie bspw. dem Änderungsdatum sortieren. Mit einem Rechtsklick auf die Kategorien-Leiste kann man die Parameter definieren.
-- **Kompaktansicht:** Probieren Sie sie aus! Aber niemand von uns nutzt diese Ansicht im Alltag.
+- **Pfadeingabe:** Damit können Sie die Pfadansicht umschalten.
+  Dies ist sehr praktisch,
+  wenn Sie einen Pfad kopieren möchten.
+- **Suche:** Hiermit können Sie Dateien ausgehend vom aktuellen Ordner durchsuchen.
+  Sogar nach dem Inhalt von Dateien lässt sich suchen,
+  sodass keine Datei verloren geht.
+- **Symbolansicht:** Dies ist die normale Ansicht von Ordnern.
+  Sie können die Standardansicht in den Einstellungen festlegen.
+  Ansonsten wird die gewählte Ansicht nur für den aktuellen Ordner gespeichert.
+- **Listenansicht:** Mit der erweiterten Ansicht können Sie nach verschiedenen Kategorien wie beispielsweise dem Änderungsdatum sortieren.
+  Mit einem Rechtsklick auf die Kategorienleiste können Sie die gewünschten Parameter festlegen.
+- **Kompaktansicht:** Probieren Sie diese Ansicht gerne aus,
+  ich persönlich nutze sie im Alltag jedoch kaum.
 
-.. tip:: 
-    Schon gewusst? Mit der Taste ``F3`` kann man eine Zwei-Listen-Ansicht an- und ausschalten. Dies ist sehr hilfreich, wenn man Dateien kopieren möchte.
+.. tip::
+    Mit der Taste ``F3`` können Sie eine Zwei-Spalten-Ansicht ein- und ausschalten.
+    Dies ist sehr hilfreich,
+    wenn Sie Dateien kopieren möchten.
 
-.. tip:: 
-    Mit der Tastenkombination ``Strg`` + ``H`` kann man versteckte Dateien ein- und ausblenden.
+.. tip::
+    Mit der Tastenkombination ``Strg`` + ``H`` können Sie versteckte Dateien ein- und ausblenden.
 
-Weitere Tabs kann man mit ``Strg`` + ``T`` erstellen.
+Weitere Tabs können Sie mit ``Strg`` + ``T`` öffnen.
+
 
 Lesezeichen
 -----------
-Sie können für häufig genutzte Ordner Lesezeichen anlegen. 
-Ziehen Sie dafür einfach den gewünschten Ordner an die Seitenleiste unter 'Lesezeichen'.
-Das Lesezeichen ist somit unter allen Auswahldialogen, im Dateimanager und im Startmenü unter 'Orte' gelistet.
 
-Es empfiehlt sich sehr, die Lesezeichenliste nach Alphabet zu sortieren. Dies muss manuell bewerkstelligt werden.
+Sie können für häufig genutzte Ordner Lesezeichen anlegen.
+Ziehen Sie dafür einfach den gewünschten Ordner in die Seitenleiste unter „Lesezeichen“.
+Das Lesezeichen ist somit in allen Auswahldialogen,
+im Dateimanager und im Startmenü unter „Orte“ aufgelistet.
+
+Ich empfehle Ihnen sehr,
+die Lesezeichenliste alphabetisch zu sortieren,
+was Sie manuell tun können.
+
 
 Favoriten
 ---------
-Sie können beliebige Dateien oder Ordner als Favorit markieren. 
-Favoriten erhalten einen eigenen Eintrag im Dateimanager, sind als Stern markiert,
-haben einen eigenen Eintag im Startmenü, sind in der Leiste rechts unten unter dem Sternsymbol aufrufbar
+
+Sie können beliebige Dateien oder Ordner als Favorit markieren.
+Favoriten erhalten einen eigenen Eintrag im Dateimanager,
+sind mit einem Stern markiert,
+haben einen eigenen Eintrag im Startmenü,
+sind in der Leiste rechts unten unter dem Sternsymbol aufrufbar
 und können in verschiedenen Anwendungen direkt geöffnet werden.
+
 
 Angeheftete Einträge
 --------------------
-Um im Dateimanager gewisse Ordner oder Dateien als erstes anzeigen zu lassen können Sie diese mit einem Rechtsklick darauf anheften.
 
+Um im Dateimanager bestimmte Ordner oder Dateien als erstes anzeigen zu lassen,
+können Sie diese mit einem Rechtsklick darauf anheften.
 
-.. tip:: 
-    **Was sollte man wofür nutzen?**
-    Wir empfehlen:
+.. tip::
+    **Wann sollten Sie welche Funktion nutzen?**
+    Ich empfehle Ihnen Folgendes:
 
-    - **Lesezeichen:** Momentan oft aufgerufene Ordner/Projekte
-    - **Favoriten:** Dateien, die man einfach immer verwendet. Bspw. Kundendatenbanken, Rechnungsvorlagen oder ganz persönliche "Schmierzettel"
-    - **Angeheftete Einträge:** Gewisse Einträge in einem Ordner, die man häufig braucht, wenn man diesen Ordner aufruft. Bspw. Ressourcen, Anforderungen, Meetings
+    - **Lesezeichen:** Momentan häufig aufgerufene Ordner oder Projekte.
+    - **Favoriten:** Dateien, die Sie ständig benötigen, wie beispielsweise Kundendatenbanken, Rechnungsvorlagen oder persönliche Notizzettel.
+    - **Angeheftete Einträge:** Einträge innerhalb eines Ordners, die Sie häufig benötigen, wenn Sie diesen Ordner aufrufen (z. B. Ressourcen, Anforderungen, Meetings).
+
 
 Verknüpfungen
 -------------
-Um Verknüpfungen zu erstellen, halten Sie ``Strg`` + ``Shift`` gedrückt und ziehen Sie mit der Maus einen Ordner oder eine Datei an die Stelle,
-an der Sie die Verknüpfung haben wollen. 
 
-Andernfalls können Sie eine Verknüpfung mit ``Strg`` + ``M`` erstellen.
+Um Verknüpfungen zu erstellen,
+halten Sie die Tasten ``Strg`` + ``Umschalt`` gedrückt und ziehen Sie den Ordner oder die Datei mit der Maustaste an die gewünschte Stelle.
+
+Alternativ können Sie eine Verknüpfung auch mit der Tastenkombination ``Strg`` + ``M`` erstellen.
 
 
-Archive erstellen und Entpacken
+Archive erstellen und entpacken
 -------------------------------
+
 ``.zip``, ``.tar.gz`` oder weitere Archive können Sie im Dateimanager direkt entpacken oder erstellen.
-Sie benötigen dazu keine externes Programm.
+Sie benötigen dafür kein externes Programm.
+
 
 Archiv erstellen
 ^^^^^^^^^^^^^^^^
+
 - Klicken Sie mit der rechten Maustaste auf einen Ordner oder eine Datei und wählen Sie ``Komprimieren ...`` aus.
-- Nun können Sie den Dateinamen und das Archiv-Format definieren. ``.tar.gz`` Dateien können in der Regel nur Unix-Systeme lesen. Mit ``.zip`` Archiven machen Sie meist nichts falsch.
-- Unter ``Erweitere Einstellungen`` können Sie bei manchen Archiven-Formaten beispieslweise ein Passwort definieren.
-- Klicken Sie nun auf ``Anlegen``. Je nach Größe des Ordners kann dies einige Minuten dauern.
+- Hier können Sie den Dateinamen und das Archivformat festlegen.
+  ``.tar.gz``-Dateien können in der Regel nur Unix-Systeme lesen,
+  mit ``.zip``-Archiven machen Sie hingegen meist nichts falsch.
+- Unter den erweiterten Einstellungen können Sie bei manchen Archivformaten beispielsweise ein Passwort festlegen.
+- Klicken Sie nun auf ``Anlegen``.
+  Je nach Größe des Ordners kann dies einige Minuten dauern.
+
 
 Archiv entpacken
 ^^^^^^^^^^^^^^^^
-- Klicken Sie mit der rechten Maustastem auf ein Archiv.
+
+- Klicken Sie mit der rechten Maustaste auf das Archiv.
 - Wählen Sie ``Hier entpacken`` aus.
 
-.. note:: 
-    Möchten Sie andere Sachen mit Archiven erledigen, können Sie dies über die ``Archivverwaltung`` machen.
+.. note::
+    Für komplexere Aufgaben mit Archiven können Sie das Programm ``Archivverwaltung`` verwenden.
 
 
 Auf entfernte Server zugreifen
 ------------------------------
-Wählen Sie im Startmenü ``Verbinden mit...`` aus, oder wählen Sie im Dateimanager ``Datei -> Mit Server verbinden...`` aus.
+
+Wählen Sie im Startmenü ``Verbinden mit...`` oder im Dateimanager ``Datei -> Mit Server verbinden...``.
 
 Folgende Verbindungstypen sind verfügbar:
 
 - SSH
 - FTP
-- Windows Freigabe
+- Windows-Freigabe
 - WebDAV
 - Sicheres WebDAV
 
-Geben Sie jeweils die Serveradresse und häufig Benutzerdetails an, um auf die Server zuzugreifen.
-Im Ornder-Feld reicht in den allermeisten Fällen ``/`` vollkommen aus.
+Geben Sie die Serveradresse und die erforderlichen Benutzerdetails an,
+um auf den Server zuzugreifen.
+Im Ordner-Feld reicht in den allermeisten Fällen ``/`` völlig aus.
 
-Danach sind die Verbindungen in der Seitenleiste des Dateimanagers unter 'Netzwerk' verfügbar.
+Danach sind die Verbindungen in der Seitenleiste des Dateimanagers unter „Netzwerk“ verfügbar.
 
 
 Ordner freigeben
 ----------------
-.. note:: 
-    Dazu muss das Paket ``Samba`` installiert sein und ggf. die Anwendung ``SAMBA`` in den Firewall-Regeln hinzugefügt sein. 
-    Außerdem muss der aktuelle Benutzer in der Gruppe ``sambashare`` sein. (Siehe Kapitel *Benutzer und Berechtigungen*)
-
-Klicken Sie mit der rechten Maustaste auf den gewünschten Ordner und wählen Sie ``Freigabeoptionen``. 
-Der Konfigurationsdialog sollte selbstverständlich sein.
-Wählen Sie ``Gastzugriff`` nicht aus, 
-muss sich der Benutzer mit einem auf dem Rechner definierten Benutzerkonto anmelden, um auf den Ordner zuzugreifen können.
 
 .. note::
-    Wir nutzen im Alltag die Ordner-Freigabe nicht. Stattdessen setzen wir hier auf Nextcloud.
+    Dazu muss das Paket ``Samba`` installiert sein,
+    die Anwendung in den Firewall-Regeln freigegeben sein und Ihr Benutzerkonto in der Gruppe ``sambashare`` eingetragen sein (siehe Kapitel *Benutzer und Berechtigungen*).
+
+Klicken Sie mit der rechten Maustaste auf den gewünschten Ordner und wählen Sie ``Freigabeoptionen``.
+Die Einstellungen im Konfigurationsdialog sind weitgehend selbsterklärend.
+Wenn Sie den ``Gastzugriff`` nicht auswählen,
+müssen sich andere Benutzer mit einem auf Ihrem Rechner eingerichteten Benutzerkonto anmelden,
+um auf den Ordner zugreifen zu können.
+
+.. note::
+    Ich persönlich nutze die klassische Ordnerfreigabe im Alltag nicht,
+    sondern setze stattdessen auf Nextcloud.
 
 
 Dateimanagement
 ---------------
-Hier ein paar Tipps, die langfristig die Produktivität steigern können. Außerdem dankt dies Ihre Backup-Platte und Ihr zukünftiges Ich.
 
-- Versuchen Sie, die vorgegebene Struktur einzuhalten und pro Projekt/Arbeitsauftrag einen eigenen Ordner anzulegen. Es lohnt sich auch, die einzelnen Projekte in Jahre und/oder Monate einzuordnen.
-- Nutzen Sie die Nextcloud, können Sie bspw den Dokumenten Ordner über eine Verknüpfung in den Nextcloud-Synchronisations-Ordner zeigen lassen.
-- Haben Sie auch manchmal das Problem, dass Sie nicht wissen, wo man schnell mal kurz nur diese Datei abspeichen soll? Wir empfehlen das Anlegen eines zusätzlichen ``Tmp`` (Temporären) Ordners. In Ihm können Dateien gespeichert werden, die man nach Ende der Woche sicher nicht mehr braucht. Am Ende der Woche löscht man dann ganz einfach den Inhalt.
-- Arbeiten Sie nicht im Downloads-Ordner. Wenn Sie dies einhalten, können Sie Ihren Downloads-Ordner wöchtenlich komplett leeren.
-- Versuchen Sie, nichts auf der Arbeitsfläche selber zu speichern. Dies ist für die Ordner-Struktur sehr hilfreich.
-- Im Persönlichen Ordner selber sollten nur wichtige Ordner sein. Dokumente oder Bilder haben hier nichts verloren.
+Im Folgenden gebe ich Ihnen ein paar Tipps,
+die langfristig Ihre Produktivität steigern,
+während sich Ihr zukünftiges Ich und Ihre Backup-Festplatte darüber freuen werden.
+
+- Ich empfehle Ihnen,
+  die vorgegebene Struktur einzuhalten und pro Projekt oder Arbeitsauftrag einen eigenen Ordner anzulegen.
+  Es lohnt sich auch,
+  einzelne Projekte nach Jahren oder Monaten zu sortieren.
+- Wenn Sie Nextcloud nutzen,
+  können Sie beispielsweise Ihren Dokumenten-Ordner über eine Verknüpfung direkt in den Nextcloud-Synchronisationsordner verweisen lassen.
+- Kennen Sie das Problem,
+  dass Sie nicht wissen,
+  wo Sie eine Datei auf die Schnelle abspeichern sollen?
+  Ich empfehle Ihnen das Anlegen eines zusätzlichen ``Tmp``-Ordners (für temporäre Dateien).
+  Dort können Sie Dateien ablegen,
+  die Sie nach Ablauf der Woche sicher nicht mehr benötigen.
+  Am Ende der Woche können Sie den Inhalt dieses Ordners dann einfach löschen.
+- Vermeiden Sie es,
+  direkt im Downloads-Ordner zu arbeiten.
+  Wenn Sie dies beherzigen,
+  können Sie Ihren Downloads-Ordner wöchentlich komplett leeren.
+- Versuchen Sie,
+  keine Dateien direkt auf dem Desktop (der Arbeitsfläche) abzuspeichern,
+  um eine saubere Ordnerstruktur beizubehalten.
+- Im persönlichen Ordner selbst sollten sich nur die Hauptverzeichnisse befinden;
+  einzelne Dokumente oder Bilder haben dort nichts verloren.

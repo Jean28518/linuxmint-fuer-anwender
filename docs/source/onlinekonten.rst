@@ -1,66 +1,86 @@
 Onlinekonten
 ============
 
-Onlinekonten erlauben es, den Kalender, Dateien, Kontakte und mehr mit einer Cloud zu synchronisieren.
+Onlinekonten erlauben es Ihnen, Ihren Kalender, Ihre Dateien, Kontakte und mehr mit einer Cloud zu synchronisieren.
 
-Mögliche Kandidaten wären:
+Mögliche Dienste sind:
 
 - Nextcloud (empfohlen)
 - Google
 - Microsoft
 - Dropbox
 
-Im Kurs wird gezeigt, wie man einen Nextcloud Account auf seinem Rechner hinzufügt und diesen komplett ausreizt.
-Auf Wunsch kann dies stattdessen auch mit einem anderen Dienst gemacht werden.
+Im Kurs zeige ich Ihnen,
+wie Sie ein Nextcloud-Konto auf Ihrem Rechner hinzufügen und dieses vollumfänglich nutzen.
+Auf Wunsch können Sie dies stattdessen auch mit einem anderen Dienst durchführen.
+
 
 Nextcloud
 ---------
 
-Nextcloud ist eine freie kollaborative Cloud, die man in Eigenregie hosten kann, oder bei einigen Anbietern (wie beispielsweise: bei `Libre Workspace Cloud <https://www.libre-workspace.org/cloud/>`_*  oder `Ionos <https://www.ionos.de/office-loesungen/managed-nextcloud-hosting#pakete>`_) mieten kann.
+Nextcloud ist eine freie, kollaborative Cloud,
+die Sie in Eigenregie hosten oder bei verschiedenen Anbietern
+(wie beispielsweise bei `Libre Workspace Cloud <https://www.libre-workspace.org/cloud/>`_\* oder `Ionos <https://www.ionos.de/office-loesungen/managed-nextcloud-hosting#pakete>`_) mieten können.
 
-Möchte man sein Nextcloud-Konto zu Linux Mint hinzufügen, kann man dies in dem Programm ``Internetkonten`` erledigen.
-Wichtig ist, die Serveradresse beispielsweise so einzutragen: ``https://cloud.example.com/``.
-Bei manchen Nextcloud Konten muss man dafür ein extra App-Passwort erstellen, das kann in der Nextcloud unter ``Persönlichen Einstellungen`` -> ``Sicherheit`` -> ``Geräte und Sitzungen`` erledigt werden.
-Danach werden automatisch alle Kalender, Adressbücher und Dateien unter Linux Mint verfügbar gemacht.
+Wenn Sie Ihr Nextcloud-Konto zu Linux Mint hinzufügen möchten,
+können Sie dies im Programm ``Internetkonten`` tun.
+Achten Sie darauf,
+die Serveradresse in folgendem Format einzutragen: ``https://cloud.example.com/``.
+Bei manchen Nextcloud-Konten müssen Sie dafür ein separates App-Passwort erstellen.
+Dies können Sie in der Nextcloud-Oberfläche unter ``Persönliche Einstellungen -> Sicherheit -> Geräte und Sitzungen`` tun.
+Danach werden automatisch all Ihre Kalender, Adressbücher und Dateien unter Linux Mint verfügbar gemacht.
 
-.. tip:: 
-    Möchte man auf das Adressbuch zugreifen, muss man dafür die Anwendung ``gnome-contacts`` aus der Anwendungsverwaltung installieren.
+.. tip::
+    Wenn Sie direkt auf das Adressbuch zugreifen möchten,
+    müssen Sie die Anwendung ``gnome-contacts`` aus der Anwendungsverwaltung installieren.
 
 
-*\*) Schamlose Eigenwerbung*
+.. note::
+    \* ) Schamlose Eigenwerbung.
 
 
 Nextcloud-Client
 ^^^^^^^^^^^^^^^^
 
-Es ist empfohlen, für die Datei-Synchonisation den Nextcloud Desktop Client zu installieren.
+Ich empfehle Ihnen,
+für die Dateisynchronisation den Nextcloud Desktop Client zu installieren.
 Die App heißt ``nextcloud-desktop`` in der Anwendungsverwaltung.
 
 Die Anmeldung und Einrichtung sollte selbsterklärend sein.
 
-.. tip:: 
-    Nach der Einrichtung ist es empfohlen, unter ``Startprogramme`` den Nextcloud Client hinzuzufügen. Damit wird beim Anmelden der Synchisations-Client direkt gestartet.
+.. tip::
+    Nach der Einrichtung empfehle ich Ihnen,
+    unter ``Startprogramme`` den Nextcloud Client hinzuzufügen.
+    Dadurch startet der Synchronisations-Client bei jeder Anmeldung automatisch.
 
 
 Thunderbird
 -----------
 
-Thunderbird ist eines der besten Mail-Programme. Wenn Sie es bis jetzt nicht kennen, geben Sie Thunderbird eine Chance!
+Thunderbird ist eines der besten E-Mail-Programme.
+Wenn Sie es bisher noch nicht kennen,
+empfehle ich Ihnen,
+Thunderbird eine Chance zu geben!
 
-.. note:: 
-    Um Ihre Mail-Adresse hinzuzufügen, müssen Sie sicherstellen, dass bei Ihrem Mail-Account die IMAP und SMTP Option aktiviert sind.
-    Das können Sie in der Regel bei Ihrem Mail-Anbieter unter 'Sicherheit' oder 'Drittanbieter Apps' einstellen.
+.. note::
+    Um Ihre E-Mail-Adresse hinzuzufügen,
+    müssen Sie sicherstellen,
+    dass bei Ihrem E-Mail-Account die IMAP- und SMTP-Optionen aktiviert sind.
+    Das können Sie in der Regel bei Ihrem E-Mail-Anbieter unter „Sicherheit“ oder „Drittanbieter-Apps“ einstellen.
 
-Das Hinzufügen eines neuen Mail-Kontos zu Thunderbird ist selbsterklärend.
+Das Einrichten eines neuen E-Mail-Kontos in Thunderbird ist weitgehend selbsterklärend.
+
 
 Adressbuch der Nextcloud nutzen
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 .. image:: images/ThunderbirdAddressbuch.png
 
-- Öffnen Sie wie im Bild gezeigt den "Hinzufügen"-Dialog.
+- Öffnen Sie wie auf dem Bild gezeigt den „Hinzufügen“-Dialog.
 - Tragen Sie Ihren Nextcloud-Benutzernamen und die Adresse Ihrer Nextcloud ein. Beispiel: ``https://cloud.example.com/``
 - Geben Sie das Passwort Ihres Nextcloud-Kontos im nächsten Dialog ein.
-- Im letzten Dialog können Sie die Adressbücher auswählen. Es wird empfohlen, ``Zuletzt kontaktiert`` abzuwählen, und bei ``Geburtstage`` ``Schreibgeschützt`` zu selektieren. Klicken Sie daraufhin auf ``Weiter``. 
+- Im letzten Dialog können Sie die Adressbücher auswählen.
+  Ich empfehle Ihnen,
+  ``Zuletzt kontaktiert`` abzuwählen und bei ``Geburtstage`` die Option ``Schreibgeschützt`` auszuwählen.
+  Klicken Sie daraufhin auf ``Weiter``.
 - Ihr Adressbuch wurde nun hinzugefügt.
-

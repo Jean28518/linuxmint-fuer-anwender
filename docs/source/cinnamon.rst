@@ -1,74 +1,110 @@
-Cinnamon Desktop
+Cinnamon-Desktop
 ================
-Unter Linux gibt es viele verschiedene Oberflächen.
-Linux Mint nutzt hauptsächlich hauseigenen Desktop *Cinnamon*.
-In diesem Kapitel werden verschiedene Optimierungen gezeigt, die den Alltag erleichtern.
+
+Unter Linux gibt es viele verschiedene grafische Oberflächen.
+Linux Mint nutzt hauptsächlich den hauseigenen Desktop *Cinnamon*.
+In diesem Kapitel zeige ich Ihnen verschiedene Optimierungen,
+die Ihren Alltag erleichtern.
+
 
 Hintergrundbild
 ---------------
-In der App ``Hintergrundbilder`` könnnen Sie Ihr gewünschtes Hintergrundbild auswählen.
-Unter ``+`` können Sie einen eigenen Ordner hinzufügen, aus dem Bilder hinzugefügt werden können.
-Im Reiter Einstellungen können Sie beispielsweise eine Diashow mit allen Bildern aus dem ausgewählten Ordner einrichten.
+
+In der Anwendung ``Hintergrundbilder`` können Sie Ihr gewünschtes Hintergrundbild auswählen.
+Über das ``+``-Symbol können Sie einen eigenen Ordner hinzufügen,
+aus dem Sie Bilder laden möchten.
+Im Reiter ``Einstellungen`` können Sie beispielsweise eine Diashow mit allen Bildern aus dem ausgewählten Ordner einrichten.
+
 
 Variety
 ^^^^^^^
-Das Programm aus der Anwendungsverwaltung lädt automatisch Hintergrundbilder herunter und zeigt beispielsweise das Hintergrundbild des Tages von Bing.
-Die Einstellungen sind vielfältig aber selbstverständlich.
+
+Ich empfehle Ihnen dafür das Programm **Variety** aus der Anwendungsverwaltung.
+Es lädt automatisch Hintergrundbilder herunter und zeigt Ihnen beispielsweise das Hintergrundbild des Tages von Bing.
+Die Einstellungen sind vielfältig,
+aber weitgehend selbsterklärend.
 
 .. image:: images/variety_einstellungen_1.png
 
+
 Aktive Ecken
 ------------
-Wenn Sie wollen, können Sie beispielsweise unten rechts eine aktive Ecke einrichten:
-Wenn Sie dort die Maus hin bewegen können verschiedene Aktionen ausgeführt werden.
-Sie können Dies im Programm ``Aktive Ecken`` einrichten.
+
+Wenn Sie möchten,
+können Sie beispielsweise unten rechts eine aktive Ecke einrichten:
+Sobald Sie die Maus in diese Ecke bewegen,
+können verschiedene Aktionen ausgeführt werden.
+Sie können dies im Programm ``Aktive Ecken`` konfigurieren.
 
 Hier ein empfohlenes Beispiel:
 
 .. image:: images/aktive_ecken.png
 
+
 Uhr mit Datum und/oder Sekunden
 -------------------------------
-Mit der Anwendung ``Datum und Zeit`` können Sie unter ``Format`` die Uhr rechts unten nach Ihrem Belieben konfigurieren.
+
+Mit der Anwendung ``Datum und Zeit`` können Sie unter dem Reiter ``Format`` die Uhr rechts unten nach Ihren Wünschen konfigurieren.
+
 
 Effekte
 -------
-Möchten Sie die Effekte ausschalten oder anders definieren, können Sie weitreichende Einstellungen in ``Effekte`` treffen.
+
+Möchten Sie die Effekte ausschalten oder anpassen,
+können Sie weitreichende Einstellungen im Programm ``Effekte`` vornehmen.
+
 
 Tastenkombination für Vollbild
 ------------------------------
-Manchmal ist es praktisch, Anwendungen manuell in den Vollbildmodus zu bringen.
-Um dies einzurichten, öffnen Sie das Programm ``Tastatur`` und den Reiter ``Tastenkombinationen``
-Wählen Sie ``Fenster`` aus (nicht auf das Dreieck klicken).
-Wählen Sie in der rechten Liste ``Vollbildmodus ein-/ausschalten``
-Machen Sie einen Doppelklick auf eine nicht zugeordnete Tastenkombination und drücken Sie im Anschluss eine gewünschte Tastenkombination.
+
+Manchmal ist es praktisch,
+Anwendungen manuell in den Vollbildmodus zu versetzen.
+Um dies einzurichten,
+öffnen Sie das Programm ``Tastatur`` und wechseln Sie in den Reiter ``Tastenkombinationen``.
+Wählen Sie den Bereich ``Fenster`` aus (klicken Sie dabei nicht auf das Dreieck).
+Wählen Sie in der rechten Liste den Eintrag ``Vollbildmodus ein-/ausschalten`` aus.
+Führen Sie einen Doppelklick auf eine nicht zugeordnete Tastenkombination aus und drücken Sie im Anschluss die gewünschte Tastenkombination.
 Eine gängige Tastenkombination wäre ``Alt`` + ``F11``.
+
 
 Fenster verschieben
 -------------------
-Wenn Sie die ``Alt`` Taste gedrückthalten, das Fenster irgendwo mit der Mastaste anklicken und dann die Maus bewegen können Sie das Fenster verschieben.
 
-.. tip:: 
-    Sollten Sie beispielsweise das Programm Blender verwenden, wird diese Einstellung zum Problem, da Blender die ``Alt`` Taste aktiv belegt.
-    Entweder können Sie die Tastenkombinationen in Blender dafür ändern oder sie deaktivieren die Funktion in Cinnamon:
+Wenn Sie die ``Alt``-Taste gedrückt halten,
+das Fenster an einer beliebigen Stelle mit der linken Maustaste anklicken und dann die Maus bewegen,
+können Sie das Fenster frei verschieben.
+
+.. tip::
+    Sollten Sie beispielsweise das Programm Blender verwenden,
+    wird diese Einstellung zum Problem,
+    da Blender die ``Alt``-Taste aktiv belegt.
+    Entweder können Sie die Tastenkombinationen in Blender ändern,
+    oder Sie deaktivieren diese Funktion in Cinnamon:
     In der Anwendung ``Fenster`` können Sie unter ``Verhalten`` die ``Sondertaste zum Verschieben und Vergrößern von Fenstern`` definieren.
 
-.. tip:: 
-    Fenster können Sie auch in verschiedene Positionen einrasten, indem Sie die ``Super`` (Windows)Taste und eine Pfeiltaste (manchmal auch mehrmals) drücken.
+.. tip::
+    Fenster können Sie auch in verschiedene Positionen einrasten lassen,
+    indem Sie die ``Super``-Taste (Windows-Taste) gedrückt halten und eine Pfeiltaste (manchmal auch mehrmals) drücken.
     Probieren Sie es aus!
 
 
 Arbeitsflächen
 --------------
+
 Wie viele andere Desktops bietet Cinnamon auch verschiedene Arbeitsflächen.
-Mit ``Alt`` + ``F1`` können Sie die Übersicht dafür öffnen und dort neue erstellen oder löschen.
+Mit der Tastenkombination ``Super`` + ``Tab`` oder über die Übersicht können Sie neue erstellen oder löschen.
 Sie können dafür auch beispielsweise eine aktive Ecke einrichten.
 
-.. tip:: 
-    Mit der Tastenkombination ``Alt`` + ``→`` oder ``←`` können Sie zwischen den Arbeitsflächen hin und her wechseln.
+.. tip::
+    Mit der Tastenkombination ``Alt`` + ``→`` oder ``←`` können Sie bequem zwischen den Arbeitsflächen hin- und herwechseln.
 
-Cinnamon neustarten
--------------------
-Bei einem Fehler können Sie Cinnamon neustarten, ohne sich neu anzumelden.
-Offene Fenster bleiben erhalten.
-Drücken Sie dafür ``Alt`` + ``F2``, geben sie ``r`` ein und drücken sie ``Enter``.
+
+Cinnamon neu starten
+--------------------
+
+Sollte ein Fehler auftreten,
+können Sie Cinnamon neu starten,
+ohne sich abmelden zu müssen.
+Ihre geöffneten Fenster bleiben dabei erhalten.
+Drücken Sie dafür die Tastenkombination ``Alt`` + ``F2``,
+geben Sie ``r`` ein und bestätigen Sie mit ``Enter``.
