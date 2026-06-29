@@ -87,11 +87,12 @@ Die goldenen Best Practices für Linux-Anwender
   * öffne ein Terminal oder den Ausführen-Dialog (``Alt`` + ``F2``) und tippe ``xkill`` ein. Dein Mauszeiger wird zu einem Totenkopf/Kreuz. 
   * Klicke auf das hängende Fenster, um es sofort hart zu beenden.
 
-* **Gemeinschaft statt Einzelkampf:**
-  Du bist nicht allein. Wenn du einmal absolut nicht weiterweißt, scheue dich nicht, Hilfe zu suchen. 
+* **Du bist nicht allein:**
+  Wenn du einmal absolut nicht weiterweißt, scheue dich nicht, Hilfe zu suchen. 
   Das **Linux Guides Forum** ist eine der freundlichsten Anlaufstellen im deutschsprachigen Raum. 
   Alternativ gibt es fast überall lokale **LUGs (Linux User Groups)**, 
   bei denen man sich persönlich bei einem Kaffee austauschen und helfen kann.
+  Natürlich bieten wir als Abkürzung bei Linux Guides auch kommerziellen Support an.
 
 
 
