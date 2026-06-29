@@ -27,8 +27,8 @@ Inhalt
    onlinekonten
    drucker
    buero
-   nuetzliche_programme
    pdf_und_scannen
+   nuetzliche_programme
    dateimanager
    cinnamon
    benutzer_und_rechte
