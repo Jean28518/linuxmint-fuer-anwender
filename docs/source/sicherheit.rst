@@ -70,7 +70,7 @@ Dies ist Ihre Lebensversicherung.
 Weitere Informationen finden Sie im Kapitel **Backups**.
 
 Fremdquellen
------------
+------------
 Achten Sie darauf, welche Anwendungspaketquellen (PPAs, weitere Fremquellen) auf Ihrem System aktiviert sind.
 Solche Quellen können auch böswillig ausgenutzt werden.
 

@@ -134,9 +134,9 @@ Die fertige Crypttab Datei sieht dann in unserem Beispiel folgendermaßen aus:
 .. figure:: images/crypttab-example.png
 
 - Damit sind wir (fast) fertig: Denn jetzt müssen wir die Dateien auf die neue verschlüsselte Partition verschieben. Wir machen das mit dem Programm ``grsync``, welches wir auch auf der Live Sitztung von unserem USB-Linux Mint ganz normal aus der Anwendungsverwaltung installieren können.
-Bevor wir starten, müssen wir sicherstellen, dass beide Partitionen "eingehängt" sind. Das können wir sicherstellen, indem wir in ``Disks`` bei beiden Partitionen jew. den "Play" Knopf neben den Zahnrädern drücken.
+  Bevor wir starten, müssen wir sicherstellen, dass beide Partitionen "eingehängt" sind. Das können wir sicherstellen, indem wir in ``Disks`` bei beiden Partitionen jew. den "Play" Knopf neben den Zahnrädern drücken.
 
-.. figure:: images/DisksPartitionEinhängen.png
+  .. figure:: images/DisksPartitionEinhängen.png
 
 - Nun sollten wir grsync wie folgt konfigurieren:
 

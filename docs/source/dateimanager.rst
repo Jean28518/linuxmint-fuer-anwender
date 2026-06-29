@@ -115,7 +115,7 @@ muss sich der Benutzer mit einem auf dem Rechner definierten Benutzerkonto anmel
 
 
 Dateimanagement
---------------
+---------------
 Hier ein paar Tipps, die langfristig die Produktivität steigern können. Außerdem dankt dies Ihre Backup-Platte und Ihr zukünftiges Ich.
 
 - Versuchen Sie, die vorgegebene Struktur einzuhalten und pro Projekt/Arbeitsauftrag einen eigenen Ordner anzulegen. Es lohnt sich auch, die einzelnen Projekte in Jahre und/oder Monate einzuordnen.

@@ -105,7 +105,7 @@ Systemeinstellungen
 Hier ist die Steuerzentrale von Linux Mint. Sie bietet eine Übersicht aller möglichen Einstellungen.
 Ich empfehle bei den Aktiven Ecken die linke obere Ecke wie folgt einzustellen:
 
-.. figure:: images/aktive-ecken.png
+.. figure:: images/aktive_ecken.png
 
 Damit 
 
