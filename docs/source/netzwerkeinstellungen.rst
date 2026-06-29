@@ -52,7 +52,7 @@ die Sie im Terminal ausführen können:
     
     sudo apt install wireguard wireguard-tools
     cd Downloads
-    sudo cp meineWiregardDatei.conf /etc/wireguard/wg0.conf
+    sudo cp meineWireguardDatei.conf /etc/wireguard/wg0.conf
     sudo chmod 600 /etc/wireguard/wg0.conf
     # Mit dem nächsten Befehl wird wireguard für immer automatisch aktiviert:
     sudo systemctl enable --now wg-quick@wg0.service
