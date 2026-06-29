@@ -60,7 +60,7 @@ OpenVPN aus Datei
 ^^^^^^^^^^^^^^^^^
 
 Gute Anbieter bieten eine .ovpn Datei zum Download an.
-Diese kann man dann in den Netzwerkeinstellungen unter ``+ -> Import From File`` einlesen.
+Diese kann man dann in den Netzwerkeinstellungen unter ``+ -> Aus einer Datei importieren...`` einlesen.
 In der Regel muss man dann nur noch seine Anmeldedaten des VPN Anbieters eintragen.
 
 
