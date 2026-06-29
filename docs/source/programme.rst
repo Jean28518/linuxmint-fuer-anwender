@@ -111,3 +111,48 @@ Solche Dateien sollte man entpacken. Meist findet man dann dort eine ausführbar
 Sollte man keine ausführbare Datei finden und liegt stattdessen eine Datei mit dem Namen
 ``Makefile`` vor, muss man dieses Programm erst kompilieren. 
 Dies wird allerdings im *Linux Mint für Fortgeschrittene* Kurs behandelt.
+
+
+Windows-Anwendungen unter Linux
+-------------------------------
+
+Der Umstieg auf Linux Mint wirft oft die Frage auf, 
+wie man gewohnte Windows-Programme (``.exe``-Dateien) weiter nutzen kann. 
+Es gibt dafür verschiedene technische Wege, Windows-Software auf Linux auszuführen:
+
+* **Wine (nativ):**
+  Wine ist kein Emulator, sondern eine Kompatibilitätsschicht, die Windows-Systemaufrufe direkt in Linux-Befehle übersetzt. 
+  Dadurch laufen viele Windows-Programme ohne Windows-Betriebssystem direkt auf Ihrem Desktop.
+
+* **Bottles:**
+  Dieses Werkzeug basiert auf Wine und macht die Verwaltung deutlich einfacher. 
+  In Bottles können Sie isolierte Umgebungen ("Flaschen") für verschiedene Programme anlegen, 
+  sodass sich verschiedene Anwendungen nicht in die Quere kommen. Zudem lassen sich benötigte Windows-Bibliotheken (DLLs) per Mausklick nachinstallieren.
+
+* **Proton:**
+  Diese von Valve entwickelte Wine-Variante ist direkt in Steam integriert. 
+  Sie ist stark auf 3D-Grafik optimiert und sorgt dafür, dass tausende Windows-Spiele unter Linux auf Knopfdruck laufen.
+
+* **Windows in VirtualBox (Virtualisierung):**
+  Hierbei installieren Sie über das Programm **VirtualBox** ein vollständiges, virtuelles Windows in einem Fenster unter Linux Mint. 
+  Die Windows-Software läuft dann in ihrer echten Originalumgebung.
+
+Die Probleme mit Wine, Bottles und Proton
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Die Erfolgsquote beim Ausführen von Windows-Programmen über Übersetzungsschichten ist extrem schwankend. 
+Während manche Anwendungen sofort funktionieren, erfordern viele andere einen enormen Konfigurationsaufwand. 
+Zudem besteht immer das Risiko, dass Updates der Windows-Anwendung das mühsam konfigurierte Setup von heute auf morgen wieder unbrauchbar machen.
+
+Linux-Alternativen nutzen
+^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Kein langjähriger Linux-Nutzer betreibt im Alltag noch Windows-Programme. 
+Das Ziel sollte immer sein, langfristig auf native Linux-Alternativen umzusatteln. 
+Diese laufen stabiler, verbrauchen weniger Ressourcen und machen bei System-Updates keinen Ärger. 
+Um passende Programme zu finden, hilft die Webseite `AlternativeTo.com <https://alternativeto.net/>`_. 
+Geben Sie dort einfach das gewohnte Windows-Programm ein und filtern Sie die Ergebnisse nach „Linux“.
+
+Sollte es für eine Software (z. B. ein spezielles Steuer- oder Buchhaltungsprogramm) absolut keine Linux-Alternative geben, 
+ist die Virtualisierung mit **VirtualBox** die stabilste Lösung. 
+Da dort ein echtes Windows läuft, funktionieren Programme und deren Updates garantiert. 
+Dieser Weg eignet sich allerdings nicht für anspruchsvolle 3D-Spiele, da VirtualBox keine starke 3D-Grafikbeschleunigung bietet.
