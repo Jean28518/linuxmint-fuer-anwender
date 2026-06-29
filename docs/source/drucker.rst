@@ -72,7 +72,15 @@ Schritt 2: Das Installations-Skript starten
 
 1. Machen Sie das Skript ausführbar und starten Sie es als Administrator (mittels ``sudo``)::
 
-    sudo chmod +x linux-brprinter-installer-*
+.. code-block:: bash
+
+    chmod +x linux-brprinter-installer-*
+
+    # Das Brother Install Tool braucht eine andere Sane (Scanner) version:
+    sudo add-apt-repository ppa:sane-project/sane-release
+    sudo apt update
+
+    # Zusätzliche Treiber Installation starten:
     sudo ./linux-brprinter-installer-*
 
 2. Das Skript fragt Sie nun nach dem genauen Modellnamen. Tippen Sie diesen ein (z. B. ``MFC-L2710DW``) und bestätigen Sie.
@@ -97,3 +105,5 @@ Schritt 5: Abschluss
 Am Ende des Prozesses werden Sie gefragt, ob Sie eine Testseite drucken möchten. 
 Bestätigen Sie dies, um zu prüfen, ob alles geklappt hat. Das Skript installiert in der Regel auch gleich die passenden Scannertreiber mit, 
 sodass Ihr Brother-Gerät nun vollständig einsatzbereit ist.
+
+
