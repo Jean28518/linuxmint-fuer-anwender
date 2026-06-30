@@ -18,4 +18,8 @@ How to build pdf and html locally:
     # Package everything (creates build/linuxmint-fuer-anwender.zip containing HTML and PDF):
     make dist
 
+    PASSWORD=$(pwgen 8 1)
+
+    cp build/linuxmint-fuer-anwender.zip build/linuxmint-fuer-anwender_${PASSWORD}.zip
+
 
