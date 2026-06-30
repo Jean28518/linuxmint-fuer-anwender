@@ -1,9 +1,21 @@
-Template for the Read the Docs tutorial
-=======================================
+How to build pdf and html locally:
+----------------------------------
 
-This GitHub template includes fictional Python library
-with some basic Sphinx docs.
+.. code-block:: shell
 
-Read the tutorial here:
+    # Debian/Ubuntu dependencies:
+    sudo apt-get install texlive-latex-recommended texlive-latex-extra texlive-fonts-recommended latexmk texlive-xetex python3-sphinx-rtd-theme
+    # Arch Linux dependencies:
+    sudo pacman -S texlive-latexextra texlive-fontsrecommended texlive-xetex python-sphinx_rtd_theme texlive-bin texlive-latexmk
+    
+    cd docs
 
-https://docs.readthedocs.io/en/stable/tutorial/
+    rm -r build
+    
+    # Build PDF (optional, skip if you only want HTML):
+    make latexpdf
+    
+    # Package everything (creates build/linuxmint-fuer-anwender.zip containing HTML and PDF):
+    make dist
+
+

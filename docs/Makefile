@@ -18,3 +18,17 @@ help:
 # "make mode" option.  $(O) is meant as a shortcut for $(SPHINXOPTS).
 %: Makefile
 	@$(SPHINXBUILD) -M $@ "$(SOURCEDIR)" "$(BUILDDIR)" $(SPHINXOPTS) $(O)
+
+.PHONY: dist
+dist: html
+	rm -rf $(BUILDDIR)/linuxmint-fuer-anwender $(BUILDDIR)/linuxmint-fuer-anwender.zip
+	mkdir -p $(BUILDDIR)/linuxmint-fuer-anwender
+	cd $(BUILDDIR)/html && zip -q -r ../linuxmint-fuer-anwender/html.zip .
+	-cp $(BUILDDIR)/latex/*.pdf $(BUILDDIR)/linuxmint-fuer-anwender/ 2>/dev/null || true
+	cd $(BUILDDIR)/linuxmint-fuer-anwender && zip -q -r ../linuxmint-fuer-anwender.zip .
+	@echo ""
+	@echo "=========================================================="
+	@echo "Package successfully created at:"
+	@echo "docs/$(BUILDDIR)/linuxmint-fuer-anwender.zip"
+	@echo "=========================================================="
+

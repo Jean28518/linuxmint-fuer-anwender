@@ -3,11 +3,11 @@
 # -- Project information
 
 project = 'Linux Mint für Anwender'
-copyright = '2021, linuxguides.de'
-author = 'linuxguides.de'
+copyright = 'Linux Guides'
+author = 'Jean-Frédéric Vogelbacher'
 
-release = '1.0'
-version = '0.1.0'
+release = ''
+version = ''
 
 # -- General configuration
 
@@ -33,3 +33,34 @@ html_theme = 'sphinx_rtd_theme'
 
 # -- Options for EPUB output
 epub_show_urls = 'footnote'
+
+language = 'de'
+
+latex_engine = 'xelatex' # or 'lualatex'
+
+latex_elements = {
+    'papersize': 'a4paper',
+    # 'pointsize': '10pt', # Default font size
+
+    'preamble': r'''
+\usepackage{fontspec} % Required for font selection with Xe/LuaLaTeX
+% \setmainfont{Lato} % Example: Use Lato font (must be installed on your system)
+% \setsansfont{Fira Sans} % Example: Use Fira Sans for sans-serif
+% \setmonofont{Fira Mono} % Example: Use Fira Mono for code blocks
+
+\usepackage{geometry} % For page layout
+\geometry{a4paper, margin=1in} % Adjust margins
+
+\usepackage{titlesec} % For customizing section titles
+% Example: Simpler section headings
+\titleformat{\chapter}{\Huge\bfseries}{\thechapter}{1em}{}
+\titleformat{\section}{\Large\bfseries}{\thesection}{1em}{}
+\titleformat{\subsection}{\large\bfseries}{\thesubsection}{1em}{}
+
+\usepackage{microtype} % Improves typography (subtle but nice)
+
+% Add other custom packages or commands here
+''',
+    # Other elements like 'figure_align', 'maketitle', etc. can be customized too
+}
+
