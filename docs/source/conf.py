@@ -62,5 +62,7 @@ latex_elements = {
 % Add other custom packages or commands here
 ''',
     # Other elements like 'figure_align', 'maketitle', etc. can be customized too
+    'figure_align': 'H',
 }
+
 
